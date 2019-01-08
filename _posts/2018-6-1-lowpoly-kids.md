@@ -1,10 +1,10 @@
 ---
 layout: post
-title: very lowpoly kids
+title: Very lowpoly kids
 tags: cartoon illustration b3d
 ---
 
 
+![Geometric volumes with random colors]({{ site.baseurl }}/images/geometric-solids-765981.jpg)
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
+Frame from an animated test of an ongoing (not really... not anymore) projet. I will finish this… just not sure when.
