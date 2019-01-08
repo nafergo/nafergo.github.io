@@ -1,6 +1,8 @@
 /**************/
 /* BASE RULES */
 /**************/
+body {background: #eaebec;}
+
 .card {
   width: 200px;
   box-sizing: border-box;
@@ -9,7 +11,7 @@
   padding: 5px 5px 5px 5px;
   border: 5px solid white;
   border-radius: 3px;
-  background-color: #f00;
+  background-color: #fff;
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
