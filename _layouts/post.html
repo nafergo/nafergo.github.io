@@ -6,11 +6,7 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  <div class="date">
+    <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
@@ -19,6 +15,12 @@ layout: default
     <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
 </small>
+
+  
+  <div class="entry">
+    {{ content }}
+  </div>
+
   
   {% include disqus.html %}
 </article>
