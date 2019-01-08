@@ -6,4 +6,9 @@ tags: cartoon illustration b3d
 
 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![Lava fountain]({{ site.baseurl }}/images/tumblr_pa0sxhRXLu1r702mno2_1280.jpg)
+
+![Lava fountain]({{ site.baseurl }}/images/tumblr_pa0sxhRXLu1r702mno1_1280.jpg)
+
+
+A fountain of lava and rain of fire :) old (+-2008) procedural animation test.
