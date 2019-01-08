@@ -30,6 +30,13 @@ body {
   width: 100%;
 }
 
+.container-content {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
