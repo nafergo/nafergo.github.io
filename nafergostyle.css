@@ -12,6 +12,13 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Libre Baskerville', serif;}
 
 .wrapper-tags {width: 100%;clear: both;text-align: center;}
 
+.tag {padding: .25em .5em;
+    font-size: 85%;
+    color: #bf616a;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
 .wrapper-footer {width: 100%;clear: both;}
 
 .card {
