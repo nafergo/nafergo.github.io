@@ -4,8 +4,14 @@ title: School as factory
 tags: cartoon illustration b3d
 ---
 
+![School as factory]({{ site.baseurl }}/images/tumblr_pb1646LJdD1r702mno1_640.gif)
+
+![City as factory]({{ site.baseurl }}/images/tumblr_pb1646LJdD1r702mno2_640.gif)
 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+_“School is the advertising agency which makes you believe that you need the society as it is.”_
 
-Jun 28th,  12:19:18pm
+Quote from Ivan Illich's 'Deschooling Society'
+
+
+
