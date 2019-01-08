@@ -1,6 +1,6 @@
 /**************/
 /* BASE RULES */
 /**************/
-.svg-icon.sketchfab {
+.svg-icon sketchfab {
   background-image: url('{{ site.baseurl }}/images/sketchfab.png');
 }
