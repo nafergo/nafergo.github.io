@@ -1,6 +1,4 @@
 /**************/
 /* BASE RULES */
 /**************/
-.sketchfab {
-  background-image: url('{{ site.baseurl }}/images/sketchfab.png');
-}
+.sketchfab {background-image: url('https://nafergo.github.io/images/sketchfab.png');}
