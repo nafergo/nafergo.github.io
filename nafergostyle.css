@@ -8,11 +8,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {font-family: 'Libre Baskerville', serif;}
 
+.wrapper-footer {width: 100%;clear: both;}
+
 .card {
-  width: 200px;
   box-sizing: border-box;
   float: left;
-  margin: 1em 1em 1em 1em;
   padding: 5px 5px 5px 5px;
   border: 5px solid white;
   border-radius: 3px;
@@ -25,4 +25,29 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Libre Baskerville', serif;}
   box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14),0 1px 1px -1px rgba(0,0,0,0.12),0 1px 1px 0 rgba(0,0,0,0.2);
 }
 
-.wrapper-footer {width: 100%;clear: both;}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width : 320px)  {
+  .card {width: 100%;  margin: 1em .2em 1em .2em;}
+}
+
+/* Smartphones (landscape) */
+@media only screen and (min-width : 321px) {
+.card {width: 45%;  margin: 1em .5em 1em .5em;}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .card {width: 45%;  margin: 1em 1em 1em 1em;}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .card {width: 30%;  margin: 1em 1em 1em 1em;}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .card {width: 25%;  margin: 1em 1em 1em 1em;}
+}
+
