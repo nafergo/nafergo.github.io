@@ -12,5 +12,3 @@ I’m available for freelance jobs and commissions. Feel free to contact me for 
 
 #### Contacts
 To contact me, you can use the links below or send an email to **nafergo[AT]gmail[DOT]com**
-
-{% include archive.html %}
