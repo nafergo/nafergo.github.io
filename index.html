@@ -6,8 +6,8 @@ layout: default
     {% for tag in site.tags %}
     <!-- Here's a hack to generate a "tag cloud" where the size of
     the word is directly proportional to the number of posts with
-    that tag. -->
-    <a class="tag" href="/tags/{{ tag[0] }}/" style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px" >{{ tag[0] }}</a>
+    that tag. style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px" -->
+    <a class="tag" href="/tags/{{ tag[0] }}/">{{ tag[0] }}</a>
     {% endfor %}
 </p>
     
@@ -25,7 +25,7 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a style="float:right;" href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
    </div>    
   {% endfor %}
