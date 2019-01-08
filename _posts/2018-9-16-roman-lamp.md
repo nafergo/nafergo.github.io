@@ -4,8 +4,7 @@ title: A Roman lamp
 tags: photogrammetry digital-heritage b3d meshroom roman archaeoviz
 ---
 
+![Roman lamp]({{ site.baseurl }}/images/tumblr_pf5tiz9D8G1r702mno1_1280.jpg)
 
+and after some tests, something comes out 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-!({{ site.baseurl }}/images/config.png)
