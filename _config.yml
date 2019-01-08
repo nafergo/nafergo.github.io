@@ -17,6 +17,7 @@ avatar: https://avatars1.githubusercontent.com/u/6432502?s=460&v=4
 
 # Includes an icon in the footer for each username you enter
 footer-links:
+  behance: nafergo
   dribbble:
   email:
   facebook: nafergo
@@ -24,12 +25,13 @@ footer-links:
   github: nafergo
   instagram: nafgoncalves
   linkedin: nafergo
-  sketchfab: nafergo
   pinterest:
-  rss: rss
-  twitter: nafergo
+  sketchfab: nafergo
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  twitter: nafergo
+  vimeo: nafergo
   youtube: user/nafergo
+  rss: rss
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
