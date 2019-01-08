@@ -6,5 +6,5 @@ tags: cartoon design illustration b3d
 
 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/cubes-765987.jpg)
 
