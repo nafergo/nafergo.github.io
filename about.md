@@ -10,5 +10,5 @@ Additionally, I have extensive experience in higher education and training.
 
 I’m available for freelance jobs and commissions. Feel free to contact me for any business inquiries or just say hello. Drop me a line and a real person will read it :)
 
-###### Contacts
+#### Contacts
 To contact me, you can use the links below or send an email to **nafergo[AT]gmail[DOT]com**
