@@ -1,15 +1,14 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-Some information about you!
+I’m Nelson Gonçalves, a freelance 3D generalist and educator living in Portugal. My work spans a wide range of subjects and styles with a special focus on architecture visualization, digital heritage and stylized cartoons.
 
-### More Information
+Additionally, I have extensive experience in higher education and training.
 
-A place to include any other types of information that you'd like to include about yourself.
+I’m available for freelance jobs and commissions. Feel free to contact me for any business inquiries or just say hello. Drop me a line and a real person will read it :)
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+###### Contacts
+To contact me, you can use the links below or send an email to **nafergo[AT]gmail[DOT]com**
