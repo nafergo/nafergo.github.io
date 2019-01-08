@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div class="wrapper-tags">
 <p>
     {% for tag in site.tags %}
     <!-- Here's a hack to generate a "tag cloud" where the size of
@@ -13,6 +13,7 @@ layout: default
     </a>
     {% endfor %}
 </p>
+</div>    
 
 <div class="posts">
   {% for post in site.posts %}
