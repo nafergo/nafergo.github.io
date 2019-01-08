@@ -2,15 +2,13 @@
 /* BASE RULES */
 /**************/
 .card {
-  width: 280px;
-  position: absolute;
-  left: 0px;
-	top: 30px;
+  width: 20%;
+  float: left;
   margin: .5rem 0 1rem 0;
   padding: 5px 5px 5px 5px;
   border: 5px solid white;
   border-radius: 3px;
-  background-color: #fff;
+  background-color: #f00;
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
