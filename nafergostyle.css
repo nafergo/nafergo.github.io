@@ -18,7 +18,7 @@ a.tag {padding: .25em .5em;
     border-radius: 3px;
     color: #7497BA;
 }
-.tag {
+.tag {display: inline-block;
   margin-top: 1em;
 }
 
