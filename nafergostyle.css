@@ -21,7 +21,7 @@ a.tag {padding: .25em .5em;
 
 a.tag:hover {color: #4183C4;}
 
-
+.pagination {width: 100%;clear: both;text-align: center;}
 
 .wrapper-footer {width: 100%;clear: both;}
 
