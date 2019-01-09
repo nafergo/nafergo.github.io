@@ -1,7 +1,7 @@
 ---
 layout: post
 title: School as factory
-tags: cartoon illustration b3d 2008
+tags: cartoon illustration b3d 2k8
 ---
 
 ![School as factory]({{ site.baseurl }}/images/tumblr_pb1646LJdD1r702mno1_640.gif)
