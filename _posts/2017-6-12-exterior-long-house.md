@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exterior long house
-tags: archviz b3d 2017
+tags: archviz b3d 2k17
 ---
 
 
