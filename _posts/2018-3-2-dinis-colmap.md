@@ -1,7 +1,7 @@
 ---
 layout: post
 title: King Dinis statue
-tags: photogrammetry digital-heritage b3d colmap archaeoviz 2018
+tags: photogrammetry digital-heritage b3d archaeoviz 2018
 ---
 
 
