@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Very lowpoly kids
-tags: cartoon illustration b3d
+tags: cartoon illustration b3d 2015
 ---
 
 
