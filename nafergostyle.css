@@ -47,6 +47,12 @@ display: inline-block;
 }
 
 
+
+/* Smartphones (portrait) */
+@media only screen and (max-width : 767px) and (orientation: portrait) {
+  .card {width: 100%;  margin: 1em .2em 1em .2em;}
+}    
+    
 /* Smartphones (portrait) */
 @media only screen and (max-width : 320px)  {
   .card {width: 100%;  margin: 1em .2em 1em .2em;}
