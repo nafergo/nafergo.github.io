@@ -29,6 +29,7 @@ a.tag:hover {color: #4183C4;}
 .card {
   box-sizing: border-box;
 display: inline-block;
+  vertical-align: top;
   padding: 5px 5px 5px 5px;
   border: 5px solid white;
   border-radius: 3px;
