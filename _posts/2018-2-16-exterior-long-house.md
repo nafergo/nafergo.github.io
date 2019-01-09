@@ -6,6 +6,6 @@ tags: archviz b3d
 
 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![exterior scene]({{ site.baseurl }}/images/tumblr_orgd93TQ8t1r702mno1_1280.jpg)
 
-2018-2-16-exterior-long-house.md
+
