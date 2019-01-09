@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sphere in a land of cubes
-tags: cartoon design illustration b3d 2015
+tags: cartoon design illustration b3d 2k15
 ---
 
 
