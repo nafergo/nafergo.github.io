@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Libre Baskerville', serif;}
 
 .wrapper-tags {width: 100%;clear: both;text-align: center;}
 
-a.tag {padding: .25em .5em .5;
+a.tag {padding: .25em .5em .5em;
     font-size: 85%;
     background-color: #f9f9f9;
     border-radius: 3px;
