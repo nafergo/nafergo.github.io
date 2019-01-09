@@ -2,7 +2,7 @@
 ---
 layout: post
 title: Terraços de Abraveses
-tags: cartoon illustration b3d 2k17
+tags: archviz b3d 2k17
 ---
 
 ![Terraços de Abraveses]({{ site.baseurl }}/images/terracos-abraveses-1.jpg)
