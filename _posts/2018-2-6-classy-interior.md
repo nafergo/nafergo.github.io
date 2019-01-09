@@ -6,6 +6,8 @@ tags: archviz b3d
 
 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![interior]({{ site.baseurl }}/images/tumblr_orgdfm9g7i1r702mno1_1280_b.jpg)
 
-2018-2-6-classy-interior.md
+Classy interior
+
+![interior]({{ site.baseurl }}/images/tumblr_orgdfm9g7i1r702mno1_1280.jpg)
