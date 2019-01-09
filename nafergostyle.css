@@ -24,11 +24,11 @@ a.tag:hover {color: #4183C4;}
 
 .pagination {width: 100%;clear: both;text-align: center;}
 
-.posts {word-spacing: -14px;}
+.posts {font-size: 0;}
 
 .wrapper-footer {width: 100%;clear: both;}
 
-.card {
+.card {font-size: 1em;
   box-sizing: border-box;
 display: inline-block;
   vertical-align: top;
