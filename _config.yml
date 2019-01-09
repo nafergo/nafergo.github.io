@@ -15,10 +15,7 @@ avatar: https://avatars1.githubusercontent.com/u/6432502?s=460&v=4
 # Flags below are mine
 #
 
-str_next_page: "Volgende"  
-str_previous_page: "Vorige"
-pagination_nr: 5
-paginate_path: /page:num/
+paginate: 5
 
 #
 # Flags below are optional
@@ -89,6 +86,8 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll  feed gem
+  - jekyll-paginate 
+
 
 # Exclude these files from your production _site
 exclude:
