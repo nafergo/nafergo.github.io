@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Labyrinth and sunset
-tags: cartoon illustration b3d 2008ad
+tags: cartoon illustration b3d 2k8
 ---
 
 ![Labyrinth and sunset]({{ site.baseurl }}/images/labyrinth-772502.jpg)
