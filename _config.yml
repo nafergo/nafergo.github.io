@@ -16,6 +16,7 @@ avatar: https://avatars1.githubusercontent.com/u/6432502?s=460&v=4
 #
 
 paginate: 5
+paginate_path: /page:num/
 
 #
 # Flags below are optional
@@ -81,6 +82,18 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
 
 # Use the following plug-ins
 gems:
