@@ -24,7 +24,7 @@ a.tag {padding: .25em .5em;
 
 a.tag:hover {color: #4183C4;}
 
-.pagination {width: 100%;clear: both;text-align: center;}
+.pagination {width: 100%;clear: both;text-align: center;  font-family: 'Source Sans Pro', sans-serif; font: bold .5em;}
 
 .posts {word-spacing: -14px; text-align: center;}
 
