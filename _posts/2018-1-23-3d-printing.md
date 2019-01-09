@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 3D printing a Step
-tags: design other b3d
+tags: design other b3d 3d-printing
 ---
 
 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![step 3d printed]({{ site.baseurl }}/images/tumblr_p5dw9tqRBc1r702mno2_540.jpg)
 
-2018-4-23-3d-printing.md
+step
