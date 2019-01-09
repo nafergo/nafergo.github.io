@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Terraços de Abraveses
