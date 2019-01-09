@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Classy interior
-tags: archviz b3d
+tags: archviz b3d 2017
 ---
 
 
 
 ![interior]({{ site.baseurl }}/images/tumblr_orgdfm9g7i1r702mno1_1280_b.jpg)
 
-Classy interior
+Interior shot. Testing and experimenting the views in Blender. No post, just render.
 
 ![interior]({{ site.baseurl }}/images/tumblr_orgdfm9g7i1r702mno1_1280.jpg)
