@@ -26,11 +26,13 @@ a.tag:hover {color: #4183C4;}
 
 .pagination {width: 100%;clear: both;text-align: center;}
 
-.posts {word-spacing: -14px;}
+.posts {word-spacing: -14px; text-align: center;}
 
 .wrapper-footer {width: 100%;clear: both;}
 
-.card {word-spacing: 0px;
+.card {
+  text-align: left;
+  word-spacing: 0px;
   box-sizing: border-box;
 display: inline-block;
   vertical-align: top;
