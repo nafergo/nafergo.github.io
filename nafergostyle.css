@@ -46,12 +46,6 @@ display: inline-block;
   box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14),0 1px 1px -1px rgba(0,0,0,0.12),0 1px 1px 0 rgba(0,0,0,0.2);
 }
 
-
-
-/* Smartphones (portrait) */
-@media only screen and (max-width : 767px) and (orientation: portrait) {
-  .card {width: 100%;  margin: 1em .2em 1em .2em;}
-}    
     
 /* Smartphones (portrait) */
 @media only screen and (max-width : 320px)  {
@@ -60,7 +54,7 @@ display: inline-block;
 
 /* Smartphones (landscape) */
 @media only screen and (min-width : 321px) {
-.card {width: 45%;  margin: 1em .5em 1em .5em;}
+.card {width: 100%;  margin: 1em .5em 1em .5em;}
 }
 
 /* Small devices (tablets, 768px and up) */
