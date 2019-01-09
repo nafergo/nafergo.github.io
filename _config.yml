@@ -15,7 +15,7 @@ avatar: https://avatars1.githubusercontent.com/u/6432502?s=460&v=4
 # Flags below are mine
 #
 
-paginate: 5
+paginate: 12
 paginate_path: "/page:num/"
 
 #
