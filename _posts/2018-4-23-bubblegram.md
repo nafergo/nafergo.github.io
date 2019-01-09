@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Bubblegram
-tags: design other b3d
+tags: design other b3d 3d-printing
 ---
 
 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![3d model]({{ site.baseurl }}/images/tumblr_p5dweiaYWz1r702mno1_640.jpg)
 
-2018-4-23-bubblegram.md
+
