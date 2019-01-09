@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Glitch art
-tags: design illustration b3d 2018
+tags: design illustration b3d 2k18
 ---
 
 
