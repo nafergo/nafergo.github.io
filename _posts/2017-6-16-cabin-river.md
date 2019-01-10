@@ -8,6 +8,6 @@ tags: archviz b3d 2k17
 
 ![cabin]({{ site.baseurl }}/images/tumblr_orgeou5juX1r702mno1_1280.jpg)
 
-Exterior shot for testing denoise in #b3d. Just render, no post.
+Exterior shot for testing denoise in Blender. The building is the WikiHouse Studio.
 
-The building is the WikiHouse Studio. And this view will updated in the future ;)
+This is just raw render, no post. And I hope to finish this view in the future ;)
