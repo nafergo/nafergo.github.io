@@ -31,7 +31,7 @@ a.tag:hover {color: #4183C4;}
 .posts {word-spacing: -14px; text-align: justify;}
 
 .wrapper-footer {width: 100%;clear: both;}
-.wrapper-footer span{font-size:.8em; text-align: right; float:right; margin-right:1em;}
+.wrapper-footer span{font-size:.8em; text-align: right; float:right; margin-right:1em; opacity:.5;}
 
 
 .card {
