@@ -30,7 +30,7 @@ a.tag:hover {color: #4183C4;}
 .pagination {width: 100%;clear: both;text-align: center;  font-family: 'Source Sans Pro', sans-serif; font-size: 1em; opacity: 0.5;}
 .pagination a {font-weight: bold;}
 
-.posts {word-spacing: -14px; text-align: center;}
+.posts {word-spacing: -14px; text-align: justify;}
 
 .wrapper-footer {width: 100%;clear: both;}
 
