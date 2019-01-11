@@ -10,4 +10,5 @@ This is an image from the old days, probably from 2007 and surely not later than
 
 Used Blender and Gimp for modeling and textures. It was rendered with the Blender Internal render engine.
 
-Bigger version released under CC0 and available at [my Pixabay profile](https://pixabay.com/pt/labirinto-perdeu-p%C3%B4r-do-sol-772502/).
+Bigger version released under CC0 at [my Pixabay profile](https://pixabay.com/pt/labirinto-perdeu-p%C3%B4r-do-sol-772502/) and with [some success](https://www.google.pt/search?hl=en-PT&q=seattle+public+library&tbm=isch&tbs=simg:CAQSkgEJL-g37m7kpQoahgELEKjU2AQaBAgVCAAMCxCwjKcIGl0KWwgDEiPqB9cBYpYGWDnxC0Ap1gGHJ9wohiOwKLgnrDadN4s0qj2GJxowSBmoFfZIB-ujW3UcU9xV_1xvYOZmqnpl1tedRqyfN7BxTF7pQGlxfmvpeIfRf5pfTIAQMCxCOrv4IGgoKCAgBEgRK6ClzDA&sa=X&ved=0ahUKEwiO072N8ebfAhXx2eAKHeG3Ay4Q2A4ILCgB&biw=2880&bih=1379#imgrc=_).
+ 
