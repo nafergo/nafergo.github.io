@@ -5,13 +5,14 @@ tags: photogrammetry 3d-printing digital-heritage b3d archaeoviz 2k18
 ---
 
 
-Between 18-21 october, I 
+![Lava fountain]({{ site.baseurl }}/images/3a018272-ef7c-4602-ae94-598dc879b715-original.jpeg)
 
-https://coneducacionpatrimonial.wordpress.com/
 
-formação
-talk
-exhibit
+
+
+Between 18-21 october, I was participating in a [conference about Education and Heritage, Tourism and Communities](https://coneducacionpatrimonial.wordpress.com/) that was held in Viseu, at the Grão Vasco Museum. I was invited to talk in a roundtable about technologies, opportunities and ideas in the heritage field.
+
+During the same event, we (me and my good friends of [Ponto Z](https://www.ponto-z.pt/) company) also organized two training workshops and an exhibition about 3D printing and heritage. Lot of work and fun :)
 
 
 ![Roman lamp](https://lh3.googleusercontent.com/i4Z6QVeL28JaR2PmjSCmuSHRyHwml9tw0gtrSvbYvLcUNxrAOYS8GXH7Qzo7dHP8ThGrT0z5zL6fREO1MvTWAfBZIiPbPqG54l_zFc-E-eZ6PCiSC4GpNB8SH3C6ZBLslzMFTkMbNg=w400)
