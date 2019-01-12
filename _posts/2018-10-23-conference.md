@@ -7,6 +7,13 @@ tags: photogrammetry 3d-printing digital-heritage b3d archaeoviz 2k18
 
 Between 18-21 october, I 
 
+https://coneducacionpatrimonial.wordpress.com/
+
+formação
+talk
+exhibit
+
+
 ![Roman lamp](https://lh3.googleusercontent.com/i4Z6QVeL28JaR2PmjSCmuSHRyHwml9tw0gtrSvbYvLcUNxrAOYS8GXH7Qzo7dHP8ThGrT0z5zL6fREO1MvTWAfBZIiPbPqG54l_zFc-E-eZ6PCiSC4GpNB8SH3C6ZBLslzMFTkMbNg=w400)
 
 
