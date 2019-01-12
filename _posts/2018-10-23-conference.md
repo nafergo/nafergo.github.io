@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3D printing for exhibit
+title: 3D printing for exhibition
 tags: photogrammetry 3d-printing digital-heritage b3d archaeoviz 2k18
 ---
 
