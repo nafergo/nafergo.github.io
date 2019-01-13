@@ -65,8 +65,9 @@ Me presenting during the training workshop
 
 Me presenting during the roundtable
 
-![Training workshop](https%3A%2F%2Fwww.facebook.com%2F577283282362259%2Fphotos%2Fa.579198112170776%2F1895397863884121%2F%3Ftype%3D3&width=500
-)
+![Training workshop](https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F577283282362259%2Fphotos%2Fa.579198112170776%2F1895397863884121%2F%3Ftype%3D3&width=500)
+
+![Training workshop](https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F577283282362259%2Fphotos%2Fa.579198112170776%2F1895397920550782%2F%3Ftype%3D3&width=500)
 
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F577283282362259%2Fphotos%2Fa.579198112170776%2F1895397863884121%2F%3Ftype%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
