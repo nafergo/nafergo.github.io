@@ -63,13 +63,12 @@ Me presenting during the training workshop
 ![Training workshop](https://lh3.googleusercontent.com/EwYUjNo9Cz_JGJg-FNLgc0SLIaE9yKuaEP7F9s61kPsAww680YLKgVcRhrPq43o_9CK7C8l8Wd6XhihFzwn3iUVKXf_aMJmEtTY6FxUfpjaW36GcBaDMVQyoTqGxY_4c9AGECmDl2g=w600
 )
 
+### Roundtable
+
 Me presenting during the roundtable
 
-![Training workshop](https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F577283282362259%2Fphotos%2Fa.579198112170776%2F1895397863884121%2F%3Ftype%3D3&width=500)
+![presenting during the roundtable](https://scontent.flis4-1.fna.fbcdn.net/v/t1.0-0/s600x600/44610414_1895397927217448_6596830206265131008_n.jpg?_nc_cat=106&_nc_ht=scontent.flis4-1.fna&oh=c865008577a8a0744713c9bac3eb515b&oe=5CB41150)
 
-![Training workshop](https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F577283282362259%2Fphotos%2Fa.579198112170776%2F1895397920550782%2F%3Ftype%3D3&width=500)
+![presenting during the roundtable](https://scontent.flis4-1.fna.fbcdn.net/v/t1.0-0/s600x600/44490721_1895397867217454_5796062308731977728_n.jpg?_nc_cat=104&_nc_ht=scontent.flis4-1.fna&oh=c5ebed8f05b68343ba5243c927a13bcf&oe=5CBE21EF)
 
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F577283282362259%2Fphotos%2Fa.579198112170776%2F1895397863884121%2F%3Ftype%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F577283282362259%2Fphotos%2Fa.579198112170776%2F1895397920550782%2F%3Ftype%3D3&width=500" width="500" height="355" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
