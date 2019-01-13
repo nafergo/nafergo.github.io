@@ -60,10 +60,14 @@ View of the exhibition with 3D printers in the middle
 
 Me presenting during the training workshop
 
-![Training workshop](https://lh3.googleusercontent.com/EwYUjNo9Cz_JGJg-FNLgc0SLIaE9yKuaEP7F9s61kPsAww680YLKgVcRhrPq43o_9CK7C8l8Wd6XhihFzwn3iUVKXf_aMJmEtTY6FxUfpjaW36GcBaDMVQyoTqGxY_4c9AGECmDl2g=w60
+![Training workshop](https://lh3.googleusercontent.com/EwYUjNo9Cz_JGJg-FNLgc0SLIaE9yKuaEP7F9s61kPsAww680YLKgVcRhrPq43o_9CK7C8l8Wd6XhihFzwn3iUVKXf_aMJmEtTY6FxUfpjaW36GcBaDMVQyoTqGxY_4c9AGECmDl2g=w600
 )
 
 Me presenting during the roundtable
+
+![Training workshop](https%3A%2F%2Fwww.facebook.com%2F577283282362259%2Fphotos%2Fa.579198112170776%2F1895397863884121%2F%3Ftype%3D3&width=500
+)
+
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F577283282362259%2Fphotos%2Fa.579198112170776%2F1895397863884121%2F%3Ftype%3D3&width=500" width="500" height="338" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
