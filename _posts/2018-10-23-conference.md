@@ -62,11 +62,11 @@ View of the exhibition with 3D printers in the middle
 ![exhibition view](https://lh3.googleusercontent.com/dRfRT1yFS0s21Dr4q_ND6-rze7l3nc57Vcz8HIKlOBj2D4gm-djKsQZJs1ZYLSzhyUvpqgYqssRjIBQgfEbdjMlhEzK8JBoM1Z5OuHZhPDggXzoqgwoxUHl1gKhjMPW9hkuyCf6dQg=w400)
 
 ### Training workshop
-
 Me presenting during the training workshop
 
 ![Training workshop](https://lh3.googleusercontent.com/EwYUjNo9Cz_JGJg-FNLgc0SLIaE9yKuaEP7F9s61kPsAww680YLKgVcRhrPq43o_9CK7C8l8Wd6XhihFzwn3iUVKXf_aMJmEtTY6FxUfpjaW36GcBaDMVQyoTqGxY_4c9AGECmDl2g=w600
 )
+
 
 ### Roundtable
 
