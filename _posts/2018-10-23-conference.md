@@ -70,10 +70,8 @@ Me presenting during the training workshop
 
 ### Roundtable
 
-Me presenting during the roundtable
+Me presenting during the roundtable (while fighting a flu, I was feeling really sick...): [1](https://www.facebook.com/577283282362259/photos/a.579198112170776/1895397827217458/?type=3&theater), [2](https://www.facebook.com/577283282362259/photos/a.579198112170776/1895397863884121/?type=3&theater), [3](https://www.facebook.com/577283282362259/photos/a.579198112170776/1895398130550761/?type=3&theater).
 
-![presenting during the roundtable](https://scontent.flis4-1.fna.fbcdn.net/v/t1.0-0/s600x600/44610414_1895397927217448_6596830206265131008_n.jpg?_nc_cat=106&_nc_ht=scontent.flis4-1.fna&oh=c865008577a8a0744713c9bac3eb515b&oe=5CB41150)
 
-![presenting during the roundtable](https://scontent.flis4-1.fna.fbcdn.net/v/t1.0-0/s600x600/44490721_1895397867217454_5796062308731977728_n.jpg?_nc_cat=104&_nc_ht=scontent.flis4-1.fna&oh=c5ebed8f05b68343ba5243c927a13bcf&oe=5CBE21EF)
 
 
