@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 3D printing for exhibition
-tags: photogrammetry 3d-printing digital-heritage other b3d archaeoviz 2k18
+title: Exhibition and conference
+tags: photogrammetry 3d-printing digital-heritage other b3d archaeoviz 2k18 event conference
 ---
 
 ![blender interface]({{ site.baseurl }}/images/3a018272-ef7c-4602-ae94-598dc879b715-original.jpeg)
