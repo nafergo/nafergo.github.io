@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="wrapper-tags">
+<p>
+    {% for tag in site.tags %}
+    <!-- Here's a hack to generate a "tag cloud" where the size of
+    the word is directly proportional to the number of posts with
+    that tag. style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px" -->
+    <a class="tag" href="/tags/{{ tag[0] }}/">{{ tag[0] }}</a>
+    {% endfor %}
+</p>
+    
+</div>    
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="card">
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      {{ post.date | date: "%B %e, %Y" }}
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a style="float:right;" href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+   </div>    
+  {% endfor %}
+</div>
+
+
+ <!-- Pagination links --> 
+<div class="pagination"> {% if paginator.previous_page %} 
+    <a href="{{ paginator.previous_page_path }}" class="previous"> < </a> {% else %} 
+        <span class="previous"> < </span> {% endif %} 
+            <span class="page_number ">  {{ paginator.page }} of {{ paginator.total_pages }} </span>
+            {% if paginator.next_page %} <a href="{{ paginator.next_page_path }}" class="next"> > </a>
+            {% else %} <span class="next"> > </span> {% endif %} </div>
