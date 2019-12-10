@@ -22,6 +22,8 @@ If you're looking for my CV or experience related to higher education and traini
 #### Contacts
 To contact me, you can send an email to **nafergo[AT]gmail[DOT]com** or use the links below.
 
+<div id='gallery'></div>
+
 <script>
 (function() {
   var displayData, getUrl, nextPage, nextUrl, prevPage, prevUrl, ready;
