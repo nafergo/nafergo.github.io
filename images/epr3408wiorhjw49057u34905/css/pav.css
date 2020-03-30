@@ -1,0 +1,123 @@
+/* Custom Stylesheet */
+/**
+ *
+ * Made By nafergo
+ */
+
+ body {
+    font-family: "Source Sans Pro", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: #414f57;
+    font-size: 17.5px;
+}
+
+
+nav {
+  position: fixed;
+background: rgba(0, 0, 0, 0.0);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.0), 0 2px 10px 0 rgba(0, 0, 0, 0.0);
+       z-index: 999;
+}
+
+.nonTopNav{
+  background-color: #212121 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: background-color 300ms linear;
+}
+
+
+#header-image {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../img/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 2px;
+    box-sizing: border-box;
+}
+
+
+
+.destaque{
+font-size: 60px;
+text-transform: uppercase;
+font-weight: 600;
+line-height: 80px;
+}
+
+.mais-info{border: 1px solid rgba(255, 255, 255, 0.6);
+    border-top-color: rgba(255, 255, 255, 0.6);
+    border-right-color: rgba(255, 255, 255, 0.6);
+    border-bottom-color: rgba(255, 255, 255, 0.6);
+    border-left-color: rgba(255, 255, 255, 0.6);
+transition: background-color 0.25s ease-in-out,border-color 0.25s ease-in-out,color 0.25s ease-in-out;}
+
+
+.mais-info:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: #fff;
+}
+
+
+
+.oficina1{
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/oficinas/fotogrametria.jpg);
+  background-position: center;
+}
+
+.oficina2{
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/oficinas/blender.jpg);
+  background-position: center;
+}
+
+.oficina3{
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/oficinas/webmapping.jpg);
+  background-position: center;
+}
+
+.oficina4{
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/oficinas/arqueologia.jpg);
+  background-position: center;
+}
+
+.oficina5{
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/oficinas/imagem2d.jpg);
+  background-position: center;
+}
+
+.oficina6{
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/oficinas/video.jpg);
+  background-position: center;
+}
+
+.oficinas-title {text-transform: uppercase; font-size: 1em; font-weight: bold;}
+
+
+
+
+
+
+
+footer{background-color: #202020;
+color: #FFF;
+font-size: .8em;
+}
+
+
+.logo_footer {width: 90%;}
+.logos_footer {width: 50%;}
+
+.footer-copyright{
+background-color: #151515;
+font-size: .8em;
+text-transform: uppercase;
+color: #FFF;
+}
