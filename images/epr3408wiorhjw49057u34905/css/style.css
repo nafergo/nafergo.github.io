@@ -71,6 +71,7 @@ button.button:active {background-color: #EEE;}
 
 .button:active,
 .button.is-checked {}
+.disabled:active, .disabled.is-checked {background-color: rgba(255, 0, 0, 0.0);}
 
 .button.is-checked {background-color: #EEE;}
 
@@ -138,3 +139,14 @@ button.button:active {background-color: #EEE;}
 .chip {
     border-radius: 2px;
   }
+
+
+
+ul.linkscontactos {list-style-type: none;}
+
+ul.linkscontactos li {
+    float: left;
+    list-style-type: none;
+    margin: 0 15px;
+    line-height: 6em;
+}
