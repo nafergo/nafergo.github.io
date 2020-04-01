@@ -2,171 +2,175 @@
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>NERD LAB do Polo Arqueológico de Viseu</title>
-  <link rel="icon" href="img/favicon.ico">
-
-<meta name="description" content="Página do projeto ">
-<meta name="keywords" content="">
-<meta name="author" content="" >
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600,700,900" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/pav.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-
 </head>
 <body id="top">
 <header>
-  <nav class="" role="navigation" >
+  <div class="navbar-fisxed">
+  <nav class="" role="navigation">
     <div class="nav-wrapper container">
-
-      <a id="logo-container" href="#top" class="brand-logo">NERD LAB</a>
+      <a id="logo-container" href="#top" class="brand-logo white-text">NERD LAB</a>
       <ul class="right hide-on-med-and-down">
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#comunidade">Comunidade</a></li>
-                    <li><a href="#oficinas">Oficinas</a></li>
-                    <li><a href="#encontros">Encontros</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contactos">Contactos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#comunidade">Comunidade</a></li>
+        <li><a href="#oficinas">Oficinas</a></li>
+        <li><a href="#encontros">Encontros</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contactos">Contactos</a></li>
       </ul>
 
-
-      <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#comunidade">Comunidade</a></li>
-                    <li><a href="#oficinas">Oficinas</a></li>
-                    <li><a href="#encontros">Encontros</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contactos">Contactos</a></li>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#comunidade">Comunidade</a></li>
+        <li><a href="#oficinas">Oficinas</a></li>
+        <li><a href="#encontros">Encontros</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contactos">Contactos</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
     </div>
   </nav>
-
+  </div>
 </header>
 
-
 <main>
-  <div id="header-image" class="valign-wrapper">
 
+<div id="header-image" class="valign-wrapper">
       <div class="container">
         <div class="row">
 
       <p class="flow-text destaque destaque-title">A liberdade está a passar...<br>
       por aqui.</p>
-      <a href="https://poloarqueologicodeviseu.github.io/docs/Open%20Heritage%20no%20PAV_Oficinas%20de%20Forma%C3%A7%C3%A3o%202020.pdf" target="_blank" class="btn-large waves-effect waves-light btn light-blue darken-1"><h5>Plano de Formação</h5></a>
-      <a href="#sobre" class="btn-large waves-effect waves-light btn-flat transparent white-text mais-info"><h5>Mais info</h5></a>
+     <!--<a href="https://poloarqueologicodeviseu.github.io/docs/Open%20Heritage%20no%20PAV_Oficinas%20de%20Forma%C3%A7%C3%A3o%202020.pdf" target="_blank" class="btn-large waves-effect waves-light btn light-blue darken-1"><h5>Plano de Formação</h5></a>-->
+<!-- NEWS Modal Trigger -->
+<a class="btn-large waves-effect waves-light btn red darken-1 modal-trigger" href="#modalaviso"><h5>AVISO - covid-19</h5></a>
+<!-- Modal Structure -->
+<div id="modalaviso" class="modal">
+  <div class="modal-content">
+    <p class="flow-text">Na sequência da pandemia da covid-19, foram suspensas as atividades presenciais mas já estamos a trabalhar em planos e estratégias alternativas!</p>
 
-    </div>
+    <p class="flow-text">Os encontros NERD LAB continuam e são agora realizados por <b>videoconferência</b>! Para mais informações espreita a secção <a href="#encontros">Encontros</a>.</p>
 
-    </div>
+    <p class="flow-text">As oficinas de formação estão a ser redesenhadas para formato <b>formação à distância</b>. Logo que surjam novidades, atualizaremos a secção <a href="#oficinas">Oficinas</a></p>
 
+    <p class="flow-text">Se quiseres receber informações logo que surjam novidades, <a href="#contactos">envia um mail</a>!</p>
+
+
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-black btn-flat">Fechar</a>
+  </div>
 </div>
 
 
+      <a href="#sobre" class="btn-large waves-effect waves-light btn-flat transparent white-text mais-info"><h5>Sobre o NERD LAB</h5></a>
 
-<section  id="sobre">
-  <div class="container"><br>
-    <div class="section"><br>
-      <h3 class="center section-title"><b>Sobre</b> o NERD LAB do PAV</h3>
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m12 l6 card-panel">
-              <p class="flow-text">
-                O <b>Polo Arqueológico de Viseu</b> (PAV) é o centro operacional da Câmara Municipal de Viseu para a Arqueologia. Agrega os recursos dedicados a esta área e promove o interesse sobre este património enquanto objeto de investigação e elemento de fruição cultural.
-              </p>
-                <p class="flow-text">
-                  O NERD (Ope<b>N</b> Heritag<b>E</b> <b>R</b>esearch & <b>D</b>evelopment) LAB é um programa do PAV que visa
-                   desenvolver e criar estratégias de utilização das tecnologias digitais ao serviço da Arqueologia Formal, Arqueologia Informal e Arqueologia Pública.
-                   O programa desenvolve várias iniciativas procurando sempre conjugar o património arqueológico e histórico de Viseu com as tecnologias digitais e construir colaborativamente contributos para aumentar o conhecimento e estudo deste património e história de Viseu.
-              </p>
 
-      </div>
-        <div class="col s12 m12 l6">
 
-      <p class="center"><img src="img/about.jpg" class="mamute z-depth-2 circle responsive-img" style="width:90%;" alt=""></p>
-      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </div>
-
-      <div class="row">
-        <div class="col s12 m4 ">
-          <div class="col s10 offset-s1">
-          	<p class="center"><img src="img/esq.jpg" class="mamute z-depth-2  responsive-img" style="width:90%;" alt=""></p>
-            <h4 class="center">Comunidade</h4>
-            <p class="light">
-              Promover o envolvimento e a participação cultural e cívica na descoberta, valorização e salvaguarda do património arqueológico local.
-            </p>
-        </div>
-      </div>
-
-
-        <div class="col s12 m4 ">
-          <div class="col s10 offset-s1">
-          	<p class="center"><img src="img/centro.jpg" class="raposinha z-depth-2  responsive-img" style="width:90%;" alt=""></p>
-            <h4 class="center">Tecnologias</h4>
-            <p class="fljow-text">
-              Utilizar tecnologias digitais ao serviço do registo, documentação, comunicação, promoção e valorização do património arqueológico de Viseu.
-            </p>
-        </div>
-        </div>
-
-        <div class="col s12 m4 ">
-          <div class="col s10 offset-s1">
-          	<p class="center"><img src="img/dir.jpg" class="cavalinho z-depth-2 responsive-img" style="width:90%;" alt=""></p>
-            <h4 class="center">Abertura e Transparência</h4>
-            <p class="light">
-              Implementar estratégias de Open Data, Open Access e Open Source para facilitar o acesso, reutilização e colaboração com especialistas e público em geral.
-            </p>
-          </div>
-          </div>
-      </div>
-
     </div>
-  </div>
-</section>
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-                    <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
+</div>
 
 
-
-  <section  id="comunidade">
+<!-- sobre -->
+  <section  id="sobre">
     <div class="container"><br>
       <div class="section"><br>
-        <h3 class="center section-title">A <b>comunidade</b> e rede</h3>
-        <!--   Icon Section   -->
+        <h3 class="center section-title"><b>Sobre</b> o NERD LAB do PAV</h3>
         <div class="row">
+          <div class="col s12 m12 l6">
+                <p class="flow-text">
+                  O <b>Polo Arqueológico de Viseu</b> (PAV) é o centro operacional da Câmara Municipal de Viseu para a Arqueologia. Agrega os recursos dedicados a esta área e promove o interesse sobre este património enquanto objeto de investigação e elemento de fruição cultural.
+                </p>
+                  <p class="flow-text">
+                    O <b>NERD</b> (opeN heritagE Research & Development) <b>LAB</b> é um programa do PAV que visa
+                     desenvolver e criar estratégias de utilização das tecnologias digitais ao serviço da Arqueologia Formal, Arqueologia Informal e Arqueologia Pública.
+                     O programa desenvolve várias iniciativas procurando sempre conjugar o património arqueológico e histórico de Viseu com as tecnologias digitais e construir colaborativamente contributos para aumentar o conhecimento e estudo deste património e história de Viseu.
+                </p>
+        </div>
+          <div class="col s12 m12 l6">
+            <p class="center"><img src="img/sobre.jpg" class="mamute z-depth-2  responsive-img" style="width:90%;" alt=""></p>
+        </div>
+      </div>
 
-          <div class="col s6 m4 l3">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="img/profile1.jpg">
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                <p class="right-align"> <a href="" target="_blank"> <i class="material-icons">link</i></a></p>
-              </div>
+        <div class="row">
+          <div class="col s12 m4 ">
+            <div class="col s10 offset-s1">
+            	<p class="center"><img src="img/esq.jpg" class="mamute z-depth-2  responsive-img" style="width:90%;" alt=""></p>
+              <h4 class="center">Comunidade</h4>
+              <p class="light">
+                Promover o envolvimento e a participação cultural e cívica na descoberta, valorização e salvaguarda do património arqueológico local.
+              </p>
+          </div>
+        </div>
+          <div class="col s12 m4 ">
+            <div class="col s10 offset-s1">
+            	<p class="center"><img src="img/centro.jpg" class="raposinha z-depth-2  responsive-img" style="width:90%;" alt=""></p>
+              <h4 class="center">Tecnologias</h4>
+              <p class="fljow-text">
+                Utilizar tecnologias digitais ao serviço do registo, documentação, comunicação, promoção e valorização do património arqueológico de Viseu.
+              </p>
+          </div>
+          </div>
+          <div class="col s12 m4 ">
+            <div class="col s10 offset-s1">
+            	<p class="center"><img src="img/dir.jpg" class="cavalinho z-depth-2 responsive-img" style="width:90%;" alt=""></p>
+              <h4 class="center">Abertura e Transparência</h4>
+              <p class="light">
+                Implementar estratégias de Open Data, Open Access e Open Source para facilitar o acesso, reutilização e colaboração com especialistas e público em geral.
+              </p>
+            </div>
             </div>
         </div>
 
+      </div>
+    </div>
+  </section>
+<!-- fim do sobre -->
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
+</div>
+
+<!-- comunidade -->
+<section  id="comunidade">
+  <div class="container"><br>
+    <div class="section"><br>
+      <h3 class="center section-title">A <b>comunidade</b> e rede</h3>
+      <div class="row">
         <div class="col s6 m4 l3">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/profile2.jpg">
+              <img class="activator" src="img/profile1.jpg">
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
@@ -175,12 +179,10 @@
             </div>
           </div>
       </div>
-
-
       <div class="col s6 m4 l3">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="img/profile.jpg">
+            <img class="activator" src="img/profile2.jpg">
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
@@ -189,303 +191,349 @@
           </div>
         </div>
     </div>
-
-
-
-      </div>
-      </div>
-    </div>
-  </section>
-
-    <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
-                      <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
-          </div>
+    <div class="col s6 m4 l3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img/profile.jpg">
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          <p class="right-align"> <a href="" target="_blank"> <i class="material-icons">link</i></a></p>
         </div>
       </div>
-      <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
     </div>
-
-
-
-<section   id="oficinas">
-  <div class="container"><br>
-    <div class="section"><br>
-      <h3 class="center section-title">As <b>Oficinas</b> de formação para 2020</h3>
-
-      <!--   Icon Section   -->
-      <div class="row">
-            <div class="col s12">
-
-              <ul class="collapsible popout">
-                <li>
-                  <div class="collapsible-header oficina1 white-text right-align"><span class="oficinas-title">Introdução à fotogrametria</span><br>7 de março</div>
-                  <div class="collapsible-body">
-                    <p class="flow-text">Fotogrametria designa um conjunto de técnicas que permitem criar modelos 3D a partir de fotografias. Os participantes serão convidados a explorar e experimentar a técnica, incluindo as etapas de captura fotográfica  e  criação  do  respetivo  modelo  3D,  nas  instalações  da  Casa  do  Miradouro  ou  na  área circundante.</p>
-
-      <div class="row">
-                    <div class="col s12 m6">
-                    <p class="center"><img src="img/oficinas/fotogrametria.jpg" class="responsive-img" alt=""></p>
-                  </div>
-
-                    <div class="col s12 m6">
-                    <p>
-                      Recomenda-se que traga uma câmara fotográfica (p.ex.Smartphone/telemóvel) e um computador portátil, com os seguintes requisitos mínimos:
-                      64-bit quad core CPU, 4 GB de RAM, placa gráfica Nvidia de 512 MB RAM;
-                      Sistema Operativo: Windows 7, GNU/Linux Ubuntu 18.04.
-                      <br> <br>
-
-                      A oficina fará uso de Software Livre e Open Source que será disponibilizado. Sugere-se a instalação prévia do Meshroom, disponível em <a href="https://alicevision.org/" target="_blank">AliceVision</a>.
-
-                    </p>
-
-                    <p>FORMADOR Nelson Gonçalves</p>
-                  </div>
-                  </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="collapsible-header oficina2 white-text right-align"><span class="oficinas-title">Imagem 3D: introdução ao Blender</span><br>4 de Abril</div>
-                  <div class="collapsible-body">
-                    <p class="flow-text">
-                      A oficina pretende criar um espaço de exploração introdutória ao software Blender, um Software Livre e Open Source para criação 3D. Durante a oficina, serão apresentados alguns casos práticos de utilização de técnicas 3D na área do património arqueológico e histórico. Os participantes serão convidados a desenvolver um projeto simples de criação em 3D.
-                    </p>
-
-                    <div class="row">
-                    <div class="col s12 m6">
-                    <p class="center"><img src="img/oficinas/blender.jpg" class="responsive-img" alt=""></p>
-                  </div>
-                    <div class="col s12 m6">
-                    <p>
-                      Recomenda-se que traga um computador portátil, com os seguintes requisitos mínimos: 64-bit dual core 2Ghz CPU; 4 GB de RAM;
-                      placa gráfica com 1 GB de RAM, OpenGL 3.3; Sistema Operativo: Windows 7, GNU/Linux Ubuntu 18.04, macOS 10.1.
-                      <br> <br>
-                      A oficina fará uso de Software Livre e Open Source que será disponibilizado. Sugere-se a instalação prévia do Blender (versão 2.81 ou superior), disponível em <a href="https://www.blender.org/" target="_blank">Blender.org</a>.
-                    </p>
-
-                    <p>FORMADOR Nelson Gonçalves</p>
-                                </div>                  </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="collapsible-header oficina3 white-text right-align"><span class="oficinas-title">Web mapping</span><br>6 de junho</div>
-                  <div class="collapsible-body">
-                    <p class="flow-text">
- A oficina tem como finalidade criar um espaço de experimentação e exploração do Web Mapping na documentação, análise e divulgação do património. Serão apresentados alguns serviços, software e casos práticos, com especial destaque para a área do património arqueológico e para a utilização de Software Livre e Open Source. Será desenvolvido um projeto prático de criação de um mapa e sua partilha online, incluindo atividades de recolha dos dados, criação do mapa e publicação.              </p>
-
-
- <div class="row">
- <div class="col s12 m6">
-                    <p class="center"><img src="img/oficinas/webmapping.jpg" class="responsive-img" alt=""></p>
-                  </div>
-
-<div class="col s12 m6">
-                    <p>
-                        Recomenda-se que traga um computador portátil, sem requisitos mínimos especiais mas com capacidade de acesso à Internet, deve ter instalado o
-                         browser Firefox ou Chrome e um editor de texto + Smartphone/telemóvel (iOS ou Android), com câmara fotográfica e capacidade de acesso à
-                         Internet. Os participantes deverão ter acesso a um endereço de correio eletrónico dado que algumas das atividade previstas podem
-                           implicar a criação de contas-perfis em serviços online.
-                      <br> <br>
-
-                      A oficina fará uso de Software Livre e Open Source que será disponibilizado.
-                    </p>
-
-                    <p>FORMADOR Nelson Gonçalves</p>
-                  </div>
-                                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="collapsible-header oficina4 white-text right-align"><span class="oficinas-title">Software Livre e Open Source para Arqueologia (vol.1)</span><br>1 de Agosto</div>
-                  <div class="collapsible-body">
-                    <p class="flow-text">
-                      A oficina tem como finalidade criar um espaço de experimentação e exploração de um conjunto de aplicações informáticas de Software Livre e Open Source selecionado pela sua utilidade especial para a atividade arqueológica. O software selecionado está longe de esgotar as possibilidades existentes. Areferência Vol. 1 sugere o desafio para futuras edições onde serão partilhadas outras seleções.
-                    </p>
-
-                    <div class="row">
-                    <div class="col s12 m6">
-                    <p class="center"><img src="img/oficinas/arqueologia.jpg" class="responsive-img" alt=""></p>
-                  </div>
-                    <div class="col s12 m6">
-                    <p>
-                      Recomenda-se que traga um computador portátil, com os seguintes os seguintes requisitos mínimos: 32-bit dual core 2Ghz CPU, 4 GB de RAM; Sistema Operativo: Windows 7, GNU/Linux Ubuntu 18.04. O computador portátil deverá ter capacidadede acesso à Internet e ter instalado o browser Firefox ou Chrome.
-
-                      <br> <br>
-
-                      A oficina fará uso de Software Livre e Open Source que será disponibilizado.
-
-                    </p>
-
-                    <p>FORMADOR Nelson Gonçalves</p>
-                  </div>
-                                    </div>
-
-                  </div>
-                </li>
-                <li>
-                  <div class="collapsible-header oficina5 white-text right-align"><span class="oficinas-title">Imagem 2D: gestão, análise e armazenamento</span><br>10 de outubro</div>
-                  <div class="collapsible-body">
-                    <p class="flow-text">
-                        Imagine milhares de imagens em diferentes formatos, recolhidas ou criadas para finalidades diversas, com conteúdos variados e dispersas por dezenas ou até centenas de pastas. A oficina apresenta algumas sugestões de Software Livre e Open Source para apoiar a gestão, análise e armazenamento digital de ficheiros de imagem.
-
-                    </p>
-
-                    <div class="row">
-                    <div class="col s12 m6">
-                    <p class="center"><img src="img/oficinas/imagem2d.jpg" class="responsive-img" alt=""></p>
-                  </div>
-
-                    <div class="col s12 m6">
-                    <p>
-                      Recomenda-se que traga um computador portátil, com os seguintes os seguintes requisitos mínimos: 32-bit dual core 2Ghz CPU, 4 GB de RAM, placa gráfica
-                      Nvidia de 512 MB RAM; Sistema Operativo: Windows 7, GNU/Linux Ubuntu 18.04, macOS 10.12+.
-
-                      <br> <br>
-
-                      As atividades da oficina serão desenvolvidas com recurso a Software Livre e Open Source que será disponibilizado.
-                      Os participantes são convidados a trazer as suas próprias imagens ou um dispositivo de captação de imagem, a câmara de
-                       um Smartphone/telemóvel deverá ser suficiente. Não obstante, será disponibilizado material de apoio às atividades que inclui algumas imagens.
-                    </p>
-
-                    <p>FORMADOR Nelson Gonçalves</p>
-                  </div>
-                                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="collapsible-header oficina6 white-text right-align"><span class="oficinas-title">Edição de vídeo</span><br>12 de dezembro</div>
-                  <div class="collapsible-body">
-                    <p class="flow-text">
-                      Vivemos uma era de abundante produção de vídeo, uma paisagem que se estende das grandes produções até ao vlog individual ou ao vídeo familiar das férias. As câmaras dos telemóveis ajudaram na democratização dos meios de produção e as redes sociais asseguram a difusão. Nesta oficina os participantes serão acompanhados no desenvolvimento de um projeto prático de edição de vídeo.
-                    </p>
-
-                    <div class="row">
-                    <div class="col s12 m6">
-                    <p class="center"><img src="img/oficinas/video.jpg" class="responsive-img" alt=""></p>
-                  </div>
-
-                    <div class="col s12 m6">
-                    <p>
-                      Recomenda-se que traga um computador portátil, com os seguintes os seguintes requisitos mínimos: 64-bit dual core 2Ghz CPU; 4 GB de RAM; placa gráfica com 1 GB de RAM, OpenGL 3.3; Sistema Operativo: Windows 7, GNU/Linux Ubuntu 18.04, macOS 10.12+.
-                      <br> <br>
-
-                      As atividades da oficina serão desenvolvidas com recurso a Software Livre e Open Source que será disponibilizado. Os participantes são convidados a trazer os seus próprios vídeos ou um dispositivo de captação de imagem, a câmara de um Smartphone/telemóvel deverá ser suficiente. Não obstante, será disponibilizado material de apoio às atividades que inclui alguns clips de vídeo.
-                    </p>
-
-                    <p>FORMADOR Nelson Gonçalves</p>
-                                      </div>
-                                                        </div>
-                  </div>
-                </li>
-
-              </ul>
-
-
-              <div class="row center">
-                <p class="flow-text">Se procura informações mais detalhadas, descarregue o
-                  <a href="https://poloarqueologicodeviseu.github.io/docs/Open%20Heritage%20no%20PAV_Oficinas%20de%20Forma%C3%A7%C3%A3o%202020.pdf" target="_blank" class="">Plano de Formação</a>
-                </p>
-
-            </div>
-
-
-            </div>
-
-            <div class="col s12 m6 l6">
-              <div class="card">
-                <div class="card-content">
-                  <p class="right"><span class="red white-text" style="padding: 0 6px;">ALTERAÇÕES EM CURSO</span></p>
-
-                    <h5>LOCAL</h5>
-                    <p class="flow-text" style="text-decoration: line-through;">Polo Arqueológico de Viseu, Casa do Miradouro.</p>
-                    <h5>HORÁRIO</h5>
-                    <p class="flow-text" style="text-decoration: line-through;">10h00-13h00 / 14h00-17h00 (6h)</p>
-                    <h5>PÚBLICO</h5>
-                    <p class="flow-text">> de 16 anos</p>
-                    <h5>VAGAS</h5>
-                    <p class="flow-text" style="text-decoration: line-through;">15 participantes por sessão.</p>
-                    <h5>VALOR DE PARTICIPAÇÃO</h5>
-                    <p class="flow-text" style="text-decoration: line-through;">10€/sessão</p>
-                    <br>
-                    <h6>DESCONTOS</h6>
-                    <p class="" style="text-decoration: line-through;">20% na inscrição em três sessões, 50% na inscrição em seis sessões.</p>
-                    <h6>ISENÇÕES</h6>
-                    <p class="" style="text-decoration: line-through;">Alunos do Ensino Superior e Secundário de Viseu (com apresentação de comprovativo).</p>
-
-                </div>
-              </div>
-
-        </div>
-
-            <div class="col s12 m6 l6">
-                  <div class="card">
-                    <div class="card-content">
-
-                      <p class="right"><span class="red white-text" style="padding: 0 6px;">ATENÇÃO</span></p>
-                      <h4 class="center">Pandemia da CoVid-19</h4>
-                          <p class="flow-text">
-                          Na sequência da pandemia da covid-19, foram suspensas as oficinas de formação em regime presencial mas já estamos a preparar um plano alternativo para <b>formação à distância</b>.
-                        </p>
-
-                          <h3 class="center w-text">
-                            Novidades em breve!
-                        </h3>
-
-
-                    </div>
-                  </div>
-            </div>
-          </div>
-
     </div>
   </div>
 </section>
-
+<!-- fim de comunidade -->
 
 <div class="parallax-container valign-wrapper">
   <div class="section no-pad-bot">
     <div class="container">
       <div class="row center">
-                  <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
       </div>
     </div>
   </div>
   <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 2"></div>
 </div>
 
+<!-- oficinas -->
+<section   id="oficinas">
+  <div class="container"><br>
+    <div class="section"><br>
+      <h3 class="center section-title">As <b>Oficinas</b> de formação para 2020</h3>
 
+      <div class="row">
+
+          <!-- Fotogrametria Modal Trigger -->
+          <div class="col s6 m4 l3">
+            <div data-target="modal2" class="card small white-text oficina-card oficina1 modal-trigger">
+            <p class="oficinas-title">Introdução à fotogrametria<br><span class="oficinas-data">7 mar</p>
+          </div></div>
+
+          <!-- Modal Structure -->
+          <div id="modal2" class="modal modal-fixed-footer">
+            <div class="modal-content">
+              <div class="col s12">
+              <h4>Introdução à fotogrametria</h4>
+              <p class="flow-text">DATA 7 de março</p>
+              <p class="">FORMADOR Nelson Gonçalves</p>
+            </div>
+              <div class="col s12">
+              <p>
+                Fotogrametria designa um conjunto de técnicas que permitem criar modelos 3D a partir de fotografias. Os participantes serão convidados a explorar e experimentar a técnica, incluindo as etapas de captura fotográfica  e  criação  do  respetivo  modelo  3D,  nas  instalações  da  Casa  do  Miradouro  ou  na  área circundante.
+              </p>
+              </div>
+                <div class="col s8 offset-s2 center">
+                  <img src="img/oficinas/fotogrametria.jpg" class="responsive-img" alt="">
+                </div>
+              <div class="col s12">
+                  <p>
+                    Recomenda-se que traga uma câmara fotográfica (p.ex.Smartphone/telemóvel) e um computador portátil, com os seguintes requisitos mínimos:
+                    64-bit quad core CPU, 4 GB de RAM, placa gráfica Nvidia de 512 MB RAM;
+                    Sistema Operativo: Windows 7, GNU/Linux Ubuntu 18.04.
+                  </p>
+                  <p>
+                    A oficina fará uso de Software Livre e Open Source que será disponibilizado. Sugere-se a instalação prévia do Meshroom, disponível em <a href="https://alicevision.org/" target="_blank">AliceVision</a>.
+                  </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-black btn-flat">Fechar</a>
+            </div>
+          </div>
+
+          <!-- Blender Modal Trigger -->
+          <div class="col s6 m4 l3">
+            <div data-target="modal2" class="card small white-text oficina-card oficina2 modal-trigger">
+            <p class="oficinas-title">Imagem 3D: introdução ao Blender<br><span class="oficinas-data">4 abr</p>
+          </div></div>
+
+          <!-- Modal Structure -->
+          <div id="modal2" class="modal modal-fixed-footer">
+            <div class="modal-content">
+              <div class="col s12">
+              <h4>Imagem 3D: introdução ao Blender</h4>
+              <p class="flow-text">DATA 4 de abril</p>
+              <p class="">FORMADOR Nelson Gonçalves</p>
+            </div>
+              <div class="col s12">
+              <p>
+                A oficina pretende criar um espaço de exploração introdutória ao software Blender, um Software Livre e Open Source para criação 3D. Durante a oficina, serão apresentados alguns casos práticos de utilização de técnicas 3D na área do património arqueológico e histórico. Os participantes serão convidados a desenvolver um projeto simples de criação em 3D.
+              </p>
+              </div>
+                <div class="col s8 offset-s2 center">
+                  <img src="img/oficinas/blender.jpg" class="responsive-img" alt="">
+                </div>
+              <div class="col s12">
+                  <p>
+                    Recomenda-se que traga um computador portátil, com os seguintes requisitos mínimos: 64-bit dual core 2Ghz CPU; 4 GB de RAM;
+                    placa gráfica com 1 GB de RAM, OpenGL 3.3; Sistema Operativo: Windows 7, GNU/Linux Ubuntu 18.04, macOS 10.1.
+                  </p>
+                  <p>
+                    A oficina fará uso de Software Livre e Open Source que será disponibilizado. Sugere-se a instalação prévia do Blender (versão 2.81 ou superior), disponível em <a href="https://www.blender.org/" target="_blank">Blender.org</a>.
+                  </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-black btn-flat">Fechar</a>
+            </div>
+          </div>
+
+          <!-- MWebmapping odal Trigger -->
+          <div class="col s6 m4 l3">
+            <div data-target="modal3" class="card small white-text oficina-card oficina3 modal-trigger">
+            <p class="oficinas-title">Web mapping<br><span class="oficinas-data">6 jun</p>
+          </div></div>
+
+          <!-- Modal Structure -->
+          <div id="modal3" class="modal modal-fixed-footer">
+            <div class="modal-content">
+              <div class="col s12">
+              <h4>Web mapping</h4>
+              <p class="flow-text">DATA 6 de junho</p>
+              <p class="">FORMADOR Nelson Gonçalves</p>
+            </div>
+              <div class="col s12">
+              <p>
+                A oficina tem como finalidade criar um espaço de experimentação e exploração do Web Mapping na documentação, análise e divulgação do património. Serão apresentados alguns serviços, software e casos práticos, com especial destaque para a área do património arqueológico e para a utilização de Software Livre e Open Source. Será desenvolvido um projeto prático de criação de um mapa e sua partilha online, incluindo atividades de recolha dos dados, criação do mapa e publicação.
+              </p>
+              </div>
+                <div class="col s8 offset-s2 center">
+                  <img src="img/oficinas/webmapping.jpg" class="responsive-img" alt="">
+                </div>
+              <div class="col s12">
+                  <p>
+                    Recomenda-se que traga um computador portátil, sem requisitos mínimos especiais mas com capacidade de acesso à Internet, deve ter instalado o
+                     browser Firefox ou Chrome e um editor de texto + Smartphone/telemóvel (iOS ou Android), com câmara fotográfica e capacidade de acesso à
+                     Internet. Os participantes deverão ter acesso a um endereço de correio eletrónico dado que algumas das atividade previstas podem
+                       implicar a criação de contas-perfis em serviços online.
+                  </p>
+                  <p>As atividades da oficina serão desenvolvidas com recurso a Software Livre e Open Source que será disponibilizado.
+                  </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-black btn-flat">Fechar</a>
+            </div>
+          </div>
+
+          <!-- Arqueologia Modal Trigger -->
+          <div class="col s6 m4 l3">
+            <div data-target="modal4" class="card small white-text oficina-card oficina4 modal-trigger">
+            <p class="oficinas-title">Software Livre e Open Source para Arqueologia<br><span class="oficinas-data">1 ago</p>
+          </div></div>
+
+          <!-- Modal Structure -->
+          <div id="modal4" class="modal modal-fixed-footer">
+            <div class="modal-content">
+              <div class="col s12">
+              <h4>Software Livre e Open Source para Arqueologia (vol.1)</h4>
+              <p class="flow-text">DATA 1 de Agosto</p>
+              <p class="">FORMADOR Nelson Gonçalves</p>
+            </div>
+              <div class="col s12">
+              <p>
+                A oficina tem como finalidade criar um espaço de experimentação e exploração de um conjunto de aplicações informáticas de Software Livre e Open Source selecionado pela sua utilidade especial para a atividade arqueológica. O software selecionado está longe de esgotar as possibilidades existentes. Areferência Vol. 1 sugere o desafio para futuras edições onde serão partilhadas outras seleções.
+              </p>
+              </div>
+                <div class="col s8 offset-s2 center">
+                  <img src="img/oficinas/arqueologia.jpg" class="responsive-img" alt="">
+                </div>
+              <div class="col s12">
+                  <p>
+                    Recomenda-se que traga um computador portátil, com os seguintes os seguintes requisitos mínimos: 32-bit dual core 2Ghz CPU, 4 GB de RAM; Sistema Operativo: Windows 7, GNU/Linux Ubuntu 18.04. O computador portátil deverá ter capacidadede acesso à Internet e ter instalado o browser Firefox ou Chrome.
+                  </p>
+                  <p>As atividades da oficina serão desenvolvidas com recurso a Software Livre e Open Source que será disponibilizado.
+                  </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-black btn-flat">Fechar</a>
+            </div>
+          </div>
+
+          <!-- Imagem 2d Modal Trigger -->
+          <div class="col s6 m4 l3">
+            <div data-target="modal5" class="card small white-text oficina-card oficina5 modal-trigger">
+            <p class="oficinas-title">Imagem 2D: gestão, análise e armazenamento<br><span class="oficinas-data">10 out</p>
+          </div></div>
+
+          <!-- Modal Structure -->
+          <div id="modal5" class="modal modal-fixed-footer">
+            <div class="modal-content">
+              <div class="col s12">
+              <h4>Imagem 2D: gestão, análise e armazenamento</h4>
+              <p class="flow-text">DATA 10 de outubro</p>
+              <p class="">FORMADOR Nelson Gonçalves</p>
+            </div>
+              <div class="col s12">
+              <p>
+                Imagine milhares de imagens em diferentes formatos, recolhidas ou criadas para finalidades diversas, com conteúdos variados e dispersas por dezenas ou até centenas de pastas. A oficina apresenta algumas sugestões de Software Livre e Open Source para apoiar a gestão, análise e armazenamento digital de ficheiros de imagem.
+              </p>
+              </div>
+                <div class="col s8 offset-s2 center">
+                  <img src="img/oficinas/imagem2d.jpg" class="responsive-img" alt="">
+                </div>
+              <div class="col s12">
+                  <p>Recomenda-se que traga um computador portátil, com os seguintes os seguintes requisitos mínimos: 32-bit dual core 2Ghz CPU, 4 GB de RAM, placa gráfica
+                  Nvidia de 512 MB RAM; Sistema Operativo: Windows 7, GNU/Linux Ubuntu 18.04, macOS 10.12+.
+                  </p>
+                  <p>As atividades da oficina serão desenvolvidas com recurso a Software Livre e Open Source que será disponibilizado.
+                  Os participantes são convidados a trazer as suas próprias imagens ou um dispositivo de captação de imagem, a câmara de
+                   um Smartphone/telemóvel deverá ser suficiente. Não obstante, será disponibilizado material de apoio às atividades que inclui algumas imagens.
+                  </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-black btn-flat">Fechar</a>
+            </div>
+          </div>
+
+          <!-- Video Modal Trigger -->
+          <div class="col s6 m4 l3">
+            <div data-target="modal6" class="card small white-text oficina-card oficina6 modal-trigger">
+            <p class="oficinas-title">Edição de vídeo<br><span class="oficinas-data">12 dez</p>
+          </div></div>
+
+          <!-- Modal Structure -->
+          <div id="modal6" class="modal modal-fixed-footer">
+            <div class="modal-content">
+              <div class="col s12">
+              <h4>Edição de vídeo</h4>
+              <p class="flow-text">DATA 12 de dezembro</p>
+              <p class="">FORMADOR Nelson Gonçalves</p>
+            </div>
+              <div class="col s12">
+              <p>Vivemos uma era de abundante produção de vídeo, uma paisagem que se estende das grandes produções até ao vlog individual ou ao vídeo familiar das férias. As câmaras dos telemóveis ajudaram na democratização dos meios de produção e as redes sociais asseguram a difusão. Nesta oficina os participantes serão acompanhados no desenvolvimento de um projeto prático de edição de vídeo.
+              </p>
+              </div>
+                <div class="col s8 offset-s2 center">
+                  <img src="img/oficinas/video.jpg" class="responsive-img" alt="">
+                </div>
+              <div class="col s12">
+                  <p>Recomenda-se que traga um computador portátil, com os seguintes os seguintes requisitos mínimos: 64-bit dual core 2Ghz CPU; 4 GB de RAM; placa gráfica com 1 GB de RAM, OpenGL 3.3; Sistema Operativo: Windows 7, GNU/Linux Ubuntu 18.04, macOS 10.12+.
+                  </p>
+                  <p>As atividades da oficina serão desenvolvidas com recurso a Software Livre e Open Source que será disponibilizado. Os participantes são convidados a trazer os seus próprios vídeos ou um dispositivo de captação de imagem, a câmara de um Smartphone/telemóvel deverá ser suficiente. Não obstante, será disponibilizado material de apoio às atividades que inclui alguns clips de vídeo.
+                  </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-black btn-flat">Fechar</a>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="row center">
+        <p class="flow-text">Se procura informações mais detalhadas, descarregue o
+          <a href="https://poloarqueologicodeviseu.github.io/docs/Open%20Heritage%20no%20PAV_Oficinas%20de%20Forma%C3%A7%C3%A3o%202020.pdf" target="_blank" class="">Plano de Formação</a>
+        </p>
+    </div>
+
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="card">
+            <div class="card-content">
+              <p class="right"><span class="red white-text" style="padding: 0 6px;">ALTERAÇÕES EM CURSO</span></p>
+        <h5>LOCAL</h5>
+        <p class="flow-text" style="text-decoration: line-through;">Polo Arqueológico de Viseu, Casa do Miradouro.</p>
+        <h5>HORÁRIO</h5>
+        <p class="flow-text" style="text-decoration: line-through;">10h00-13h00 / 14h00-17h00 (6h)</p>
+        <h5>PÚBLICO</h5>
+        <p class="flow-text">> de 16 anos</p>
+        <h5>VAGAS</h5>
+        <p class="flow-text" style="text-decoration: line-through;">15 participantes por sessão.</p>
+        <h5>VALOR DE PARTICIPAÇÃO</h5>
+        <p class="flow-text" style="text-decoration: line-through;">10€/sessão</p>
+        <br>
+        <h6>DESCONTOS</h6>
+        <p class="" style="text-decoration: line-through;">20% na inscrição em três sessões, 50% na inscrição em seis sessões.</p>
+        <h6>ISENÇÕES</h6>
+        <p class="" style="text-decoration: line-through;">Alunos do Ensino Superior e Secundário de Viseu (com apresentação de comprovativo).</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l6">
+          <div class="card">
+            <div class="card-content">
+
+          <p class="right"><span class="red white-text" style="padding: 0 6px;">ATENÇÃO</span></p>
+          <h4 class="center">Pandemia da CoVid-19</h4>
+              <p class="flow-text">
+              Na sequência da pandemia da covid-19, foram suspensas as oficinas de formação em regime presencial mas já estamos a preparar um plano alternativo para <b>formação à distância</b>.
+            </p>
+              <h3 class="center w-text">
+                Novidades em breve!
+            </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- fim de oficinas -->
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/background4.jpg" alt="Unsplashed background img 2"></div>
+</div>
+
+<!-- encontros -->
 <section id="encontros">
   <div class="container"><br>
     <div class="section"><br>
       <h3 class="center section-title">Os <b>encontros</b> do NERDLAB</h3>
-
       <div class="row">
-
-        <div class="col s12 m6 l6 card">
+        <div class="col s12 m6 l6">
               <p class="flow-text">
               Os encontros do NERDLAB são espaços de participação abertos à comunidade e acontecem no último sábado de cada mês, a partir das 14h, na Casa do Miradouro.
-            </p>
-            <h4 class="center">E estão tod@s convidad@s!</h4>
+              </p>
+              <h4 class="center">E estão tod@s convidad@s!</h4>
               <p class="flow-text">
               Num espaço informal de trabalho, trocamos conhecimentos e experiências, apresentamos e colaboramos em projetos, aprendemos sobre Arqueologia, Património e Tecnologias Digitais.
               Ou seja, construimos algo juntos.
               <p>
         </div>
-
         <div class="col s12 m6 l5 offset-l1">
-            <img src="img/nerdmeeting.jpg" class="z-depth-1 responsive-img ">
+            <img src="img/nerdmeeting.jpg" class="raposinha z-depth-1 responsive-img ">
           </div>
-
-        </div>
-<br><br>
-        <div class="row">
-
+      </div>
+        <br><br>
+      <div class="row">
           <div class="col s12 m6 l5 ">
-                  <img src="img/nerdmeetingzoom.jpg" class="z-depth-1 responsive-img">
+                  <img src="img/nerdmeetingzoom.jpg" class="mamute z-depth-1 responsive-img">
             </div>
-
           <div class="col s12 m6 l6 offset-l1 card-panel">
             <p class="right"><span class="red white-text" style="padding: 0 6px;">ATENÇÃO</span></p>
             <h4 class="center">Pandemia da CoVid-19</h4>
@@ -493,309 +541,291 @@
                 Na sequência da pandemia da covid-19, foram suspensos os encontros presenciais e iniciados os <b>encontros NERD LAB por videoconferência</b> no
                 último sábado de cada mês. Continuamos a estar juntos e a aprendizagem e os projetos avançam!
               </p>
-
                 <p class="flow-text center">
                 Instala a aplicação <a href="https://zoom.us/" target="_blank">Zoom</a> e prepara a webcam!<br> Para mais informações...
                 <p>
                 <p class="center">
                   <a href="#contactos" target="_blank" class="btn-large waves-effect waves-light btn light-blue darken-1">Contacta-nos!</a>
                 </p>
-
-          </div>
-          </div>
+              </div>
+        </div>
       </div>
   </div>
 </section>
+<!-- fim de encontros -->
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-                    <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
-        </div>
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
       </div>
     </div>
-    <div class="parallax"><img src="img/background4.jpg" alt="Unsplashed background img 4"></div>
   </div>
+  <div class="parallax"><img src="img/background5.jpg" alt="Unsplashed background img 2"></div>
+</div>
 
-
-
+<!-- projetos -->
 <section  id="projetos">
   <div class="container"><br>
     <div class="section"><br>
       <h3 class="center section-title"><b>Projetos</b></h3>
-      <h5 class="center">Catálogo dos projetos já desenvolvidos e dos que andamos a fazer :) </h5>
+      <h5 class="center">Catálogo do que andamos a fazer :) </h5>
 
 
-      <!--   Gallery Section   -->
+<div class="row">
+  <div class="controls">
+  	  <button class="button waves-effect waves-light btn-flat" data-filter="all" >Tudo</button>
+  	  <button class="button waves-effect waves-light btn-flat" data-filter="visita" >Visita Virtual</button>
+  	  <button class="button waves-effect waves-light btn-flat" data-filter="tresd" >3D</button>
+      <!-- For sorting controls add -->
+  	</div>
+</div>
+
+<div class="row">
+  <div class="projetos">
+
+    <div class="col s12 m6 l4 filtr-item" data-category="projeto visita" data-sort="value">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img/projetos/cajc360.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">CAJC 360º<i class="material-icons right">more_vert</i></span>
+          <!-- <p><a href="#">This is a link</a></p> -->
+          <p class="right-align"><span class="chip">em curso</span></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Coleção Arqueológica José Coelho 360º<i class="material-icons right">close</i></span>
+          <p>Textinho...n.</p>
+          <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
+          <p><span class="project-info">ANO</span> 2016   </p>
+        </div>
+      </div>
+    </div>
+
+
+            <div class="col s12 m6 l4 filtr-item" data-category="visita" data-sort="value">
+              <div class="card ">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/projetos/cm360.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Casa do Miradouro 360º<i class="material-icons right">more_vert</i></span>
+                  <!-- <p><a href="#">This is a link</a></p> -->
+                  <p class="right-align"><span class="chip">em curso</span></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Casa do Miradouro 360º<i class="material-icons right">close</i></span>
+                  <p>Textinho...n.</p>
+                  <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
+                  <p><span class="project-info">ANO</span> 2016   </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4 filtr-item" data-category="visita" data-sort="value">
+              <div class="card ">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/projetos/jcc360.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">José Coelho pela Cidade 360º<i class="material-icons right">more_vert</i></span>
+                  <!-- <p><a href="#">This is a link</a></p> -->
+                  <p class="right-align"><span class="chip">em curso</span></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">José Coelho pela Cidade 360º<i class="material-icons right">close</i></span>
+                  <p>Textinho...n.</p>
+                  <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
+                  <p><span class="project-info">ANO</span> 2016   </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4 filtr-item" data-category="tresd" data-sort="value">
+              <div class="card ">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/projetos/galeria3dpav.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Galeria 3D do PAV<i class="material-icons right">more_vert</i></span>
+                  <!-- <p><a href="#">This is a link</a></p> -->
+                  <p class="right-align"><span class="chip">em curso</span></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Galeria 3D do PAV<i class="material-icons right">close</i></span>
+                  <p>Textinho...n.</p>
+                  <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
+                  <p><span class="project-info">ANO</span> 2016   </p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col s12 m6 l4 filtr-item" data-category="tresd" data-sort="value">
+              <div class="card ">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/projetos/galeria3dcajc.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Galeria 3D da CAJC<i class="material-icons right">more_vert</i></span>
+                  <!-- <p><a href="#">This is a link</a></p> -->
+                  <p class="right-align"><span class="chip">em curso</span></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Galeria 3D da CAJC<i class="material-icons right">close</i></span>
+                  <p>Textinho...n.</p>
+                  <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
+                  <p><span class="project-info">ANO</span> 2016   </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4 filtr-item" data-category="visita, tresd" data-sort="value">
+              <div class="card ">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/projetos/mamaltarvr.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Mamaltar VR<i class="material-icons right">more_vert</i></span>
+                  <!-- <p><a href="#">This is a link</a></p> -->
+                  <p class="right-align"><span class="chip">em curso</span></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Mamaltar VR<i class="material-icons right">close</i></span>
+                  <p>Textinho...n.</p>
+                  <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
+                  <p><span class="project-info">ANO</span> 2016   </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4 filtr-item" data-category="visita" data-sort="value">
+              <div class="card ">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/projetos/vizeu360.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Vizeu 360º<i class="material-icons right">more_vert</i></span>
+                  <!-- <p><a href="#">This is a link</a></p> -->
+                  <p class="right-align"><span class="chip">em curso</span></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Vizeu 360º<i class="material-icons right">close</i></span>
+                  <p>Textinho...n.</p>
+                  <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
+                  <p><span class="project-info">ANO</span> 2016   </p>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	</div>
+
+
+
+</div>
+
+    </div>
+  </div>
+</section>
+<!-- fim de projetos -->
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/background6.jpg" alt="Unsplashed background img 2"></div>
+</div>
+
+<!-- contatos -->
+<section  id="contactos">
+  <div class="container"><br>
+    <div class="section"><br>
+      <h3 class="center section-title">Os nossos <b>contactos</b>...</h3>
       <div class="row">
-
-        <div class="col s12 m12 l12 xl12 filters">
-
-  <div class="ui-group">
-    <div class="button-group js-radio-button-group" data-filter-group="item-type">
-      <button class="button waves-effect waves-light btn-flat is-checked" data-filter="">Todos</button>
-      <button class="button waves-effect waves-light btn-flat" data-filter=".visita">Visita virtual</button>
-      <!-- <button class="button waves-effect waves-light btn-flat" data-filter=".mapa">Mapas</button> -->
-      <button class="button waves-effect waves-light btn-flat" data-filter=".tresd">3D</button>
-      <!-- <button class="disabled btn-flat" data-filter=".storymap">Storymaps</button> -->
-
-    </div>
-  </div>
-
-	</div>
-
-      </div>
-
-
-
-      <!--     -->
-      <div class="row grid">
-
-        <div class="col s12 m6 l4 grid-item visita">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/projetos/cajc360.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">CAJC 360º<i class="material-icons right">more_vert</i></span>
-              <!-- <p><a href="#">This is a link</a></p> -->
-              <p class="right-align"><span class="chip">em curso</span></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Coleção Arqueológica José Coelho 360º<i class="material-icons right">close</i></span>
-              <p>Textinho...n.</p>
-              <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
-              <p><span class="project-info">ANO</span> 2016   </p>
-            </div>
-          </div>
+        <div class="col s12 m6">
+          <p class="flow-text">
+          A equipa do NERD LAB pode ser contactada de várias formas. Envia um email e prometemos que será mesmo lido por uma pessoa que responderá
+          logo que possível ;) </p>
+          <p class="flow-text">Para além dos endereços de contacto, estamos presentes em várias redes online.
+          <p>
+                      <div class="row">
+                        <ul class="linkscontactos">
+                            <li><a  href="https://github.com/poloarqueologicodeviseu/" target="_blank" class="tooltipped btn-floating btn-large white " style="width: 80px;height: 80px;" data-position="top" data-delay="50" data-tooltip="GitHub">
+                                <img src="img/icons/github-1.svg" class="" style="width: 80px;height: 80px;"></a></li>
+                            <li><a  href="https://sketchfab.com/poloarqueologicodeviseu" target="_blank" class="tooltipped btn-floating btn-large waves-effect waves-light white" style="width: 80px;height: 80px;" data-position="top" data-delay="50" data-tooltip="Sketchfab">
+                                <img src="img/icons/sketchfab.png" class="" style="width: 80px;height: 80px;"></a></li>
+                            <li><a  href="https://www.zotero.org/poloarqueologicodeviseu/" target="_blank" class="tooltipped btn-floating btn-large waves-effect waves-light white" style="width: 80px;height: 80px;" data-position="top" data-delay="50" data-tooltip="Zotero">
+                                <img src="img/icons/zotero.png" class="" style="width: 80px;height: 80px;"></a></li>
+                          </ul>
+                      </div>
         </div>
-
-        <div class="col s12 m6 l4 grid-item visita">
-          <div class="card ">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/projetos/cm360.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Casa do Miradouro 360º<i class="material-icons right">more_vert</i></span>
-              <!-- <p><a href="#">This is a link</a></p> -->
-              <p class="right-align"><span class="chip">em curso</span></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Casa do Miradouro 360º<i class="material-icons right">close</i></span>
-              <p>Textinho...n.</p>
-              <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
-              <p><span class="project-info">ANO</span> 2016   </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m6 l4 grid-item visita">
-          <div class="card ">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/projetos/jcc360.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">José Coelho pela Cidade 360º<i class="material-icons right">more_vert</i></span>
-              <!-- <p><a href="#">This is a link</a></p> -->
-              <p class="right-align"><span class="chip">em curso</span></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">José Coelho pela Cidade 360º<i class="material-icons right">close</i></span>
-              <p>Textinho...n.</p>
-              <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
-              <p><span class="project-info">ANO</span> 2016   </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m6 l4 xl4 grid-item tresd">
-          <div class="card ">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/projetos/galeria3dpav.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Galeria 3D do PAV<i class="material-icons right">more_vert</i></span>
-              <!-- <p><a href="#">This is a link</a></p> -->
-              <p class="right-align"><span class="chip">em curso</span></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Galeria 3D do PAV<i class="material-icons right">close</i></span>
-              <p>Textinho...n.</p>
-              <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
-              <p><span class="project-info">ANO</span> 2016   </p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col s12 m6 l4 xl4 grid-item tresd">
-          <div class="card ">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/projetos/galeria3dcajc.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Galeria 3D da CAJC<i class="material-icons right">more_vert</i></span>
-              <!-- <p><a href="#">This is a link</a></p> -->
-              <p class="right-align"><span class="chip">em curso</span></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Galeria 3D da CAJC<i class="material-icons right">close</i></span>
-              <p>Textinho...n.</p>
-              <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
-              <p><span class="project-info">ANO</span> 2016   </p>
-            </div>
-          </div>
-        </div>
-
-
-
-
-        <div class="col s12 m6 l4 xl4 grid-item tresd visita">
-          <div class="card ">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/projetos/mamaltarvr.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Mamaltar VR<i class="material-icons right">more_vert</i></span>
-              <!-- <p><a href="#">This is a link</a></p> -->
-              <p class="right-align"><span class="chip">em curso</span></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Mamaltar VR<i class="material-icons right">close</i></span>
-              <p>Textinho...n.</p>
-              <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
-              <p><span class="project-info">ANO</span> 2016   </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m6 l4 xl4 grid-item visita">
-          <div class="card ">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/projetos/vizeu360.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Vizeu 360º<i class="material-icons right">more_vert</i></span>
-              <!-- <p><a href="#">This is a link</a></p> -->
-              <p class="right-align"><span class="chip">em curso</span></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Vizeu 360º<i class="material-icons right">close</i></span>
-              <p>Textinho...n.</p>
-              <p><span class="project-info offset-s6">EQUIPA</span> e.</p>
-              <p><span class="project-info">ANO</span> 2016   </p>
-            </div>
-          </div>
-        </div>
-
-
-
-
-      </div>
-    </div>
-    </div>
-  </section>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="img/background3b.jpg" alt="Unsplashed background img 5"></div>
-  </div>
-
-
-
-
-  <section  id="contactos">
-    <div class="container"><br>
-      <div class="section"><br>
-        <h3 class="center section-title">Os nossos <b>contactos</b>...</h3>
-        <div class="row">
-
-          <div class="col s12 m6">
-            <p class="flow-text">
-            A equipa do NERD LAB pode ser contactada de várias formas. Envia um email e prometemos que será mesmo lido por uma pessoa que responderá
-            logo que possível ;) </p>
-            <p class="flow-text">Para além dos endereços de contacto, estamos presentes em várias redes online.
+        <div class="col s12 m5 card-panel offset-m1">
+          <p><b>Polo Arqueológico de Viseu</b><br>
+                        Casa do Miradouro<br>
+                        Largo António José Pereira<br>
+                        Viseu 3500-080 Portugal
+            </p>
             <p>
-
-              <div class="row">
-                <ul class="linkscontactos">
-                              <li>
-                                <a  href="https://github.com/poloarqueologicodeviseu/" target="_blank" class="tooltipped btn-floating btn-large white " style="width: 80px;height: 80px;" data-position="top" data-delay="50" data-tooltip="GitHub">
-                                  <img src="icons/github-1.svg" class="" style="width: 80px;height: 80px;">
-                                </a>
-                              </li>
-                              <li>
-                                <a  href="https://sketchfab.com/poloarqueologicodeviseu" target="_blank" class="tooltipped btn-floating btn-large waves-effect waves-light white" style="width: 80px;height: 80px;" data-position="top" data-delay="50" data-tooltip="Sketchfab">
-                                  <img src="icons/sketchfab.png" class="" style="width: 80px;height: 80px;">
-                                </a>
-                              </li>
-                              <li>
-                                <a  href="https://www.zotero.org/poloarqueologicodeviseu/" target="_blank" class="tooltipped btn-floating btn-large waves-effect waves-light white" style="width: 80px;height: 80px;" data-position="top" data-delay="50" data-tooltip="Zotero">
-                                  <img src="icons/zotero.png" class="" style="width: 80px;height: 80px;">
-                                </a>
-                              </li>
-                </ul>
-
-          </div>
-
-
-          </div>
-
-          <div class="col s12 m5 card-panel offset-m1">
-
-            <p><b>Polo Arqueológico de Viseu</b><br>
-                          Casa do Miradouro<br>
-                          Largo António José Pereira<br>
-                          Viseu 3500-080 Portugal
-              </p>
-                          <p>
-                          <span class="project-info">Telefone</span>  232 425 388 <br>
-                          <span class="project-info offset-s6">Email</span>  casadomiradouro[AT]cmviseu[DOT]pt<br>
-                          </p>
-          </div>
+              <span class="project-info">Telefone</span>  232 425 388 <br>
+              <span class="project-info offset-s6">Email</span>  casadomiradouro[AT]cmviseu[DOT]pt<br>
+            </p>
+        </div>
+      </div>
     </div>
-        </div>
-
-
-        <div class="section"><br>
-          <h3 class="center section-title">e <b>onde</b> estamos.</h3>
-          <!--   Icon Section   -->
-          <div class="row">
-        <!--Mapa-->
+    <div class="section"><br>
+        <h3 class="center section-title">e <b>onde</b> estamos.</h3>
+        <div class="row">
+      <!--Mapa-->
         <div class=" center s12">
-          <iframe width="100%" height="500px" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/pt-br/map/casa-do-miradouro_438467?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=null&locateControl=null&editinosmControl=false"></iframe>
+        <iframe width="100%" height="500px" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/pt-br/map/casa-do-miradouro_438467?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=true&tilelayersControl=true&embedControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=true&locateControl=true&editinosmControl=false"></iframe>
         </div>
       </div>
-      </div>
+    </div>
+  </div>
+</section>
 
-
-
-      </div>
-    </section>
-
-
+<!-- fim de contatos -->
 </main>
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/background7.jpg" alt="Unsplashed background img 2"></div>
+</div>
 
   <footer class="" >
     <div class="container">
-
     <div class="row">
         <div class="col s6">
-          <br><img src="viseu/pav.png" class="logo_footer responsive-img" style="max-width: 300px;" alt="Polo Arqueológico de Viseu"></a>
+          <br><img src="img/viseu/pav.png" class="logo_footer responsive-img" style="max-width: 300px;" alt="Polo Arqueológico de Viseu"></a>
         </div>
 
           <div class="col s6 right-align"><br>
-            <a href="https://www.cm-viseu.pt/" target="_blank" ><img src="viseu/cm-viseu.png" class="right-align logos_footer responsive-img" style="max-width: 200px;" alt="Município de Viseu"></a>
-          <br><a href="https://viseupatrimonio.pt/" target="_blank" ><img src="viseu/viseu-patrimonio.png" class="right-align logos_footer responsive-img" style="max-width: 200px;" alt="Viseu Património"></a>
+            <a href="https://www.cm-viseu.pt/" target="_blank" ><img src="img/viseu/cm-viseu.png" class="right-align logos_footer responsive-img" style="max-width: 200px;" alt="Município de Viseu"></a>
+          <br><a href="https://viseupatrimonio.pt/" target="_blank" ><img src="img/viseu/viseu-patrimonio.png" class="right-align logos_footer responsive-img" style="max-width: 200px;" alt="Viseu Património"></a>
       </div>
   </div>
 </div>
@@ -807,114 +837,91 @@
     </div>
   </footer>
 
+
+
+
   <!--  Scripts-->
   <script src="js/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-<script src="js/isotopeinit.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+  <script src="js/jquery.filterizr.min.js"></script>
   <script src="js/init.js"></script>
-   <script src="js/scrollreveal.min.js"></script>
-
-     <script>
-
-
-       // Nav Header Class Type Checking (nav has white background when not on top of page)
-
-
-       $(document).ready(function(){
-
-            $(window).scroll(function(){
-
-              if($(window).scrollTop()>300){
-                $('nav').addClass('nonTopNav');
-              }else{
-                $('nav').removeClass('nonTopNav');
-              }
-
-            });
-
-       });
 
 
 
-$(function() {
+  <script>
+   var cavalinhoReveal = {
+    origin  : 'left',
+    delay    : 400,
+    reset    : true,
+    easing   : 'ease-in-out',
+    scale    : .1
+   };
 
-  // scroll handler
-  var scrollToAnchor = function( id ) {
+   var raposinhaReveal = {
+    origin  : 'left',
+    delay    : 300,
+    reset    : true,
+    easing   : 'ease-in-out',
+    scale    : .1
+   };
 
-    // grab the element to scroll to based on the name
-    var elem = $("a[name='"+ id +"']");
+   var mamuteReveal = {
+    origin  : 'right',
+    delay    : 200,
+    reset    : true,
+    easing   : 'ease-in-out',
+    scale    : .1
+   };
 
-    // if that didn't work, look for an element with our ID
-    if ( typeof( elem.offset() ) === "undefined" ) {
-      elem = $("#"+id);
-    }
+   window.sr = ScrollReveal()
+     .reveal( '.cavalinho', cavalinhoReveal )
+     .reveal( '.mamute', mamuteReveal )
+     .reveal( '.raposinha', raposinhaReveal );
+</script>
 
-    // if the destination element exists
-    if ( typeof( elem.offset() ) !== "undefined" ) {
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-      // do the scroll
-      $('html, body').animate({
-              scrollTop: elem.offset().top
-      }, 1000 );
-
-    }
-  };
-
-  // bind to click event
-  $("a").click(function( event ) {
-
-    // only do this if it's an anchor link
-    if ( $(this).attr("href").match("#") ) {
-
-      // cancel default event propagation
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
       event.preventDefault();
 
-      // scroll to the location
-      var href = $(this).attr('href').replace('#', '')
-      scrollToAnchor( href );
+      // Store hash
+      var hash = this.hash;
 
-    }
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
 
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
   });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+
+     $(window).scroll(function(){
+
+       if($(window).scrollTop()>300){
+         $('nav').addClass('nonTopNav');
+       }else{
+         $('nav').removeClass('nonTopNav');
+       }
+
+     });
 
 });
-		</script>
-
-
-    <script>
-
-     var cavalinhoReveal = {
-     	origin  : 'left',
-     	delay    : 400,
-     	reset    : true,
-     	easing   : 'ease-in-out',
-     	scale    : .1
-     };
-
-     var raposinhaReveal = {
-     	origin  : 'left',
-     	delay    : 300,
-     	reset    : true,
-     	easing   : 'ease-in-out',
-     	scale    : .1
-     };
-
-     var mamuteReveal = {
-     	origin  : 'right',
-     	delay    : 200,
-     	reset    : true,
-     	easing   : 'ease-in-out',
-     	scale    : .1
-     };
-
-
-
-     window.sr = ScrollReveal()
-       .reveal( '.cavalinho', cavalinhoReveal )
-       .reveal( '.mamute', mamuteReveal )
-       .reveal( '.raposinha', raposinhaReveal );
-     </script>
+</script>
 
   </body>
 </html>
