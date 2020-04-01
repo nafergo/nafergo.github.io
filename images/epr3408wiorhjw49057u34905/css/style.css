@@ -82,6 +82,8 @@ nav {
 }
 
 
+.modal { width: 75% !important ; height: 75% !important ; }
+
 
 /* header image */
 #header-image {
@@ -97,6 +99,7 @@ nav {
 }
 
 #header-image .modal-content p{color: #222;}
+#header-image .modal-content h2{color: #222;}
 #header-image .modal-content b{font-weight: bolder; font-size: 1em;}
 
 
