@@ -1,100 +1,293 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Polo Arqueológico de Viseu - Coleção Arqueológica José Coelho</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,500,600,700,900" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Polo Arqueológico de Viseu - Visitas Virtuais 360º</title>
 
-<link href="materialize/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,500,600,700,900" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/accordiontwo.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-<style> @-ms-viewport { width: device-width; } </style>
-<link rel="stylesheet" href="marzipano/vendor/reset.min.css">
-<link rel="stylesheet" href="marzipano/style.css">
-<link rel="stylesheet" href="pav.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 </head>
-<body class="multiple-scenes view-control-buttons">
+<body id="top">
+<header>
+  <div class="navbar-fisxed">
+  <nav class="" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#top" class="brand-logo white-text">PAV360</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#visitas">Visitas</a></li>
+        <li><a href="#contactos">Contactos</a></li>
+      </ul>
 
-<div id="pano"></div>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#visitas">Visitas</a></li>
+        <li><a href="#contactos">Contactos</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
+    </div>
+  </nav>
+  </div>
+</header>
 
-<div id="sceneList">
-  <ul class="scenes">
-<a href='#' class='scene main' data-id='Entrada'><li class='text'>Entrada</li></a>
-<a href='#' class='scene main' data-id='Sala1'><li class='text'>Sala 1</li></a>
-<a href='#' class='scene secondary' data-id='Sala1Registo'><li class='text'>Os Registos</li></a>
-<a href='#' class='scene secondary' data-id='Sala1Amostras'><li class='text'>As Amostras </li></a>
-<a href='#' class='scene main' data-id='Sala2'><li class='text'>Sala 2</li></a>
-<a href='#' class='scene secondary' data-id='Sala2Paranho'><li class='text'>Necrópole do Paranho</li></a>
-<a href='#' class='scene secondary' data-id='Sala2Mamaltar'><li class='text'>Mamaltar de Vale de Fachas</li></a>
-<a href='#' class='scene secondary' data-id='Sala2Pedralta'><li class='text'>Antas da Pedralta</li></a>
-<a href='#' class='scene main' data-id='Sala3'><li class='text'>Sala 3</li></a>
-<a href='#' class='scene secondary' data-id='Sala3Meso'><li class='text'>Até ao Neolítico</li></a>
-<a href='#' class='scene secondary' data-id='Sala3Bronze'><li class='text'>Idade do Bronze</li></a>
-<a href='#' class='scene secondary' data-id='Sala3Ferro'><li class='text'>Idade do Ferro</li></a>
-<a href='#' class='scene secondary' data-id='Sala3Roma'><li class='text'>Época Romana</li></a>
-<a href='#' class='scene secondary' data-id='Sala3Moinho'><li class='text'>Moinho manual</li></a>
-<a href='#' class='scene main' data-id='Sala3Varanda'><li class='text'>Varanda</li></a>
-<a href='#' class='scene main' data-id='Saida'><li class='text'>Saída</li></a>
-  </ul>
+<main>
+
+<div id="header-pano" class="valign-wrapper">
+ <iframe src="pano/index.html" height="100%" width="100%" frameborder="0" style="z-index: 100;"></iframe>
+    <div class="destaque center">
+      <h1>Bem-vind@s ao PAV360!</h1>
+      <h3>Descubra as nossas visitas virtuais ;)</h3>
+
+      <a href="#sobre" class="pulselink white-text"><i class="material-icons scroll-link">keyboard_arrow_down</i></a>
+
+    </div>
 </div>
 
-<div id="titleBar">
-  <h1 class="sceneName"></h1>
+
+<!-- sobre -->
+  <section  id="sobre">
+    <div class="container"><br>
+      <div class="section"><br>
+        <h3 class="center section-title">Sobre o <b>PAV 360</b></h3>
+        <div class="row">
+          <div class="col s12 m12 l6">
+                <p class="flow-text">
+                  O <span class="thick">PAV 360</span> é um projeto do Polo Arqueológico de Viseu (PAV).
+                </p>
+                  <p class="flow-text">
+                    O Polo Arqueológico de Viseu (PAV) é o centro operacional da Câmara Municipal de Viseu para a Arqueologia. Agrega os recursos dedicados a esta área e promove o interesse sobre o património arqueológico enquanto objeto de investigação e elemento de fruição cultural.
+                </p>
+        </div>
+          <div class="col s12 m12 l6">
+            <p class="center"><img src="img/sobre.jpg" class="mamute z-depth-2 circle responsive-img" style="width:90%;" alt=""></p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+<!-- fim do sobre -->
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light"></h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/background_comunidade.jpg" alt=""></div>
+</div>
+
+<!-- comunidade -->
+<section  id="visitas">
+  <div class="container"><br>
+    <div class="section"><br>
+      <h3 class="center section-title">As <b>visitas</b> </h3>
+
+
+<div class="row">
+
+    <div class="gallery-wrap">
+      <div class="item item-1 center wrapper-projeto"><p class="flow-text center-align">Coleção
+         Arqueológica José Coelho<br><br><a href="indexcajc.html" class="waves-effect waves-light blue btn-large">ENTRAR</a></p>
+      </div>
+      <div class="item item-2  wrapper-projeto"><p class="flow-text">Casa do Miradouro
+      <br><br><a class="waves-effect waves-light blue btn-large">ENTRAR</a></p>
+      </div>
+      <div class="item item-3  wrapper-projeto"><p class="flow-text">José Coelho na Cidade
+        <br><br><a class="waves-effect waves-light blue btn-large">ENTRAR</a></p>
+      </div>
+    </div>
+
 </div>
 
 
-<a href="#" id="autorotateToggle">
-  <img class="icon off" src="marzipano/img/play.png">
-  <img class="icon on" src="marzipano/img/pause.png">
-</a>
 
-<a href="#" id="fullscreenToggle">
-  <img class="icon off" src="marzipano/img/fullscreen.png">
-  <img class="icon on" src="marzipano/img/windowed.png">
-</a>
+    </div>
+  </div>
+</section>
+<!-- fim de visitas -->
 
-<a href="#" id="sceneListToggle">
-  <img class="icon off" src="marzipano/img/expand.png">
-  <img class="icon on" src="marzipano/img/collapse.png">
-</a>
-
-<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
-  <img class="icon" src="marzipano/img/up.png">
-</a>
-<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
-  <img class="icon" src="marzipano/img/down.png">
-</a>
-<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
-  <img class="icon" src="marzipano/img/left.png">
-</a>
-<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
-  <img class="icon" src="marzipano/img/right.png">
-</a>
-<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
-  <img class="icon" src="marzipano/img/plus.png">
-</a>
-<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
-  <img class="icon" src="marzipano/img/minus.png">
-</a>
-
-<script src="marzipano/vendor/es5-shim.js"></script>
-<script src="marzipano/vendor/eventShim.js"></script>
-<script src="marzipano/vendor/classList.js"></script>
-<script src="marzipano/vendor/requestAnimationFrame.js" ></script>
-<script src="marzipano/vendor/screenfull.min.js" ></script>
-<script src="marzipano/vendor/bowser.min.js" ></script>
-<script src="marzipano/vendor/marzipano.js" ></script>
-
-<script src="mtour.js"></script>
-<script src="mindex.js"></script>
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light"></h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/background_oficinas.jpg" alt="Unsplashed background img 2"></div>
+</div>
 
 
-<script src="materialize/jquery-2.1.1.min.js"></script>
-<script src="materialize/materialize.min.js"></script>
-<script src="materialize/init.js"></script>
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light"></h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/background_contatos.jpg" alt="Unsplashed background img 2"></div>
+</div>
+
+<!-- contatos -->
+<section  id="contactos">
+  <div class="container"><br>
+    <div class="section"><br>
+      <h3 class="center section-title">Os nossos <b>contactos</b>...</h3>
+      <div class="row">
+        <div class="col s12 m6">
+          <p class="flow-text">
+          A equipa do PAV pode ser contactada de várias formas. Envia um email e prometemos que será mesmo lido por uma pessoa que responderá
+          logo que possível ;) </p>
+
+        </div>
+        <div class="col s12 m5 card-panel offset-m1">
+          <p><b>Polo Arqueológico de Viseu</b><br>
+                        Casa do Miradouro<br>
+                        Largo António José Pereira<br>
+                        Viseu 3500-080 Portugal
+            </p>
+            <p class=" breakmail">
+              <span class="project-info">Telefone</span>  232 425 388 <br>
+              <span class="project-info offset-s6">Email</span>  casadomiradouro[AT]cmviseu[DOT]pt<br>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="section"><br>
+        <h3 class="center section-title">e <b>onde</b> estamos.</h3>
+        <div class="row">
+      <!--Mapa-->
+        <div class=" center s12">
+        <iframe width="100%" height="500px" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/pt-br/map/casa-do-miradouro_438467?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=true&tilelayersControl=true&embedControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=true&locateControl=true&editinosmControl=false"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- fim de contatos -->
+</main>
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light"></h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/background_footer.jpg" alt="Unsplashed background img 2"></div>
+</div>
+
+  <footer class="" >
+    <div class="container">
+    <div class="row">
+        <div class="col s6">
+          <br><img src="img/viseu/pav.png" class="logo_footer responsive-img" style="max-width: 300px;" alt="Polo Arqueológico de Viseu"></a>
+        </div>
+          <div class="col s6 right-align"><br>
+            <a href="https://www.cm-viseu.pt/" target="_blank" ><img src="img/viseu/cm-viseu.png" class="right-align logos_footer responsive-img" style="max-width: 200px;" alt="Município de Viseu"></a>
+          <br><a href="https://viseupatrimonio.pt/" target="_blank" ><img src="img/viseu/viseu-patrimonio.png" class="right-align logos_footer responsive-img" style="max-width: 200px;" alt="Viseu Património"></a>
+      </div>
+  </div>
+</div>
+
+    <div class="footer-copyright">
+      <div class="container center-align">
+      2020 | Polo Arqueológico de Viseu
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+    <script src="js/init.js"></script>
 
 
-</body>
+
+  <script>
+   var cavalinhoReveal = {
+    origin  : 'left',
+    delay    : 400,
+    reset    : true,
+    easing   : 'ease-in-out',
+    scale    : .1
+   };
+
+   var raposinhaReveal = {
+    origin  : 'left',
+    delay    : 300,
+    reset    : true,
+    easing   : 'ease-in-out',
+    scale    : .1
+   };
+
+   var mamuteReveal = {
+    origin  : 'right',
+    delay    : 200,
+    reset    : true,
+    easing   : 'ease-in-out',
+    scale    : .1
+   };
+
+   window.sr = ScrollReveal()
+     .reveal( '.cavalinho', cavalinhoReveal )
+     .reveal( '.mamute', mamuteReveal )
+     .reveal( '.raposinha', raposinhaReveal );
+</script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+     $(window).scroll(function(){
+
+       if($(window).scrollTop()>300){
+         $('nav').addClass('nonTopNav');
+       }else{
+         $('nav').removeClass('nonTopNav');
+       }
+     });
+});
+</script>
+
+  </body>
 </html>
