@@ -9,7 +9,7 @@ var APP_DATA = {
                     "icon": "pmicons/winfo.png",
                     "pitch": -0.14072470554946293,
                     "rotation": 0,
-                    "text": "texto <p>aaas</p><ul><li>uuu</li><li>uhuh</li></ul>",
+                    "text": "[em falta; pedi texto ao PS]",
                     "title": "Ficha Técnica",
                     "yaw": 3.0843585334242114
                 }
@@ -70,14 +70,27 @@ var APP_DATA = {
                     "yaw": -1.0925391409364469,
                     "pitch": -0.2156984479139794,
                     "rotation": 0,
-                    "text": "Sentido da Vida",
+                    "text": "<h1>O sentido da vida</h1>\
+                    O lema do Doutor José Coelho, aequo animo (com serenidade), espelha de uma forma clara a sua personalidade. Caracterizada pela inteligência, curiosidade, honestidade e paixão, a sua vida pautou-se por uma intensa actividade profissional e social.\
+                    Nascido a 5 de Maio de 1887, em Travassós de Cima, filho de António Coelho e de Esperança Jesus, foi batizado na Sé de Viseu. Após terminar os seus estudos no Liceu de Viseu (era onde é hoje o Museu Grão Vasco), casa aos 22 anos, com Maria Angelina da Conceição, resultando desta união três filhos. Ingressou na Universidade de Lisboa, onde concluiu, em 1912, o Curso de Ciências Históricas e Geográficas, regressando a Viseu onde foi nomeado professor.\
+                    Como cidadão, atento às questões da vida quotidiana de Viseu, nunca se coibiu de ter uma intervenção pública, assumindo funções como vereador em 1914, tendo sido designado para a comissão responsável pela instalação do Museu Regional, projecto que defendia desde 1912.\
+                    Adepto de uma pedagogia activa, promoveu sistematicamente visitas de estudo com os seus alunos, tendo sido nomeado Reitor do Liceu de Viseu em 1919.\
+                    Em 1937, por questões políticas (não assinou carta de apoio ao Doutor António de Oliveira Salazar aquando de um atentado à bomba numa deslocação de comboio até Santa Comba Dão), foi compulsivamente afastado da docência, tendo sido reintegrado no ensino apenas em 1951.\
+                    No entanto, a sua verdadeira paixão era ser arqueólogo. Embora ficasse fascinado sempre que se deparava com um achado arqueológico, o seu verdadeiro desafio era perceber o porquê desses vestígios.\
+                    Era extremamente meticuloso nos registos que fazia e perspicaz na interpretação dos dados. Deste modo, granjeou o reconhecimento nacional e internacional, relacionando-se com alguns dos melhores arqueólogos da época.\
+                    SABER + \
+                    Para saber mais sobre a vida de José Coelho [link para storymap da vida de JC]",
                     "title": "O Sentido da Vida",
                 },
                 {
                   "yaw": 0.6849900800145861,
                   "pitch": -0.33687056826988737,
                   "title": "Os Cadernos<br>",
-                  "text": "Text",
+                  "text": "Os cadernos de notas arqueológicas\
+                  De 1916 a 1968, o Doutor José Coelho, manteve um registo constante e minucioso das suas pesquisas arqueológicas e históricas, bem como do quotidiano da época e até anotações de cariz pessoal e familiar.\
+                  Os textos científicos que publicou ao longo da sua vida partiam quase sempre de anotações nos seus 153 Cadernos de Notas Arqueológicas, que citava expressamente como fonte de informação.\
+                  Os Cadernos de Notas Arqueológicas são, pois, uma janela aberta para a vida e obra do Doutor José Coelho, mas também para a vivência da cidade de Viseu durante a primeira metade do século XX, descrevendo-os, em 1941, assim:\
+                  \"São registos, dia-a-dia, em cadernos de 0.10m por 0.15m, com 60 ou 80 folhas. Contêm notas várias, que interessaram ao autor, esboços de monumentos, objectos e assuntos arqueológicos, históricos e artísticos, heráldicos, genealógicos, paleográficos, epigráficos, etnográficos, etc.\"",
                     "icon": "pmicons/winfo.png",
                     "rotation": 0,
                 },
@@ -86,7 +99,15 @@ var APP_DATA = {
                     "yaw": 1.4766438224857108,
                     "pitch": -0.23057137681559858,
                     "rotation": 0,
-                    "text": "Publicações",
+                    "text": "As publicações\
+                    Uma das mais fascinantes virtudes do Doutor José Coelho foi a sua preocupação em dar a conhecer os seus estudos e descobertas. Graças a esse enorme esforço, podemos hoje contar com mais de cinquenta títulos publicados da sua autoria, ferramentas imprescindíveis para a construção do Passado Regional.\
+                    Atento ao pormenor e rigoroso com a verdade histórica, este investigador publicou os resultados dos seus trabalhos em dezenas de artigos nos periódicos de Viseu (Povo Beirão, Comércio de Viseu, A Voz da Verdade, Eco de Viseu, Distrito de Viseu e Política Nova), nos jornais regionais (Renascimento, Defesa da Beira, entre outros) e nacionais (Diário de Notícias, Século, Novidades, República, Comércio do Porto, Diário de Coimbra).\
+                    Foi igualmente escritor assíduo de algumas revistas da especialidade (O Instituto, Ethnos e Beira Alta), tendo publicado muitos artigos em atas de Congressos.\
+                    Destaque especial para as edições de autor, geralmente as monografias que exigiram mais investimento e empenho, verdadeiras obras-primas do saber da época (A Préhistória e o seu ensino Mamaltar do Vale de Fachas, A Necrópole de Paranho, Policromia Megalítica, Memórias de Viseu (Arredores)).\
+                    Não podemos deixar de transcrever uma passagem sua extraída das Memórias de Viseu (1941), quando o Doutor José Coelho atravessou um dos momentos mais difíceis da sua vida após ter sido afastado do ensino:\
+                    “O que aqui está é produto de muito trabalho, honrado e foi realizado nas horas que outros gastam na ociosidade ou roubadas do descanso nocturno, (…). Este trabalho tem sido no entanto para mim um refúgio neste período de tribulações, um lenitivo espiritual, fazendo-nos pairar a alma muito acima das misérias morais e sociais e lamentáveis nos tempos que vão decorrendo.”\
+                    SABER +\
+                    Lista de publicações de José Coelho [link para bibliografia de José Coelho - Zotero?]",
                     "title": "As Publicações",
                 }
             ],
@@ -194,7 +215,9 @@ var APP_DATA = {
                     "yaw": -0.3835342674347082,
                     "pitch": 0.6341364617708791,
                     "rotation": 0,
-                    "text": "qq",
+                    "text": "O PAV tem em acervo 144 dos Caderno de Notas Arqueológicas, quepodem ser consultados na Casa do Miradouro. Está em curso um projeto de digitalização e disponibilização online dos documentos.\
+                    SABER + \
+                    Os144 Cadernos de Notas Arqueológica [link para lista de cadernos por datas com indicação de procedimento para pedido de consulta? A substituir por link para projeto]",
                     "title": "Cadernos",
                 },
                 {
@@ -202,8 +225,8 @@ var APP_DATA = {
                     "yaw": 0.7795547476748883,
                     "pitch": 0.5814680300370085,
                     "rotation": 0,
-                    "text": "ss",
-                    "title": "dobradiças",
+                    "text": "Dobradiças de porta, em bronze, de época Romana.",
+                    "title": "Dobradiças",
                 },
                 {
                     "icon": "pmicons/winfo.png",
@@ -218,8 +241,8 @@ var APP_DATA = {
                     "yaw": 0.7637182267419469,
                     "pitch": 0.2560205676895464,
                     "rotation": 0,
-                    "text": "canaliza",
-                    "title": "canaliza",
+                    "text": "Manilha de cerâmica, em forma de cilindro oco, parte de uma canalização de água de época Romana.",
+                    "title": "Canalizações",
                 }
             ],
             "initialViewParameters": {
@@ -294,7 +317,7 @@ var APP_DATA = {
                     "yaw": -0.6454738241630018,
                     "pitch": -0.32996914180309567,
                     "rotation": 0,
-                    "text": "ss",
+                    "text": "Uma amostra é uma pequena quantidade de um material, que se recolhe para ser analisado em detalhe. Pode ser parte das terras da escavação contendo restos de objetos e de materiais naturais, só identificáveis em laboratório. Estes restos, e as características das terras, ajudam a compreender melhor a história dos sítios arqueológicos e das pessoas que os ocuparam.",
                     "title": "Amostras",
                 },
                 {
@@ -302,7 +325,7 @@ var APP_DATA = {
                     "yaw": 0.4897249616489301,
                     "pitch": -0.12302991106440331,
                     "rotation": 0,
-                    "text": "sss",
+                    "text": "“NB: todos estes objetos fazem parte da minha coleção inclusive amostras de terra contidas nas sistas ou todas as contidas nos vasos das sistas que as continham...” Caderno de Notas Arqueológica nº 1 [falta numero de folha e data]",
                     "title": "Transcreve",
                 },
                 {
@@ -310,7 +333,8 @@ var APP_DATA = {
                     "yaw": -0.18081360579017947,
                     "pitch": 0.653060785947293,
                     "rotation": 0,
-                    "text": "",
+                    "text": "[+foto de pormenor de uma das caixas (com transcrição da etiqueta?)]\
+Caixas de cartão contendo amostras de elementos naturais e de terra,recolhidos por José Coelho durante as escavações.",
                     "title": "caixa2",
                 },
                 {
@@ -394,7 +418,9 @@ var APP_DATA = {
                     "yaw": 0.9432097530005308,
                     "pitch": 0.085939208150835,
                     "rotation": 0,
-                    "text": "aa",
+                    "text": "As escavações arqueológicas – o cuidado com o pormenor\
+                    Entre 1912 e 1917, o Doutor José Coelho levou a cabo explorações arqueológicas em três monumentos que identificou. No Concelho de Viseu, intervencionou, em 1912, o dólmen de Mamaltar do Vale de Fachas, em Rio de Loba, e os dólmens da Pedralta, em Côta, verdadeiros ícones do megalitismo beirão. Em 1917, no Concelho de Tondela, estuda a Necrópole de Paranho, na freguesia de Molelos, um dos mais singulares cemitérios da Idade do Bronze do País. Os resultados obtidos são marcos\ essenciais no estudo da arqueologia regional e nacional.\
+                    A atenção e o esmero com que registava o que ia encontrando, ficaram para sempre mencionados não apenas nos seus Cadernos de Notas Arqueológicas, como em imensos artigos e monografias.",
                     "title": "As escavações arqueológicas",
                 },
                 {
@@ -542,7 +568,10 @@ var APP_DATA = {
                     "yaw": -0.9968900077983527,
                     "pitch": -0.278632882663441,
                     "rotation": 0,
-                    "text": "",
+                    "text": "Necrópole de Paranho\
+                    Entre Agosto e Setembro de 1917, o Doutor José Coelho descobre este monumento na freguesia de Molelos, Concelho de Tondela, cujos resultados publica em 1925.\
+                    A sua cuidada escavação e meticuloso registo, permitiu que 80 anos depois fossem feitas análises aos ossos e carvões, tendo estas revelado importantes resultados.\
+                    Pese embora não se conheça o sítio exacto desta Necrópole, sabe-se que era um cemitério erigido e utilizado entre o século XII a.C. e os finais do século XI a.C. (c. de 1150-1000 a.C.). Era constituído por um recinto de pedras, semicircular, com cerca de 5m de diâmetro, no interior do qual se encontravam seis cistas (caixas em pedra) de pequenas dimensões. No interior de algumas delas, eram colocados vasos que funcionavam como urnas, onde se depositavam os restos de ossos e\ carvões dos corpos incinerados, com os seus pertences, como é o exemplo da bracelete exposta.",
                     "title": "Texto da parede",
                 },
                 {
@@ -550,7 +579,8 @@ var APP_DATA = {
                     "yaw": 0.6666196664189634,
                     "pitch": 0.1067220326586309,
                     "rotation": 0,
-                    "text": "",
+                    "text": "[+ modelo de urna cerâmica]\
+Vasos cerâmicos utilizados para conter os restos das cremações.",
                     "title": "vasos",
                 },
                 {
@@ -558,7 +588,7 @@ var APP_DATA = {
                     "yaw": 0.34911830539778066,
                     "pitch": -0.13928721627219254,
                     "rotation": 0,
-                    "text": "",
+                    "text": "José Coelho, A Necrópole do Parânho, Estudos Preistoricos, volume 3, Viseu: Tipografia Popular, 1925.",
                     "title": "imagem ref",
                 },
                 {
@@ -566,7 +596,8 @@ var APP_DATA = {
                     "yaw": -0.6020238334353465,
                     "pitch": 0.3966004456842249,
                     "rotation": 0,
-                    "text": "",
+                    "text": "[+ fotografia de tampa da caixa de amostras]\
+Caixa da Confeitaria Santa Rita, em Viseu, reutilizada por José Coelho para guardar terras da escavação da Necrópole do Paranho.",
                     "title": "Caixa com Amostras",
                 },
                 {
@@ -666,7 +697,10 @@ var APP_DATA = {
                     "yaw": -0.9911945853390272,
                     "pitch": -0.2572388236053307,
                     "rotation": 0,
-                    "text": "",
+                    "text": "Mamaltar do Vale de Fachas\
+                    Foi descoberto e escavado em Dezembro de 1911 pelo Doutor José Coelho, que o dá a conhecer, em 1912, na monografia “A Pré-história e o seu ensino”.\
+                    É um típico dólmen de corredor da Beira Alta com câmara poligonal e corredor longo, ostentando ainda a mamoa bem preservada. Uma das particularidades deste monumento são os vestígios de pintura a vermelho em dois dos seus esteios.\
+                    Do espólio que este investigador exumou destaque especial para uma placa votiva com motivos pintados a vermelho que estaria suspensa no pescoço de um defunto. Embora se insira na tradição das placas-ídolo do sul da Península Ibérica, trata-se de uma peça sem paralelo no megalitismo europeu.",
                     "title": "texto da parede",
                 },
                 {
@@ -674,7 +708,8 @@ var APP_DATA = {
                     "yaw": -0.6052961308025591,
                     "pitch": 0.18725900327391543,
                     "rotation": 0,
-                    "text": "",
+                    "text": "[+ modelo de vaso cerâmico]\
+A produção de recipientes em cerâmica é uma tecnologia que surge na época em que se construiu Mamaltar de Vale de Fachas.",
                     "title": "vaso",
                 },
                 {
@@ -682,7 +717,7 @@ var APP_DATA = {
                     "yaw": -0.4700492241870098,
                     "pitch": 0.5328729767068516,
                     "rotation": 0,
-                    "text": "",
+                    "text": "As lâmina são instrumentos mais longos que estreitos, com dois gumes cortantes opostos, produzidas a partir de um nódulo de pedra (silex). Os micrólitos, produzidos a partir das lâminas, eram cravados num cabo de madeira formando um fio cortante “denteado”.",
                     "title": "laminas",
                 },
                 {
@@ -690,7 +725,7 @@ var APP_DATA = {
                     "yaw": 0.013942221955005607,
                     "pitch": 0.6074396810964675,
                     "rotation": 0,
-                    "text": "",
+                    "text": "Placa em pedra, com duas perfurações numa das extremidades e linhas onduladas pintadas a vermelho.",
                     "title": "placa",
                 },
                 {
@@ -698,7 +733,7 @@ var APP_DATA = {
                     "yaw": 0.28247953958725347,
                     "pitch": 0.6103577034574137,
                     "rotation": 0,
-                    "text": "",
+                    "text": "Pequenos discos de xisto, com uma perfuração central. A sua forma sugere tratarem-se de contas de adorno.",
                     "title": "contas",
                 },
                 {
@@ -798,7 +833,13 @@ var APP_DATA = {
                     "yaw": 0.9455595780702168,
                     "pitch": -0.25984094923627765,
                     "rotation": 0,
-                    "text": "",
+                    "text": "Antas da Pedralta\
+                    Em 1924, o Doutor José Coelho publica um dos seus mais importantes trabalhos, a monografia “Policromia Megalítica”, onde descreve com exaustão os resultados das explorações que fez nos inícios de Agosto de 1912 em dois dólmens da freguesia de Côta, Concelho de Viseu, a Antela e a Anta Maior, no sítio da Pedralta.\
+                    Estes trabalhos arqueológicos possibilitaram a descoberta de pinturas a vermelho e preto em alguns dos esteios da Anta Maior, sendo o Doutor José Coelho o primeiro arqueólogo a divulgar um dos mais valiosos patrimónios da Beira Alta: a arte pintada megalítica.\
+                    Os esteios pintados mostram triângulos sobrepostos e ramiformes a vermelho, delineados a preto sobre um fundo branco. A gramática decorativa e a técnica apurada com que foram feitas fazem deste dólmen uma referência a nível mundial.\
+                    SABER +\
+                    A Antela e a Anta Maior, no sítio da Pedralta [link para localização?]\
+                    <a href='https://www.researchgate.net/publication/322665516_Gravuras_e_pinturas_em_dolmenes_O_Grupo_de_Viseu_de_E_Shee_1981_trinta_anos_depois'>A Arte Megalítica da Beira Alta</a>",
                     "title": "texto da parede",
                 },
                 {
@@ -806,7 +847,8 @@ var APP_DATA = {
                     "yaw": -0.6228558801329527,
                     "pitch": 0.32826743781072487,
                     "rotation": 0,
-                    "text": "",
+                    "text": "[+ modelo de vaso cerâmico]\
+O desenho de peças arqueológicas permite, a partir de poucosfragmentos,propor uma reconstituição da forma original do objeto.",
                     "title": "vasos",
                 },
                 {
@@ -814,7 +856,8 @@ var APP_DATA = {
                     "yaw": 0.062142284861291586,
                     "pitch": 0.5741403926250523,
                     "rotation": 0,
-                    "text": "",
+                    "text": "[+ fotografia da etiqueta??]\
+[falta texto]",
                     "title": "caixa",
                 },
                 {
@@ -822,7 +865,7 @@ var APP_DATA = {
                     "yaw": 0.5254086642314455,
                     "pitch": 0.3310376632950689,
                     "rotation": 0,
-                    "text": "",
+                    "text": "Lâmina em silex, usada para cortar com precisão; goiva em filádio, utilizada para entalharmadeirae machado em ????. Estes três instrumentos de pedra teriam cabos de madeira.",
                     "title": "goiva",
                 },
                 {
@@ -838,7 +881,7 @@ var APP_DATA = {
                     "yaw": 0.33494045792649985,
                     "pitch": -0.12954014345201514,
                     "rotation": 0,
-                    "text": "",
+                    "text": "José Coelho, Policromia Megalítica, Estudos Preistoricos, volume 2, Viseu: Tipografia Popular, 1924.",
                     "title": "ref imagem",
                 },
                 {
@@ -846,7 +889,11 @@ var APP_DATA = {
                     "yaw": -0.05853463635935974,
                     "pitch": 0.3102771149679793,
                     "rotation": 0,
-                    "text": "",
+                    "text": "[+ imagem de levantamento das pinturas de JC + áudio com historieta JC vs MC?]\
+                    SABER +\
+                    Quem foi Mendes Correia [https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Mendes_Correia;\
+                    ouhttps://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=docentes%20e%20estudantes%20da%20primeira%20flup%20-%20ant%c3%b3nio%20mendes%20correia]\
+                    A história da descoberta e da publicação do achado[https://www.academia.edu/34578279/A_defesa_do_Patrim%C3%B3nio_Arqueol%C3%B3gico_em_confronto_na_segunda_d%C3%A9cada_do_s%C3%A9culo_XX_o_caso_do_d%C3%B3lmen_de_Pedralta_C%C3%B4ta_Viseu)",
                     "title": "imagem",
                 },
                 {
@@ -946,7 +993,10 @@ var APP_DATA = {
                     "yaw": 2.322311427370776,
                     "pitch": -0.3509668062267952,
                     "rotation": 0,
-                    "text": "",
+                    "text": "As peças arqueológicas – uma fonte de conhecimento\
+As peças que se exibem nesta sala são as mais emblemáticas da colecção arqueológica. Estas valem sobretudo pelo que representam, pois para além do valor estético de cada uma, revelam a passagem do homem e do tempo por determinados lugares, permitindo, assim, a identificação de sítios e monumentos arqueológicos.\
+Esta colecção foi formada não apenas pela recolha em prospecção de campo que o Doutor José Coelho regularmente fazia, como também através de ofertas dos seus alunos ou colegas de escola, tendo havido casos em que as adquiriu a suas expensas.\
+Para o Doutor José Coelho as peças contavam histórias, ajudavam-no a ler o passado.",
                     "title": "texto da parede",
                 },
                 {
@@ -1102,7 +1152,8 @@ var APP_DATA = {
                     "yaw": 0.436635145529058,
                     "pitch": -0.17633920417073412,
                     "rotation": 0,
-                    "text": "",
+                    "text": "Lápide emoldurada com inscrição do século XVI, Cepões, Viseu\
+Era de 1558, foi feita esta obra [pelo] Mestre Pedro Anes.",
                     "title": "dir",
                 },
                 {
@@ -1110,7 +1161,9 @@ var APP_DATA = {
                     "yaw": -0.4776355678409345,
                     "pitch": -0.1766834242690063,
                     "rotation": 0,
-                    "text": "",
+                    "text": "Pedra com inscrição, que estaria colocada na parede de um edifício, com identificação do mestre da obra.\
+SABER +\
+A história da lápide de Cepões [link para storymap ?]",
                     "title": "esq",
                 }
             ],
