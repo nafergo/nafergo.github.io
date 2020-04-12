@@ -37,7 +37,7 @@
 @media only screen and (min-width: 992px) {
   #mapa_imagem{width: 48%;height: 100%; float: left;margin-left: 2%;}
   #mapa_imagem img{max-width: 100%; height: auto;}
-  #mapa_texto{width: 48%;height: 100%; ;float: right;margin-right: 2%;line-height: 1.2em;color: white; padding-left: 2em;padding-right: 2em;}
+  #mapa_texto{width: 45%;height: 100%; ;float: right;margin-right: 2%;line-height: 1.2em;color: white; padding-left: 2em;padding-right: 2em;}
   #mapa_texto p {font-size: .7em; margin-bottom: .5em; font-family: 'Montserrat', sans-serif;}
   #mapa_texto h1 {font-family: 'Merriweather', serif; font-weight: 600;font-size: 1em; padding: 0.3em; text-transform: uppercase;background: #f44336;margin-bottom: 0.5em;}
 }
@@ -46,7 +46,7 @@
 @media only screen and (min-width: 1200px) {
 #mapa_imagem{width: 48%;height: 100%; float: left;margin-left: 2%;}
 #mapa_imagem img{max-width: 100%; height: auto;}
-#mapa_texto{width: 48%;height: 100%; ;float: right;margin-right: 2%;line-height: 1.2em;color: white; padding-left: 2em;padding-right: 2em;}
+#mapa_texto{width: 45%;height: 100%; ;float: right;margin-right: 2%;line-height: 1.2em;color: white; padding-left: 2em;padding-right: 2em;}
 #mapa_texto h1 {font-family: 'Merriweather', serif; font-weight: 600;font-size: 1.2em; padding: 0.5em; text-transform: uppercase;background: #f44336;margin-bottom: 0.5em;}
 #mapa_texto p {font-size: 1em; margin-bottom: 1em; font-family: 'Montserrat', sans-serif;}
 }
