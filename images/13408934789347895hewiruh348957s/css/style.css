@@ -6,7 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
-
 p {
   line-height: 2rem;
 }
@@ -110,9 +109,12 @@ nav {
     overflow: hidden;
 }
 
-.destaque{z-index: 9999; position:absolute; width: 50%;margin-left: 25%;margin-right: 25%;}
+.destaque{z-index: 998; position:absolute; width: 50%;margin-left: 25%;margin-right: 25%;}
 .destaque h1{color: #fff;font-size:3em ;text-transform: uppercase;font-weight: 600;line-height: 1.2em;}
 .destaque h3{color: #fff;font-size:3em ;text-transform: uppercase;font-weight: 400;line-height: 1.2em;}
+.destaquesmall{z-index: 998; position:absolute; width: 80%;margin-left: 10%;margin-right: 10%;}
+.destaquesmall h1{color: #fff;font-size:3em ;text-transform: uppercase;font-weight: 600;line-height: 1.2em;}
+.destaquesmall h3{color: #fff;font-size:3em ;text-transform: uppercase;font-weight: 400;line-height: 1.2em;}
 .scroll-link {font-size: 6em;opacity: .6;}
 .scroll-link:hover{opacity: 1;}
 

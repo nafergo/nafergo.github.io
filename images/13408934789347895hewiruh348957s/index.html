@@ -9,8 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,500,600,700,900" rel="stylesheet">
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/accordiontwo.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
+  <link href="css/accordionone.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 </head>
@@ -41,25 +40,26 @@
 
 <div id="header-pano" class="valign-wrapper">
  <iframe src="pano/index.html" height="100%" width="100%" frameborder="0" style="z-index: 100;"></iframe>
-    <div class="destaque center">
-      <h1>Bem-vind@s ao PAV360!</h1>
-      <h3>Descubra as nossas visitas virtuais ;)</h3>
-
+    <div class="destaque center hide-on-small-only">
+      <h1>Bem-vind@s ao PAV360</h1>
+      <h3>Descubra as nossas visitas virtuais!</h3>
       <a href="#sobre" class="pulselink white-text"><i class="material-icons scroll-link">keyboard_arrow_down</i></a>
-
+    </div>
+    <div class="destaquesmall center hide-on-med-and-up">
+      <h1>Bem-vind@s ao PAV360</h1>
+      <h3>Descubra as nossas visitas virtuais!</h3>
+      <a href="#sobre" class="pulselink white-text"><i class="material-icons scroll-link">keyboard_arrow_down</i></a>
     </div>
 </div>
-
-
 <!-- sobre -->
   <section  id="sobre">
     <div class="container"><br>
       <div class="section"><br>
-        <h3 class="center section-title">Sobre o <b>PAV 360</b></h3>
+        <h3 class="center section-title">Sobre o <b>PAV360</b></h3>
         <div class="row">
           <div class="col s12 m12 l6">
                 <p class="flow-text">
-                  O <span class="thick">PAV 360</span> é um projeto do Polo Arqueológico de Viseu (PAV).
+                  O <span class="thick">PAV360</span> é um projeto do Polo Arqueológico de Viseu (PAV).
                 </p>
                   <p class="flow-text">
                     O Polo Arqueológico de Viseu (PAV) é o centro operacional da Câmara Municipal de Viseu para a Arqueologia. Agrega os recursos dedicados a esta área e promove o interesse sobre o património arqueológico enquanto objeto de investigação e elemento de fruição cultural.
@@ -83,29 +83,45 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="img/background_comunidade.jpg" alt=""></div>
+  <div class="parallax"><img src="img/cm.jpg" alt="Casa do Miradouro"></div>
 </div>
 
-<!-- comunidade -->
+<!-- visitas -->
 <section  id="visitas">
   <div class="container"><br>
     <div class="section"><br>
       <h3 class="center section-title">As <b>visitas</b> </h3>
 
+      <div class="row">
 
-<div class="row">
-
-    <div class="gallery-wrap">
-      <div class="item item-1 center wrapper-projeto"><p class="flow-text center-align">Coleção
-         Arqueológica José Coelho<br><br><a href="indexcajc.html" class="waves-effect waves-light blue btn-large">ENTRAR</a></p>
+      <div class="accordion col s12 center">
+        <ul>
+          <li>
+            <div>
+              <a href="/cajc/">
+                <h2>Coleção Arqueológica José Coelho</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="/cm/">
+                <h2>Casa do Miradouro</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="/jccidade/">
+                <h2>José Coelho na Cidade</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </a>
+            </div>
+          </li>
+        </ul>
       </div>
-      <div class="item item-2  wrapper-projeto"><p class="flow-text">Casa do Miradouro
-      <br><br><a class="waves-effect waves-light blue btn-large">ENTRAR</a></p>
-      </div>
-      <div class="item item-3  wrapper-projeto"><p class="flow-text">José Coelho na Cidade
-        <br><br><a class="waves-effect waves-light blue btn-large">ENTRAR</a></p>
-      </div>
-    </div>
 
 </div>
 
@@ -124,19 +140,7 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="img/background_oficinas.jpg" alt="Unsplashed background img 2"></div>
-</div>
-
-
-<div class="parallax-container valign-wrapper">
-  <div class="section no-pad-bot">
-    <div class="container">
-      <div class="row center">
-        <h5 class="header col s12 light"></h5>
-      </div>
-    </div>
-  </div>
-  <div class="parallax"><img src="img/background_contatos.jpg" alt="Unsplashed background img 2"></div>
+  <div class="parallax"><img src="img/projetos.jpg" alt="Experiência VR"></div>
 </div>
 
 <!-- contatos -->
@@ -187,7 +191,7 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="img/background_footer.jpg" alt="Unsplashed background img 2"></div>
+  <div class="parallax"><img src="img/background_footer.jpg" alt="Jardins da Casa do Miradouro"></div>
 </div>
 
   <footer class="" >
