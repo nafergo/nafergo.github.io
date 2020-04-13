@@ -6,75 +6,211 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
 <style> @-ms-viewport { width: device-width; } </style>
-<link rel="stylesheet" href="marzipano/vendor/reset.min.css">
-<link rel="stylesheet" href="marzipano/style.css">
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="stylealt.css">
+
+<link rel="stylesheet" href="plugin/leaflet/dist/leaflet.css" />
+<script src="plugin/leaflet/dist/leaflet.js"></script>
+<link rel="stylesheet" href="modal/jquery.modal.min.css" />
+
+<link rel="stylesheet" href="pav.css">
+<link rel="stylesheet" href="jccidade.css">
 </head>
 <body class="multiple-scenes view-control-buttons">
-
 <div id="pano"></div>
 
 <div id="sceneList">
   <ul class="scenes">
-<a href='#' class='scene' data-id='Fachada'><li class='text'>Fachada</li></a>
-<a href='#' class='scene' data-id='Jardim1'><li class='text'>Jardim</li></a>
-<a href='#' class='scene' data-id='Lateral'><li class='text'>Lateral</li></a>
-<a href='#' class='scene' data-id='Posterior'><li class='text'>Posterior</li></a>
-<a href='#' class='scene' data-id='Jardim2'><li class='text'>Jardim 2</li></a>
-<a href='#' class='scene' data-id='Jardim3'><li class='text'>Jardim 3</li></a>
-<a href='#' class='scene' data-id='Jardim4'><li class='text'>Jardim 4</li></a>
-<a href='#' class='scene' data-id='Jardim5'><li class='text'>Jardim 5</li></a>
+  <a href="../index.html" class="scene pav-title" data-id="">
+    <li class="text">PAV360</li>
+  </a>
+<a href='#' class='scene' data-id='0-fachada-principal'><li class='text'>Fachada principal</li></a>
+<a href='#' class='scene' data-id='1-jardim-1'><li class='text'>Jardim 1</li></a>
+<a href='#' class='scene' data-id='2-fachada-lateral'><li class='text'>Fachada Lateral</li></a>
+<a href='#' class='scene' data-id='3-fachada-posterior'><li class='text'>Fachada Posterior</li></a>
+<a href='#' class='scene' data-id='4-jardim-2'><li class='text'>Jardim 2</li></a>
+<a href='#' class='scene' data-id='5-jardim-3'><li class='text'>Jardim 3</li></a>
+<a href='#' class='scene' data-id='6-jardim-4'><li class='text'>Jardim 4</li></a>
+<a href='#' class='scene' data-id='7-jardim-5'><li class='text'>Jardim 5</li></a>
 
   </ul>
 </div>
 
 <div id="titleBar">
-  <h1 class="sceneName"></h1>
+  <div class="sceneName"></div>
 </div>
 
-<a href="#" id="autorotateToggle">
-  <img class="icon off" src="marzipano/img/play.png">
-  <img class="icon on" src="marzipano/img/pause.png">
+<div id="floorBar">
+    <div id="mapid"></div>
+</div>
+<div id="mapToggle" onclick="toggleFloor()" class="modal_right modali">
+  <img class="icon" src="img/map.svg">
+</div>
+
+
+
+
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
 </a>
 
-<a href="#" id="fullscreenToggle">
-  <img class="icon off" src="marzipano/img/fullscreen.png">
-  <img class="icon on" src="marzipano/img/windowed.png">
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
 </a>
 
-<a href="#" id="sceneListToggle">
-  <img class="icon off" src="marzipano/img/expand.png">
-  <img class="icon on" src="marzipano/img/collapse.png">
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
 </a>
 
-<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
-  <img class="icon" src="marzipano/img/up.png">
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
 </a>
-<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
-  <img class="icon" src="marzipano/img/down.png">
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
 </a>
-<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
-  <img class="icon" src="marzipano/img/left.png">
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
 </a>
-<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
-  <img class="icon" src="marzipano/img/right.png">
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
 </a>
-<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
-  <img class="icon" src="marzipano/img/plus.png">
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
 </a>
-<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
-  <img class="icon" src="marzipano/img/minus.png">
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
 </a>
 
-<script src="marzipano/vendor/es5-shim.js"></script>
-<script src="marzipano/vendor/eventShim.js"></script>
-<script src="marzipano/vendor/classList.js"></script>
-<script src="marzipano/vendor/requestAnimationFrame.js" ></script>
-<script src="marzipano/vendor/screenfull.min.js" ></script>
-<script src="marzipano/vendor/bowser.min.js" ></script>
-<script src="marzipano/vendor/marzipano.js" ></script>
 
-<script src="mtour.js"></script>
-<script src="mindex.js"></script>
+
+
+<div id='historia_da_casa' class='modal'>
+  <iframe width='560' height='315' src='https://www.youtube.com/embed/_4ycjcntefE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
++ inserir áudio/ vídeo de apresentação da casa – pedir ML
+</div>
+
+
+
+
+<a href="#ficha" class="modal_left modali" rel="modal:open"><img class="icon" src="img/settings-24px.svg"></a>
+<div id="ficha" class="modal">
+
+  <div class="div_container">
+      <div class="divleft">
+      <h2>um título yuoi</h2>
+      <p>e um texto</p>
+
+
+      </div>
+
+      <div class="divright">
+      <h1>um título yuoi</h1>
+      <p>e um texto</p>
+      </div>
+
+  </div>
+</div>
+
+
+
+
+<script>
+var mymap = L.map('mapid').setView([40.66079, -7.91085], 19);
+var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap);
+function fmarker0() {
+  switchScene(scenes[0]);
+}
+var marker0 = L.marker([40.66066, -7.91074]).addTo(mymap);
+marker0.on('click', fmarker0 );
+
+function fmarker1() {
+  switchScene(scenes[1]);
+}
+var marker1 = L.marker([40.66059, -7.91081]).addTo(mymap);
+marker1.on('click', fmarker1 );
+
+function fmarker2() {
+  switchScene(scenes[2]);
+}
+var marker2 = L.marker([40.66069, -7.91105]).addTo(mymap);
+marker2.on('click', fmarker2 );
+
+function fmarker3() {
+  switchScene(scenes[3]);
+}
+var marker3 = L.marker([40.66093, -7.91088]).addTo(mymap);
+marker3.on('click', fmarker3 );
+
+function fmarker4() {
+  switchScene(scenes[4]);
+}
+var marker4 = L.marker([40.66058, -7.91095]).addTo(mymap);
+marker4.on('click', fmarker4 );
+
+function fmarker5() {
+  switchScene(scenes[5]);
+}
+var marker5 = L.marker([40.66052, -7.91111]).addTo(mymap);
+marker5.on('click', fmarker5 );
+
+function fmarker6() {
+  switchScene(scenes[6]);
+}
+var marker6 = L.marker([40.66052, -7.91093]).addTo(mymap);
+marker6.on('click', fmarker6 );
+
+function fmarker7() {
+  switchScene(scenes[7]);
+}
+var marker7 = L.marker([40.66045, -7.91111]).addTo(mymap);
+marker7.on('click', fmarker7 );
+</script>
+
+
+
+<script src="mapa/jquery.min.js"></script>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="vtindex.js"></script>
+
+<script src="modal/jquery.modal.min.js"></script>
+<script src="init.js"></script>
+
+<script>
+
+function toggleFloor() {
+  var x = document.getElementById("floorBar");
+  if (x.style.width === "0%") {
+    x.style.width = "30%";
+    x.style.opacity = "1.0";
+  } else {
+    x.style.opacity = "0.0";
+    setTimeout(closewidth, 500);
+  }
+}
+
+function closewidth() {
+  var x = document.getElementById("floorBar");
+  x.style.width = "0%";
+}
+</script>
+
+
 
 </body>
 </html>

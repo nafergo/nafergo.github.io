@@ -4,7 +4,7 @@ var APP_DATA = {
     "scenes": [
       {
           "faceSize": 3360,
-          "id": "Fachada",
+          "id": "0-fachada-principal1",
           "infoHotspots": [
               {
                   "icon": "pmicons/winfo.png",
@@ -28,7 +28,7 @@ var APP_DATA = {
                   "rotation": 0,
                   "text": "O brasão dos Melos foi acrescentado no século XVIII, quando a Casa pertencia a esta família.",
                   "title": "Brasão dos Melos",
-                  "yaw": 0.16037830498670003
+                  "yaw": 0.11037830498670003
               },
               {
                   "icon": "pmicons/winfo.png",
@@ -52,7 +52,7 @@ var APP_DATA = {
                   "rotation": 0,
                   "text": "No topo do portal, da casa mandada construir por Fernão Ortiz de Vilhegas, podemos ver o escudo de armas dos Ortizes.",
                   "title": "Escudo dos Ortizes",
-                  "yaw": 0.15234979042647778
+                  "yaw": 0.05234979042647778
               },
               {
                   "icon": "pmicons/winfo.png",
@@ -64,7 +64,7 @@ var APP_DATA = {
               },
               {
                   "icon": "pmicons/winfo.png",
-                  "pitch": -.41912336662864447,
+                  "pitch": 0.41912336662864447,
                   "rotation": 0,
                   "text": "A Casa do Miradouro foi mandada construir no século XVI, por Fernão Ortiz de Vilhegas, chantre da Sé de Viseu.",
                   "title": "Construção",
@@ -240,11 +240,11 @@ var APP_DATA = {
                 },
                 {
                     "icon": "pmicons/winfo.png",
-                    "pitch": -0.6284930637252223,
+                    "pitch": -0.2198160563538223,
                     "rotation": 0,
                     "text": "No primeiro piso da Torre abre-se uma janela de recorte manuelino.",
-                    "title": "Janela manuelina",
-                    "yaw": 1.3956001766619335
+                    "title": "Porta manuelina",
+                    "yaw": 0.5956001766619335
                 },
                 {
                     "icon": "pmicons/winfo.png",
