@@ -118,7 +118,7 @@ nav {
 .scroll-link {font-size: 6em;opacity: .6;}
 .scroll-link:hover{opacity: 1;}
 
-
+.destaque img{max-width: 80%; height: auto;}
 
 /* sobre */
 notused-sobre-img {max-width: 90% !important;}
@@ -133,5 +133,5 @@ ul.linkscontactos li {float: left;list-style-type: none;margin: 0 15px;line-heig
 /* footer */
 footer{background-color: #202020;color: #FFF;font-size: .8em;}
 .logo_footer {width: 90%;}
-.logos_footer {width: 50%;}
 .footer-copyright{background-color: #151515;font-size: .8em;text-transform: uppercase;color: #FFF;}
+.logos_footer {width: 90%; max-width: 200px; height: auto;}
