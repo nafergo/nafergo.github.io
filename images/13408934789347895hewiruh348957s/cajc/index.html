@@ -1,135 +1,149 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Polo Arqueológico de Viseu - PAV360 - Coleção Arqueológica José Coelho</title>
+<title>Polo Arqueológico de Viseu - PAV360 - José Coelho: a paixão pelo passado</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
 
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
- <!--link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet"-->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
 <style> @-ms-viewport { width: device-width; } </style>
-<link rel="stylesheet" href="marzipano/vendor/reset.min.css">
-<link rel="stylesheet" href="marzipano/style.css">
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="stylealt.css">
 
+<link rel="stylesheet" href="plugin/leaflet/dist/leaflet.css" />
+<script src="plugin/leaflet/dist/leaflet.js"></script>
 <link rel="stylesheet" href="modal/jquery.modal.min.css" />
 
 <link rel="stylesheet" href="pav.css">
-<link rel="stylesheet" href="mapa.css">
-
+<link rel="stylesheet" href="jccidade.css">
 </head>
-
 <body class="multiple-scenes view-control-buttons">
 
 <div id="pano"></div>
 
 <div id="sceneList">
   <ul class="scenes">
-<a href='#' class='scene main' data-id='Entrada'><li class='text'>Entrada</li></a>
-<a href='#' class='scene main' data-id='Sala1'><li class='text'>Sala 1</li></a>
-<a href='#' class='scene secondary' data-id='Sala1Registo'><li class='text'>Os Registos</li></a>
-<a href='#' class='scene secondary' data-id='Sala1Amostras'><li class='text'>As Amostras </li></a>
-<a href='#' class='scene main' data-id='Sala2'><li class='text'>Sala 2</li></a>
-<a href='#' class='scene secondary' data-id='Sala2Paranho'><li class='text'>Necrópole do Paranho</li></a>
-<a href='#' class='scene secondary' data-id='Sala2Mamaltar'><li class='text'>Mamaltar de Vale de Fachas</li></a>
-<a href='#' class='scene secondary' data-id='Sala2Pedralta'><li class='text'>Antas da Pedralta</li></a>
-<a href='#' class='scene main' data-id='Sala3'><li class='text'>Sala 3</li></a>
-<a href='#' class='scene secondary' data-id='Sala3Meso'><li class='text'>Até ao Neolítico</li></a>
-<a href='#' class='scene secondary' data-id='Sala3Bronze'><li class='text'>Idade do Bronze</li></a>
-<a href='#' class='scene secondary' data-id='Sala3Ferro'><li class='text'>Idade do Ferro</li></a>
-<a href='#' class='scene secondary' data-id='Sala3Roma'><li class='text'>Época Romana</li></a>
-<a href='#' class='scene secondary' data-id='Sala3Moinho'><li class='text'>Moinho manual</li></a>
-<a href='#' class='scene main' data-id='Sala3Varanda'><li class='text'>Varanda</li></a>
-<a href='#' class='scene main' data-id='Saida'><li class='text'>Saída</li></a>
+  <a href="../index.html" class="scene pav-title" data-id="">
+    <li class="text">PAV360</li>
+  </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="0-entrada">
+        <li class="text">Entrada</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="1-sala1">
+        <li class="text">Sala 1</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="2-sala-1-amostras">
+        <li class="text">As Amostras</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="3-sala-1-registos">
+        <li class="text">Os Registos</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="4-sala-2">
+        <li class="text">Sala 2</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="5-antas-da-pedralta">
+        <li class="text">Antas da Pedralta</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="6-mamaltar-de-vale-de-fachas">
+        <li class="text">Mamaltar de Vale de Fachas</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="7-necrpole-de-pedralta">
+        <li class="text">Necrópole do Paranho</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="8-sala--3">
+        <li class="text">Sala  3</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="9-10000ac-a-5000ac">
+        <li class="text">De 10000aC a 5000aC</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="10-5000ac-a-1000ac">
+        <li class="text">De 5000aC a 1000aC</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="11-1000ac-a-400dc">
+        <li class="text">De 1000aC a 400dC</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="12-poca-romana">
+        <li class="text">Época Romana</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="13-poca-romana">
+        <li class="text">Época Romana</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="14-varanda">
+        <li class="text">Varanda</li>
+      </a>
+
+      <a href="javascript:void(0)" class="scene" data-id="15-sada">
+        <li class="text">Saída</li>
+      </a>
+
   </ul>
 </div>
 
 <div id="titleBar">
-  <h1 class="sceneName"></h1>
+  <div class="sceneName"></div>
 </div>
 
-<a href="#" id="autorotateToggle">
-  <img class="icon off" src="marzipano/img/play.png">
-  <img class="icon on" src="marzipano/img/pause.png">
-</a>
-
-<a href="#" id="fullscreenToggle">
-  <img class="icon off" src="marzipano/img/fullscreen.png">
-  <img class="icon on" src="marzipano/img/windowed.png">
-</a>
-
-<a href="#" id="sceneListToggle">
-  <img class="icon off" src="marzipano/img/expand.png">
-  <img class="icon on" src="marzipano/img/collapse.png">
-</a>
-
-<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
-  <img class="icon" src="marzipano/img/up.png">
-</a>
-<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
-  <img class="icon" src="marzipano/img/down.png">
-</a>
-<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
-  <img class="icon" src="marzipano/img/left.png">
-</a>
-<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
-  <img class="icon" src="marzipano/img/right.png">
-</a>
-<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
-  <img class="icon" src="marzipano/img/plus.png">
-</a>
-<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
-  <img class="icon" src="marzipano/img/minus.png">
-</a>
-
-<a href="#mapa_modal" class="modal_right modali" rel="modal:open"><img class="icon" src="marzipano/img/explore-24px.svg"></a>
-<div id="mapa_modal" class="modal modaltransparente mapa_modal">
-  <div id="mapa_container">
-      <div id="mapa_imagem">
-      <img class="mapa-img" src="img/piso_1.jpg">
-      </div>
-      <div id="mapa_texto">
-          <h1>Sala 1</h1>
-          <p>Nesta sala ficamos a conhecer um pouco sobre a vida de José Coelho e sobre a sua relação com o Património, a Arqueologia e a História, matérias a que dedicou o seu tempo enquanto investigador, divulgador e defensor.</p>
-
-          <h1>Sala 2</h1>
-          <p>Na sala dedicada aos trabalhos de escavação descobrimos três sítios arqueológicos, as suas histórias de investigação e os objetos que José Coelho aí encontrou.</p>
-
-          <h1>Sala 3</h1>
-          <p>Nesta sala ficamos a conhecer um pouco sobre a vida de José Coelho e sobre a sua relação com o Património, a Arqueologia e a História, matérias a que dedicou o seu tempo enquanto investigador, divulgador e defensor.</p>
-
-      </div>
-  </div>
+<div id="floorBar">
+    <div id="mapid"></div>
 </div>
-
-<a href="#ficha" class="modal_left modali" rel="modal:open"><img class="icon" src="marzipano/img/settings-24px.svg"></a>
-<div id="ficha" class="modal">
-
-  <div class="div_container">
-      <div class="divleft">
-      <h2>um título yuoi</h2>
-      <p>e um texto</p>
-      </div>
-
-      <div class="divright">
-      <h1>um título yuoi</h1>
-      <p>e um texto</p>
-      </div>
-
-  </div>
+<div id="mapToggle" onclick="toggleFloor()" class="modal_right modali">
+  <img class="icon" src="img/map.svg">
 </div>
 
 
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
 
-<div id='123ficha_tecnica' class='modal'>
-  <h1>FICHa.....</h1>
-  <p>oiou ioju</p>
-  <iframe width='560' height='315' src='https://www.youtube.com/embed/_4ycjcntefE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
 
-</div>
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
 
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+
+<!--modals -->
 <div id="o_sentido_da_vida" class="modal">
   <h1>O sentido da vida</h1>
   O lema do Doutor José Coelho, aequo animo (com serenidade), espelha de uma forma clara a sua personalidade. Caracterizada pela inteligência, curiosidade, honestidade e paixão, a sua vida pautou-se por uma intensa actividade profissional e social.
@@ -164,8 +178,13 @@ Lista de publicações de José Coelho [link para bibliografia de José Coelho -
 </div>
 
 <div id="as_amostras" class="modal">
-  <h1>As publicações</h1>
+  <h1>As Amostras</h1>
 <p>Uma amostra é uma pequena quantidade de um material, que se recolhe para ser analisado em detalhe. Pode ser parte das terras da escavação contendo restos de objetos e de materiais naturais, só identificáveis em laboratório. Estes restos, e as características das terras, ajudam a compreender melhor a história dos sítios arqueológicos e das pessoas que os ocuparam.</p>
+</div>
+
+<div id="caixa_amostras" class="modal">
+  <h1>Caixas Amostras</h1>
+<p>[+foto de pormenor de uma das caixas (com transcrição da etiqueta?)]Caixas de cartão contendo amostras de elementos naturais e de terra,recolhidos por José Coelho durante as escavações.</p>
 </div>
 
 <div id="cadernos_notas" class="modal">
@@ -217,7 +236,7 @@ Estes trabalhos arqueológicos possibilitaram a descoberta de pinturas a vermelh
 Os esteios pintados mostram triângulos sobrepostos e ramiformes a vermelho, delineados a preto sobre um fundo branco. A gramática decorativa e a técnica apurada com que foram feitas fazem deste dólmen uma referência a nível mundial.\
 SABER +\
 A Antela e a Anta Maior, no sítio da Pedralta [link para localização?]\
-<a href='https://www.researchgate.net/publication/322665516_Gravuras_e_pinturas_em_dolmenes_O_Grupo_de_Viseu_de_E_Shee_1981_trinta_anos_depois'>A Arte Megalítica da Beira Alta</a>
+<a target="_blank" class="link_url" href="https://www.researchgate.net/publication/322665516_Gravuras_e_pinturas_em_dolmenes_O_Grupo_de_Viseu_de_E_Shee_1981_trinta_anos_depois">A Arte Megalítica da Beira Alta</a>
 </p>
 </div>
 
@@ -226,23 +245,35 @@ A Antela e a Anta Maior, no sítio da Pedralta [link para localização?]\
 <p>
 imagem de levantamento das pinturas de JC + áudio com historieta JC vs MC?
 SABER +
-Quem foi Mendes Correia [https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Mendes_Correia;
-ouhttps://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=docentes%20e%20estudantes%20da%20primeira%20flup%20-%20ant%c3%b3nio%20mendes%20correia]\
-A história da descoberta e da publicação do achado[https://www.academia.edu/34578279/A_defesa_do_Patrim%C3%B3nio_Arqueol%C3%B3gico_em_confronto_na_segunda_d%C3%A9cada_do_s%C3%A9culo_XX_o_caso_do_d%C3%B3lmen_de_Pedralta_C%C3%B4ta_Viseu)
+Quem foi <a target="_blank" class="link_url" href="https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Mendes_Correia">Mendes Correia</a>
+ou
+<a target="_blank" class="link_url" href="https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=docentes%20e%20estudantes%20da%20primeira%20flup%20-%20ant%c3%b3nio%20mendes%20correia">outro</a>
+
+/
+<a target="_blank" class="link_url" href="https://www.academia.edu/34578279/A_defesa_do_Patrim%C3%B3nio_Arqueol%C3%B3gico_em_confronto_na_segunda_d%C3%A9cada_do_s%C3%A9culo_XX_o_caso_do_d%C3%B3lmen_de_Pedralta_C%C3%B4ta_Viseu">
+A história da descoberta e da publicação do achado</a>
+
 </p>
 </div>
+
+<div id="caixa_ossos" class="modal">
+  <h1>polemica</h1>
+<p>
+</p>
+</div>
+
 
 <div id="pecas_arqueologicas" class="modal">
   <h1>As peças arqueológicas</h1>
 <p>
-As peças arqueológicas – uma fonte de conhecimento\
+As peças arqueológicas – uma fonte de conhecimento
 As peças que se exibem nesta sala são as mais emblemáticas da colecção arqueológica. Estas valem sobretudo pelo que representam, pois para além do valor estético de cada uma, revelam a passagem do homem e do tempo por determinados lugares, permitindo, assim, a identificação de sítios e monumentos arqueológicos.\
 Esta colecção foi formada não apenas pela recolha em prospecção de campo que o Doutor José Coelho regularmente fazia, como também através de ofertas dos seus alunos ou colegas de escola, tendo havido casos em que as adquiriu a suas expensas.\
 Para o Doutor José Coelho as peças contavam histórias, ajudavam-no a ler o passado.
 </p>
 </div>
 
-<div id="animacao_sala3" class="modal">
+<div id="easteregg_sala3" class="modal">
   <h1>As peças arqueológicas</h1>
 <p>
 As peças arqueológicas – uma fonte de conhecimento\
@@ -276,6 +307,23 @@ Proveniente da Quintela de Azurara, Mangualde, neste pequeno altar funerário de
 A Márcia ou Marco, filha (0) de Augustino, de 8 anos de idade. Que a terra te seja leve. O pai mandou fazer.</p>
 </div>
 
+<div id="telhado_romano" class="modal">
+  <h1>Árula Funerária</h1>
+<p>
+Proveniente da Quintela de Azurara, Mangualde, neste pequeno altar funerário de época romana podemos ler:
+[falta transcrição]
+A Márcia ou Marco, filha (0) de Augustino, de 8 anos de idade. Que a terra te seja leve. O pai mandou fazer.</p>
+</div>
+
+<div id="sepultura_romano" class="modal">
+  <h1>Árula Funerária</h1>
+<p>
+Proveniente da Quintela de Azurara, Mangualde, neste pequeno altar funerário de época romana podemos ler:
+[falta transcrição]
+A Márcia ou Marco, filha (0) de Augustino, de 8 anos de idade. Que a terra te seja leve. O pai mandou fazer.</p>
+</div>
+
+
 
 <div id="moinho_manual" class="modal">
   <h1>Moinho Manual Rotativo</h1>
@@ -286,18 +334,141 @@ Estas mós eram usadas em contexto doméstico. Nas padarias das urbs eram usados
 </div>
 
 
-<script src="marzipano/vendor/es5-shim.js"></script>
-<script src="marzipano/vendor/eventShim.js"></script>
-<script src="marzipano/vendor/classList.js"></script>
-<script src="marzipano/vendor/requestAnimationFrame.js" ></script>
-<script src="marzipano/vendor/screenfull.min.js" ></script>
-<script src="marzipano/vendor/bowser.min.js" ></script>
-<script src="marzipano/vendor/marzipano.js" ></script>
-<script src="mtour.js"></script>
-<script src="mindex.js"></script>
-<script src="modal/jquery.min.js"></script>
+<div id="pedra_lapide_cepoes" class="modal">
+<div class="modal_content_main">
+  <div class="modal_content_left">
+    <img src="imagens/cepoes.jpg" class="responsive-image">
+    </div>
+    <div class="modal_content_right">
+    <h1><span class="modal_titulo">Pedra com inscrição</span></h1>
+    <p>Os moinhos manuais redondos ou rotativos foram muito comuns durante a Idade do Ferro e bastante utilizados na época romana. Constituídos por duas mós, a dormente, em baixo, e a girante, por cima, possuíam um ou dois manípulos cravados lateralmente para fazer rodar a mó girante e assim moer o cereal.
+    Estas mós eram usadas em contexto doméstico. Nas padarias das urbs eram usados moinhos de maiores dimensões: as atafonas.</p>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!--modals -->
+
+<a href="#ficha" class="modal_left modali" rel="modal:open"><img class="icon" src="img/settings-24px.svg"></a>
+<div id="ficha" class="modal">
+
+  <div class="div_container">
+      <div class="divleft">
+      <h2>um título yuoi</h2>
+      <p>e um texto</p>
+
+
+      </div>
+
+      <div class="divright">
+      <h1>um título yuoi</h1>
+      <p>e um texto</p>
+      </div>
+
+  </div>
+</div>
+
+
+
+
+<script>
+var mymap = L.map('mapid').setView([40.66079, -7.91085], 19);
+var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap);
+function fmarker0() {
+  switchScene(scenes[0]);
+}
+var marker0 = L.marker([40.66066, -7.91074]).addTo(mymap);
+marker0.on('click', fmarker0 );
+
+function fmarker1() {
+  switchScene(scenes[1]);
+}
+var marker1 = L.marker([40.66059, -7.91081]).addTo(mymap);
+marker1.on('click', fmarker1 );
+
+function fmarker2() {
+  switchScene(scenes[2]);
+}
+var marker2 = L.marker([40.66069, -7.91105]).addTo(mymap);
+marker2.on('click', fmarker2 );
+
+function fmarker3() {
+  switchScene(scenes[3]);
+}
+var marker3 = L.marker([40.66093, -7.91088]).addTo(mymap);
+marker3.on('click', fmarker3 );
+
+function fmarker4() {
+  switchScene(scenes[4]);
+}
+var marker4 = L.marker([40.66058, -7.91095]).addTo(mymap);
+marker4.on('click', fmarker4 );
+
+function fmarker5() {
+  switchScene(scenes[5]);
+}
+var marker5 = L.marker([40.66052, -7.91111]).addTo(mymap);
+marker5.on('click', fmarker5 );
+
+function fmarker6() {
+  switchScene(scenes[6]);
+}
+var marker6 = L.marker([40.66052, -7.91093]).addTo(mymap);
+marker6.on('click', fmarker6 );
+
+function fmarker7() {
+  switchScene(scenes[7]);
+}
+var marker7 = L.marker([40.66045, -7.91111]).addTo(mymap);
+marker7.on('click', fmarker7 );
+</script>
+
+
+
+<script src="mapa/jquery.min.js"></script>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="vtindex.js"></script>
+
 <script src="modal/jquery.modal.min.js"></script>
 <script src="init.js"></script>
+
+<script>
+
+function toggleFloor() {
+  var x = document.getElementById("floorBar");
+  if (x.style.width === "0%") {
+    x.style.width = "30%";
+    x.style.opacity = "1.0";
+  } else {
+    x.style.opacity = "0.0";
+    setTimeout(closewidth, 500);
+  }
+}
+
+function closewidth() {
+  var x = document.getElementById("floorBar");
+  x.style.width = "0%";
+}
+</script>
+
 
 
 </body>

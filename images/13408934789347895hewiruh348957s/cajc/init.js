@@ -1,6 +1,6 @@
 $('a.modali').click(function(event) {
   $(this).modal({
-    fadeDuration: 100
+    fadeDuration: 50
   });
   return false;
 });

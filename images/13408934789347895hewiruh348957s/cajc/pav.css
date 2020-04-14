@@ -1,4 +1,4 @@
-body {font-family: 'Merriweather', serif; font-family: 'Montserrat', sans-serif;}
+body {font-family: 'Roboto', sans-serif;}
 
 .link-hotspot-icon {opacity: 0.5!important}
 .link-hotspot-icon:hover {opacity: 1!important}
@@ -19,7 +19,14 @@ body {font-family: 'Merriweather', serif; font-family: 'Montserrat', sans-serif;
 .infoboard-hotspot .infoboard-hotspot-header {background-color: rgb(20,20,20)!important;}
 .infoboard-hotspot .infoboard-hotspot-text {background-color: rgb(30,30,30)!important;}
 
-#titleBar .sceneName {background-color: rgba(20,20,20,0.1)!important; text-transform: uppercase;}
+#titleBar .sceneName {
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 40px !important;
+  width: auto;
+  background-color: rgba(20,20,20,0.2)!important;
+  display: inline-block;
+  text-transform: uppercase;}
 .viewControlButton, #sceneListToggle, #fullscreenToggle, #autorotateToggle {background-color: rgba(20,20,20,0.2)!important;}
 
 .secondary li.text{margin-left: 10px!important;}
@@ -273,7 +280,7 @@ body {font-family: 'Merriweather', serif; font-family: 'Montserrat', sans-serif;
   width: 40px;
   border-top-right-radius: 5px;
   background-color: rgb(78,88,104);
-  visibility: hidden;
+  visibility: visible;
   -ms-transform: perspective(200px) rotateY(90deg);
   -webkit-transform: perspective(200px) rotateY(90deg);
   transform: perspective(200px) rotateY(90deg);
@@ -539,7 +546,7 @@ user-select: text;
 .info-hotspot-modal .info-hotspot-close-wrapper {background-color: rgb(20,20,20);}
 .infoboard-hotspot-modal .infoboard-hotspot-close-wrapper {background-color: rgb(20,20,20);}
 
-.desktop .infoboard-hotspot.visible .infoboard-hotspot-close-wrapper {visibility: hidden;}
+.desktop .infoboard-hotspot.visible .infoboard-hotspot-close-wrapper {visibility: visible;}
 .blocker {background-color: rgba(0,0,0,0.7);}
 
 
