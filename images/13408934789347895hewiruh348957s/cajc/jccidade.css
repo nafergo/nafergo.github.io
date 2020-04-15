@@ -199,12 +199,20 @@ body.fullscreen-enabled #fullscreenToggle {
 
 .responsive-image{width: 100%; height: auto;}
 
-.link_url{text-transform: uppercase;background-color: rgb(145, 0, 0)}
+.link_url{padding-left: 0.4em;padding-right: 0.4em;background-color: rgb(145, 0, 0)}
+.link_url:hover{background-color: rgb(195, 0, 0)}
+
 
 .modal_titulo {text-transform: uppercase;font-size: 2em;margin-bottom: 2em;}
 .modal_content_main {width: 90%; margin-left: 5%; margin-right: 5%;}
-.modal_content_left {width: 50%; text-align: left; float: left;}
-.modal_content_right {width: 50%; float: left; line-height: 2em; padding-left: 2em;}
+.modal_content_left-30 {width: 30%; text-align: left; float: left;padding-right: 1em;}
+.modal_content_left-50 {width: 50%; text-align: left; float: left;padding-right: 1em;}
+.modal_content_left-70 {width: 70%; text-align: left; float: left;padding-right: 1em;}
+.modal_content_left-100 {width: 100%; text-align: left; float: left; padding-right: 1em;}
+.modal_content_right-30 {width: 30%; float: left; line-height: 2em; padding-left: 1em;}
+.modal_content_right-50 {width: 50%; float: left; line-height: 2em; padding-left: 1em;}
+.modal_content_right-70 {width: 70%; float: left; line-height: 2em; padding-left: 1em;}
+.modal_content_right-100 {width: 100%; float: left; line-height: 2em; padding-left: 1em;}
 
 .modal p {font-size: 1em; line-height: 1.6;}
 

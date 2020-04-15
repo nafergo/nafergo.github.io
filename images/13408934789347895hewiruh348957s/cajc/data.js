@@ -518,7 +518,13 @@ var APP_DATA = {
           "pitch": -0.31618005228362733,
           "title": "<a href='#mamaltar' class='modali hide-small' rel='modal:open'>Mamaltar do Vale de Fachas</a><span class='hide-desktop'>Mamaltar do Vale de Fachas</span>",
           "text": "Text"
-        }
+        },
+        {
+          "yaw": 0.335395416589936,
+          "pitch": 0.5530199489388785,
+          "title": "<a href='#contas_perfuradas' class='modali hide-small' rel='modal:open'>Mamaltar do Vale de Fachas</a><span class='hide-desktop'>Mamaltar do Vale de Fachas</span>",
+          "text": "Pequenos discos de xisto, com uma perfuração central. A sua forma sugere tratarem-se de contas de adorno.</div>"
+        },
       ],
       "linkHotspots": [],
       "infoHotspots": [
@@ -527,12 +533,6 @@ var APP_DATA = {
           "pitch": 0.23378907884784894,
           "title": "Placa",
           "text": "Placa em pedra, com duas perfurações numa das extremidades e linhas onduladas pintadas a vermelho.</div>"
-        },
-        {
-          "yaw": 0.335395416589936,
-          "pitch": 0.5530199489388785,
-          "title": "contas",
-          "text": "Pequenos discos de xisto, com uma perfuração central. A sua forma sugere tratarem-se de contas de adorno.</div>"
         },
         {
           "yaw": -0.5037284612818862,
@@ -609,21 +609,21 @@ var APP_DATA = {
           "title": "<a href='#caixa_da_confeitaria' class='modali hide-small' rel='modal:open'>Caixa com Amostras</a><span class='hide-desktop'>Caixa com Amostras</span>",
           "text": "Text"
         },
-      ],
-      "linkHotspots": [],
-      "infoHotspots": [
         {
           "yaw": -0.060289281041079334,
           "pitch": 0.6323239823332081,
-          "title": "Bracelete",
+          "title": "<a href='#bracelete' class='modali hide-small' rel='modal:open'>Bracelete</a><span class='hide-desktop'>Bracelete</span>",
           "text": "Text"
         },
         {
           "yaw": 0.6740917859380282,
           "pitch": 0.13413279817092771,
-          "title": "Urnas cerâmicas</div>",
+          "title": "<a href='#urna' class='modali hide-small' rel='modal:open'>Urnas cerâmicas</a><span class='hide-desktop'>Urnas cerâmicas</span>",
           "text": "Vasos cerâmicos utilizados para conter os restos das cremações.</div>"
-        },
+        }
+      ],
+      "linkHotspots": [],
+      "infoHotspots": [
         {
           "yaw": 0.3553605149420864,
           "pitch": -0.13113890177750065,
@@ -762,7 +762,7 @@ var APP_DATA = {
         {
           "yaw": 1.6899226268993246,
           "pitch": -0.24113362194139398,
-          "title": "<a href='#easteregg_sala3' class='modali hide-small' rel='modal:open'>As peças arqueológicas</a><span class='hide-desktop'>As peças arqueológicas</span>",
+          "title": "<a href='#easteregg_sala3' class='modali hide-small' rel='modal:open'>A lareira, agora sem fumo, pode-se espreitar?</a><span class='hide-desktop'>A lareira, agora sem fumo, pode-se espreitar?</span>",
           "text": "Text"
         }
       ],
@@ -848,7 +848,14 @@ var APP_DATA = {
           "target": "8-sala--3"
         }
       ],
-      "infoboardHotspots": [],
+      "infoboardHotspots": [
+        {
+          "yaw": -0.5143810090557697,
+          "pitch": 0.7141083768732663,
+          "title": "<a href='#punhal_orgens' class='modali hide-small' rel='modal:open'>Punhal de Orgens</a><span class='hide-desktop'>Punhal de Orgens</span>",
+          "text": "Arma curta, em bronze, com dois gumes cortantes laterais, e três orifícios para os rebites que fixavam a lâmina ao cabo.        SABER + O punhal\n de São Martinho de Orgens (Viseu) no seu contexto local: o ser e o estar <a href='http://www.patrimoniocultural.gov.pt/static/data/publicacoes/rpa/rpa17/rpa_vol.17_6.pdf' class='link_url' target='_blank'>link</a>"
+        }
+      ],
       "linkHotspots": [],
       "infoHotspots": [
         {
@@ -862,12 +869,6 @@ var APP_DATA = {
           "pitch": 0.49243049248109827,
           "title": "Moinho Anta da Nave</div>",
           "text": "Elemento dormente de uma pequena mó \nmanual encontrada, na Anta da Nave (Serra da Nave), pelo escritor \nAquilino Ribeiro, que a ofereceu a José Coelho.</div>"
-        },
-        {
-          "yaw": -0.5143810090557697,
-          "pitch": 0.7141083768732663,
-          "title": "Punhal de Orgens</div>",
-          "text": "Arma curta, em bronze, com dois gumes cortantes laterais, e três orifícios para os rebites que fixavam a lâmina ao cabo.                    SABER +                      O punhal\n de São Martinho de Orgens (Viseu) no seu contexto local: o ser e o estar <a href='http://www.patrimoniocultural.gov.pt/static/data/publicacoes/rpa/rpa17/rpa_vol.17_6.pdf' class='link_url' target='_blank'>link</a>"
         },
         {
           "yaw": -0.8061485643586188,
@@ -937,7 +938,13 @@ var APP_DATA = {
           "pitch": 0.15465439528085767,
           "title": "<a href='#edicula_votiva' class='modali hide-small' rel='modal:open'>Edícula Votiva</a><span class='hide-desktop'>Edícula Votiva</span>",
           "text": "Text"
-        }
+        },
+        {
+          "yaw": 0.4701746006177281,
+          "pitch": 0.6446675935337787,
+          "title": "<a href='#contas_colar' class='modali hide-small' rel='modal:open'>Contas de colar</a><span class='hide-desktop'>Contas de colar</span>",
+          "text": "Contas em pasta de vidro cor de laranja e azul translucido.</div>"
+        },
       ],
       "linkHotspots": [],
       "infoHotspots": [
@@ -964,12 +971,6 @@ var APP_DATA = {
           "pitch": 0.4283719752705011,
           "title": "Vaso em Sigillata Hispânica</div>",
           "text": "Taça de cerâmica utilizada no serviço de \nmesa de luxo. Estes recipiente tinham uma marca impressa no fundo, que \nidentificava o oleiro, a que se dava o nome de sigillum, de onde deriva o\n nome sigillata.</div>"
-        },
-        {
-          "yaw": 0.4701746006177281,
-          "pitch": 0.6446675935337787,
-          "title": "Contas de colar</div>",
-          "text": "Contas em pasta de vidro cor de laranja e azul translucido.</div>"
         },
         {
           "yaw": 0.7650363899942256,
