@@ -167,6 +167,34 @@
       });
     });
 
+
+    // Set handler for scene switch in flooBar
+    scenes.forEach(function(scene) {
+      var el = document.querySelector('#mapa_colecao .scene[data-id="' + scene.data.id + '"]');
+      el.addEventListener('click', function() {
+        switchScene(scene);
+        // On mobile, hide scene list after selecting a scene.
+        //if (document.body.classList.contains('mobile')) {
+        //  hideSceneList();
+        //}
+      });
+    });
+
+
+    // Set handler for scene switch in flooBar
+    scenes.forEach(function(scene) {
+      var el = document.querySelector('.mapa .scene[data-id="' + scene.data.id + '"]');
+      el.addEventListener('click', function() {
+        switchScene(scene);
+        // On mobile, hide scene list after selecting a scene.
+        //if (document.body.classList.contains('mobile')) {
+        //  hideSceneList();
+        //}
+      });
+    });
+
+
+
   // DOM elements for view controls.
   var viewUpElement = document.querySelector('#viewUp');
   var viewDownElement = document.querySelector('#viewDown');

@@ -18,6 +18,8 @@
 
 <link rel="stylesheet" href="pav.css">
 <link rel="stylesheet" href="jccidade.css">
+<link rel="stylesheet" href="cajcmap.css">
+
 </head>
 <body class="multiple-scenes view-control-buttons">
 
@@ -38,11 +40,11 @@
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="2-sala-1-amostras">
-        <li class="text">As Amostras</li>
+        <li class="text minus">As Amostras</li>
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="3-sala-1-registos">
-        <li class="text">Os Registos</li>
+        <li class="text minus">Os Registos</li>
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="4-sala-2">
@@ -50,15 +52,15 @@
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="5-antas-da-pedralta">
-        <li class="text">Antas da Pedralta</li>
+        <li class="text minus">Antas da Pedralta</li>
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="6-mamaltar-de-vale-de-fachas">
-        <li class="text">Mamaltar de Vale de Fachas</li>
+        <li class="text minus">Mamaltar de Vale de Fachas</li>
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="7-necrpole-de-pedralta">
-        <li class="text">Necrópole do Paranho</li>
+        <li class="text minus">Necrópole do Paranho</li>
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="8-sala--3">
@@ -66,23 +68,23 @@
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="9-10000ac-a-5000ac">
-        <li class="text">De 10000aC a 5000aC</li>
+        <li class="text minus">De 10000aC a 5000aC</li>
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="10-5000ac-a-1000ac">
-        <li class="text">De 5000aC a 1000aC</li>
+        <li class="text minus">De 5000aC a 1000aC</li>
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="11-1000ac-a-400dc">
-        <li class="text">De 1000aC a 400dC</li>
+        <li class="text minus">De 1000aC a 400dC</li>
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="12-poca-romana">
-        <li class="text">Época Romana</li>
+        <li class="text minus">Época Romana</li>
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="13-poca-romana">
-        <li class="text">Época Romana</li>
+        <li class="text minus">Época Romana</li>
       </a>
 
       <a href="javascript:void(0)" class="scene" data-id="14-varanda">
@@ -101,8 +103,28 @@
 </div>
 
 <div id="floorBar">
-    <div id="mapid"></div>
+    <div id="mapid">
+
+    <div class="mapa">
+      <img src="imagens/piso_1_alpha.png" width="50%"  alt="">
+    </div>
+
+    <div id="mapid-texto">
+
+    <h1>Sala 1</h1>
+     <p>Nesta sala ficamos a conhecer um pouco sobre a vida de José Coelho e sobre a sua relação com o Património, a Arqueologia e a História, matérias a que dedicou o seu tempo enquanto investigador, divulgador e defensor.</p>
+
+     <h1>Sala 2</h1>
+     <p>Na sala dedicada aos trabalhos de escavação descobrimos três sítios arqueológicos, as suas histórias de investigação e os objetos que José Coelho aí encontrou.</p>
+
+     <h1>Sala 3</h1>
+     <p>Nesta sala ficamos a conhecer um pouco sobre a vida de José Coelho e sobre a sua relação com o Património, a Arqueologia e a História, matérias a que dedicou o seu tempo enquanto investigador, divulgador e defensor.</p>
+     </div>
+
+
+    </div>
 </div>
+
 <div id="mapToggle" onclick="toggleFloor()" class="modal_right modali">
   <img class="icon" src="img/map.svg">
 </div>
@@ -377,60 +399,6 @@ Estas mós eram usadas em contexto doméstico. Nas padarias das urbs eram usados
 
 
 
-<script>
-var mymap = L.map('mapid').setView([40.66079, -7.91085], 19);
-var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(mymap);
-function fmarker0() {
-  switchScene(scenes[0]);
-}
-var marker0 = L.marker([40.66066, -7.91074]).addTo(mymap);
-marker0.on('click', fmarker0 );
-
-function fmarker1() {
-  switchScene(scenes[1]);
-}
-var marker1 = L.marker([40.66059, -7.91081]).addTo(mymap);
-marker1.on('click', fmarker1 );
-
-function fmarker2() {
-  switchScene(scenes[2]);
-}
-var marker2 = L.marker([40.66069, -7.91105]).addTo(mymap);
-marker2.on('click', fmarker2 );
-
-function fmarker3() {
-  switchScene(scenes[3]);
-}
-var marker3 = L.marker([40.66093, -7.91088]).addTo(mymap);
-marker3.on('click', fmarker3 );
-
-function fmarker4() {
-  switchScene(scenes[4]);
-}
-var marker4 = L.marker([40.66058, -7.91095]).addTo(mymap);
-marker4.on('click', fmarker4 );
-
-function fmarker5() {
-  switchScene(scenes[5]);
-}
-var marker5 = L.marker([40.66052, -7.91111]).addTo(mymap);
-marker5.on('click', fmarker5 );
-
-function fmarker6() {
-  switchScene(scenes[6]);
-}
-var marker6 = L.marker([40.66052, -7.91093]).addTo(mymap);
-marker6.on('click', fmarker6 );
-
-function fmarker7() {
-  switchScene(scenes[7]);
-}
-var marker7 = L.marker([40.66045, -7.91111]).addTo(mymap);
-marker7.on('click', fmarker7 );
-</script>
 
 
 
@@ -468,8 +436,6 @@ function closewidth() {
   x.style.width = "0%";
 }
 </script>
-
-
 
 </body>
 </html>

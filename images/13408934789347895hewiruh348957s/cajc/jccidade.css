@@ -205,3 +205,15 @@ body.fullscreen-enabled #fullscreenToggle {
 .modal_content_main {width: 90%; margin-left: 5%; margin-right: 5%;}
 .modal_content_left {width: 50%; text-align: left; float: left;}
 .modal_content_right {width: 50%; float: left; line-height: 2em; padding-left: 2em;}
+
+.modal p {font-size: 1em; line-height: 1.6;}
+
+#mapid {background-color: rgba(58,68,84,0.1);}
+#floorBar {background-color: rgba(58,68,84,0.1);}
+
+.minus{margin-left: 1em;}
+
+
+.modal {padding: 2em; overflow-y: auto; line-height: 1.6;}
+.modal h1 {text-transform: uppercase;}
+.modal p {font-size: 1em; margin-bottom: 1em;}

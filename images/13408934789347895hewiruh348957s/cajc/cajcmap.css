@@ -1,0 +1,77 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+
+
+#mapa_colecao{
+
+.mapa {
+      width: 10%;
+      position: relative;
+
+      img{
+        width:100%;
+      }
+
+      &__item {
+            position: absolute;
+            z-index: 50;
+            width: 0;
+            height: 0;
+            margin-left: -15px;
+            margin-top: 15px;
+
+            &--1 {
+              top: 31%;
+              left: 24%;
+            }
+            &--2 {
+              top: 38%;
+              left: 10%;
+            }
+            &--3 {
+              top: 30%;
+              left: 38%;
+            }
+              }
+
+              &__num {
+                height: 30px;
+                width: 30px;
+                font-size: 16px;
+                line-height: 2;
+                font-weight: bold;
+                border-radius: 2px;
+                background: #fff;
+                text-align: center;
+                position: absolute;
+                top: 7px;
+                left: 7px;
+                z-index: 100;
+                background: #fff;
+                opacity: 0.85;
+                cursor: pointer;
+                transition: opacity 300ms;
+              }
+  }
+  }
+
+
+#mapid-texto {padding: 1em;width: 100%; overflow-y: auto; line-height: 1.6;}
+#mapid-texto h1 {text-transform: uppercase;}
+#mapid-texto p {font-size: 0.8em; margin-bottom: 1em;}

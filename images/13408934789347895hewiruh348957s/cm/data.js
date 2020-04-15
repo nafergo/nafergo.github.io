@@ -22,7 +22,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "yaw": 0.08380835730454805,
         "pitch": -0.26623945981618746,
@@ -118,7 +118,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "yaw": 0.7725658202367001,
         "pitch": -0.11503181961500175,
@@ -170,7 +170,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -241,7 +241,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "yaw": 0.08731722476946402,
         "pitch": -0.19026547056952303,
@@ -300,7 +300,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "yaw": 3.0418786183253115,
         "pitch": 0.011061945963342978,
@@ -346,7 +346,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "yaw": 0.29041508759701173,
         "pitch": 0.18805308137685905,
@@ -405,7 +405,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "yaw": 0.3440790480664653,
         "pitch": -0.09245658612778485,
@@ -457,7 +457,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "yaw": 0.17013658307504542,
         "pitch": 0.0019454175809823226,

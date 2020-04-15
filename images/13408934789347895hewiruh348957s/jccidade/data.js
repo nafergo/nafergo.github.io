@@ -22,7 +22,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -41,7 +41,7 @@ var APP_DATA = {
         {
           "yaw": -0.24462943089675981,
           "pitch": 0.14516900686320255,
-          "title": "<a href='#adro_da_se' class='modali hide-small' rel='modal:open'>O adro da Sé</a><span class='hide-desktop'>O adro da Sé</span>",      
+          "title": "<a href='#adro_da_se' class='modali hide-small' rel='modal:open'>O adro da Sé</a><span class='hide-desktop'>O adro da Sé</span>",
           "text": "[+ imagem da noticia? nota: verificar com a JC se temos esta notícia]br/>“O chão do adro da Sé julgamo-lo um importante campo de investigações arqueológicas a realizar” (José Coelho, jornal Voz da Verdade, 12-3-1927)."
         }
       ],
@@ -88,7 +88,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -153,7 +153,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -224,7 +224,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -301,7 +301,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -378,7 +378,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 3360,
+      "faceSize": 2520,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
