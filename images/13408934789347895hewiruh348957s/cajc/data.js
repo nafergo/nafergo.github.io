@@ -942,8 +942,8 @@ var APP_DATA = {
         {
           "yaw": 0.4701746006177281,
           "pitch": 0.6446675935337787,
-          "title": "<a href='#contas_colar' class='modali hide-small' rel='modal:open'>Contas de colar</a><span class='hide-desktop'>Contas de colar</span>",
-          "text": "Contas em pasta de vidro cor de laranja e azul translucido.</div>"
+          "title": "<a href='#contas_vidro' class='modali hide-small' rel='modal:open'>Contas de colar</a><span class='hide-desktop'>Contas de colar</span>",
+          "text": "Contas em pasta de vidro cor de laranja e azul translúcido.</div>"
         },
       ],
       "linkHotspots": [],

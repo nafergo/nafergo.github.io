@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Polo Arqueológico de Viseu - PAV360 - José Coelho: a paixão pelo passado</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+
+<style>
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #003768;
+    position: absolute;
+    top: -10;
+    left: 50%;
+    margin-left: -12px;
+}
+
+#featuresWrapper {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+    max-width: 738px;
+    max-height: 529px;
+}
+
+#featuresWrapper ol {
+    clear: both;
+}
+
+#features {
+    position: relative;
+    max-width: 738px;
+    z-index: 0;
+}
+
+#overlays {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+}
+
+#features-images {
+    position: relative;
+    display: block;
+    max-width: 738px;
+    width: 100%;
+}
+
+#features-images img {
+    width: 100%;
+    height: auto;
+    max-width: 738px;
+    max-height: 529px;
+}
+
+#features ol {
+    float: left;
+    margin: 0;
+}
+
+#features .description {
+    display: none;
+}
+
+#features .hotspot {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #DC082F;
+    width: 15px;
+    height: 15px;
+    border-radius: 12.5px;
+    color: #FFFFFF;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.5), inset 0px 0px 5px 2px rgba(255,255,255,0.25);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.5), inset 0px 0px 5px 2px rgba(255,255,255,0.25);
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.5), inset 0px 0px 5px 2px rgba(255,255,255,0.25);
+}
+
+#featuresWrapper #descriptions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: auto;
+    z-index: 1;
+}
+
+#featuresWrapper #descriptions > span {
+    position: relative;
+    background-color: #003768;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 13px;
+    height: auto;
+    max-height: 85%;
+    margin-left: -150px;
+    display: none;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+#featuresWrapper #descriptions > span.visible {
+    display: block !important;
+}
+
+#mobileDescription {
+    display: none;
+}
+
+#overlays .hotspot.visible {
+    display: block;
+}
+
+#features #expand {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("expand.png");
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+}
+
+#descriptions .close {
+    opacity: 0.33;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("close.png");
+    width: 16px;
+    height: 16px;
+    margin: 5px 10px;
+}
+
+/* m-break */
+@media only screen and (max-width: 852px) {
+    #featuresWrapper.mobile #features {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 300px;
+    }
+
+    #featuresWrapper.mobile #features-images {
+        position: absolute;
+        max-width: none;
+        max-height: none;
+        width: auto;
+        margin-left: 50%;
+        margin-top: 150px;
+        transition: left 1s, top 1s;
+        -webkit-transition: left 1s, top 1s;
+    }
+
+    .arrow {
+        margin: 0;
+    }
+
+    #featuresWrapper.mobile #img0 {
+        width: 738px;
+        height: 529px;
+    }
+
+    #featuresWrapper.mobile #expand {
+        display: block;
+    }
+
+    #featuresWrapper.mobile #descriptions > span.visible .close {
+        display: block;
+    }
+
+    #featuresWrapper.mobile #descriptions > span {
+        left: 0;
+        right: 0;
+        margin-left: 0;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+    aaa
+        <h2>Features</h2>
+        <section id="featuresWrapper">
+            <section id="features">
+                <section id="features-images">
+                    <img id="img0" src="11.jpg" />
+                    <section id="overlays">
+                        <a id="ref1">
+                            <span class="description">
+                                <strong>Thrust Rolls</strong><br>
+                            </span>
+                        </a>
+                        <a id="ref2">
+                            <span class="description">
+                                <strong>Ring Gears</strong><br>
+                            </span>
+                        </a>
+                        <a id="ref3">
+                            <span class="description">
+                                <strong>Trunnion Rolls</strong><br>
+                            </span>
+                        </a>
+                        <a id="ref4">
+                            <span class="description">
+                                <strong>Shell</strong><br>
+                            </span>
+                        </a>
+                        <a id="ref5">
+                            <span class="description">
+                                <strong>Vent Manifold</strong><br>
+                            </span>
+                        </a>
+                        <a id="ref6">
+                            <span class="description">
+                                <strong>Intake Plate &amp; Seals</strong><br>
+r.
+                            </span>
+                        </a>
+                        <a id="ref7">
+                            <span class="description">
+                                <strong>Tires</strong><br>
+                            </span>
+                        </a>
+                    </section>
+                </section>
+                <span id="expand"></span>
+            </section>
+        </section>
+        <p>More content</p>
+        <script src="mapa/jquery.min.js"></script>
+    </body>
+</html>

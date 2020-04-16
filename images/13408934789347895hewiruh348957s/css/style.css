@@ -132,6 +132,6 @@ ul.linkscontactos li {float: left;list-style-type: none;margin: 0 15px;line-heig
 
 /* footer */
 footer{background-color: #202020;color: #FFF;font-size: .8em;}
-.logo_footer {width: 90%;}
 .footer-copyright{background-color: #151515;font-size: .8em;text-transform: uppercase;color: #FFF;}
-.logos_footer {width: 90%; max-width: 200px; height: auto;}
+.logo_footer {max-height: 120px; width: auto;}
+.logos_footer {max-width: 200px; height: auto;}

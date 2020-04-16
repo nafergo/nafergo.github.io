@@ -15,6 +15,8 @@
 <link rel="stylesheet" href="plugin/leaflet/dist/leaflet.css" />
 <script src="plugin/leaflet/dist/leaflet.js"></script>
 <link rel="stylesheet" href="modal/jquery.modal.min.css" />
+<link rel="stylesheet" href="lightbox/simple-lightbox.min.css" />
+<link rel="stylesheet" href="mapa2/mapastyles.css" />
 
 <link rel="stylesheet" href="pav.css">
 <link rel="stylesheet" href="jccidade.css">
@@ -104,13 +106,51 @@
 
 <div id="floorBar">
     <div id="mapid">
-
     <div class="mapa">
-      <img src="imagens/piso_1_alpha.png" width="50%"  alt="">
+    <section id="featuresWrapper">
+        <section id="features">
+            <section id="features-images">
+                <img id="img0" src="imagens/drawing-1.svg" alt="">
+                <section id="overlays">
+                    <a id="ref1">
+                        <span class="description">
+                            Entrada
+                        </span>
+                    </a>
+                    <a id="ref2">
+                        <span class="description">
+                            <strong>Sala 1</strong><br>
+                        </span>
+                    </a>
+                    <a id="ref3">
+                        <span class="description">
+                            <strong>Sala 2</strong><br>
+                        </span>
+                    </a>
+                    <a id="ref4">
+                        <span class="description">
+                            <strong>Sala 3</strong><br>
+                        </span>
+                    </a>
+                    <a id="ref5">
+                        <span class="description">
+                            <strong>Varanda</strong><br>
+                        </span>
+                    </a>
+                    <a id="ref6" href="#" class="scene" data-id="15-sada">
+                        <span class="description">Saída
+                        </span>
+                    </a>
+                </section>
+            </section>
+            <span id="expand"></span>
+        </section>
+    </section>
+
+
     </div>
 
     <div id="mapid-texto">
-
     <h1>Sala 1</h1>
      <p>Nesta sala ficamos a conhecer um pouco sobre a vida de José Coelho e sobre a sua relação com o Património, a Arqueologia e a História, matérias a que dedicou o seu tempo enquanto investigador, divulgador e defensor.</p>
 
@@ -119,6 +159,21 @@
 
      <h1>Sala 3</h1>
      <p>Nesta sala ficamos a conhecer um pouco sobre a vida de José Coelho e sobre a sua relação com o Património, a Arqueologia e a História, matérias a que dedicou o seu tempo enquanto investigador, divulgador e defensor.</p>
+     </div>
+
+     <div id="mapidtexto">
+         <a href="#" class="scene" data-id="0-entrada">
+           <li class="text">Entrada</li>
+         </a>
+
+         <a href="#" class="scene" data-id="1-sala1">
+           <li class="text">Sala 1</li>
+         </a>
+
+
+         <a href="#" class="scee" data-id="15-sada">
+           <li class="text">Saída</li>
+         </a>
      </div>
 
 
@@ -169,7 +224,9 @@
 <div id="o_sentido_da_vida" class="modal">
 <div class="modal_content_main">
   <div class="modal_content_left-30">
-    <img src="fotos/o_sentido_da_vida.jpg" class="responsive-image">
+  <div class="gallery">
+  <a href="fotos/o_sentido_da_vida.jpg"><img src="fotos/o_sentido_da_vida.jpg" class="responsive-image" alt="" title=""/></a>
+</div>
     </div>
     <div class="modal_content_right-70">
   <h1><span class="modal_titulo">O sentido da vida</span></h1>
@@ -182,8 +239,8 @@
   Era extremamente meticuloso nos registos que fazia e perspicaz na interpretação dos dados. Deste modo, granjeou o reconhecimento nacional e internacional, relacionando-se com alguns dos melhores arqueólogos da época.</p>
   <hr>
   <h1>SABER + </h1>
-  <a target="_blank" class="link_url" href="https://www.researchgate.net/publication/322665516_Gravuras_e_pinturas_em_dolmenes_O_Grupo_de_Viseu_de_E_Shee_1981_trinta_anos_depois">A Arte Megalítica da Beira Alta</a>
-  Para saber mais sobre a vida de José Coelho [link para storymap da vida de JC]
+  <p><a target="_blank" class="link_url" href="https://www.researchgate.net/publication/322665516_Gravuras_e_pinturas_em_dolmenes_O_Grupo_de_Viseu_de_E_Shee_1981_trinta_anos_depois">A Arte Megalítica da Beira Alta</a>
+  Para saber mais sobre a vida de José Coelho [link para storymap da vida de JC]</p>
 </div>
 </div>
 </div>
@@ -193,7 +250,9 @@
 <div id="os_cadernos" class="modal">
 <div class="modal_content_main">
   <div class="modal_content_left-30">
-    <img src="fotos/os_cadernos.jpg" class="responsive-image">
+  <div class="gallery">
+  <a href="fotos/os_cadernos.jpg"><img src="fotos/os_cadernos.jpg" class="responsive-image" alt="" title=""/></a>
+</div>
     </div>
     <div class="modal_content_right-70">
   <h1><span class="modal_titulo">Os cadernos de notas arqueológicas</span></h1>
@@ -207,11 +266,13 @@ Os Cadernos de Notas Arqueológicas são, pois, uma janela aberta para a vida e 
 
 
 
-
 <div id="as_publicacoes" class="modal">
 <div class="modal_content_main">
   <div class="modal_content_left-30">
-    <img src="fotos/as_publicacoes.jpg" class="responsive-image">
+  <div class="gallery">
+  <a href="fotos/as_publicacoes.jpg"><img src="fotos/as_publicacoes.jpg" class="responsive-image" alt="" title=""/></a>
+    <a href="fotos/as_publicacoes.jpg"><img src="fotos/as_publicacoes.jpg" class="responsive-image" alt="" title=""/></a>
+</div>
     </div>
     <div class="modal_content_right-70">
   <h1><span class="modal_titulo">As publicações</span></h1>
@@ -221,8 +282,9 @@ Foi igualmente escritor assíduo de algumas revistas da especialidade (O Institu
 Destaque especial para as edições de autor, geralmente as monografias que exigiram mais investimento e empenho, verdadeiras obras-primas do saber da época (A Préhistória e o seu ensino Mamaltar do Vale de Fachas, A Necrópole de Paranho, Policromia Megalítica, Memórias de Viseu (Arredores)).\
 Não podemos deixar de transcrever uma passagem sua extraída das Memórias de Viseu (1941), quando o Doutor José Coelho atravessou um dos momentos mais difíceis da sua vida após ter sido afastado do ensino:\
 “O que aqui está é produto de muito trabalho, honrado e foi realizado nas horas que outros gastam na ociosidade ou roubadas do descanso nocturno, (…). Este trabalho tem sido no entanto para mim um refúgio neste período de tribulações, um lenitivo espiritual, fazendo-nos pairar a alma muito acima das misérias morais e sociais e lamentáveis nos tempos que vão decorrendo.”\
-SABER +\
-Lista de publicações de José Coelho [link para bibliografia de José Coelho - Zotero?]
+<hr>
+<h1>SABER +</h1>
+<p>Lista de publicações de José Coelho [link para bibliografia de José Coelho - Zotero?]</p>
 </div>
 </div>
 </div>
@@ -232,11 +294,13 @@ Lista de publicações de José Coelho [link para bibliografia de José Coelho -
 
 <div id="as_amostras" class="modal">
 <div class="modal_content_main">
-  <div class="modal_content_left-70">
-    <img src="fotos/as_amostras.jpg" class="responsive-image">
+  <div class="modal_content_left-50">
+  <div class="gallery">
+  <a href="fotos/as_amostras.jpg"><img src="fotos/as_amostras.jpg" class="responsive-image" alt="" title=""/></a>
+</div>
     </div>
-    <div class="modal_content_right-30">
-  <h1><span class="modal_titulo">As Amostras</span></h1>
+    <div class="modal_content_right-50">
+<h1><span class="modal_titulo">As Amostras</span></h1>
 <p>Uma amostra é uma pequena quantidade de um material, que se recolhe para ser analisado
 em detalhe. Pode ser parte das terras da escavação contendo restos de objetos e de materiais
  naturais, só identificáveis em laboratório. Estes restos, e as características das terras,
@@ -249,12 +313,14 @@ em detalhe. Pode ser parte das terras da escavação contendo restos de objetos 
 
 <div id="caixa_amostras" class="modal">
 <div class="modal_content_main">
-<div class="modal_content_left-30">
+<div class="modal_content_left-50">
 <h1><span class="modal_titulo">Caixas com Amostras</span></h1>
 <p>Caixas de cartão contendo amostras de elementos naturais e de terra,recolhidos por José Coelho durante as escavações.</p>
 </div>
-    <div class="modal_content_right-70">
-    <img src="fotos/caixa_amostras2.jpg" class="responsive-image">
+    <div class="modal_content_right-50">
+    <div class="gallery">
+    <a href="fotos/caixa_amostras2.jpg"><img src="fotos/caixa_amostras2.jpg" class="responsive-image" alt="" title=""/></a>
+    </div>
     </div>
 </div>
 </div>
@@ -264,12 +330,16 @@ em detalhe. Pode ser parte das terras da escavação contendo restos de objetos 
 <div id="cadernos_notas" class="modal">
 <div class="modal_content_main">
   <div class="modal_content_left-30">
-    <img src="fotos/cadernos_notas.jpg" class="responsive-image">
+  <div class="gallery">
+  <a href="fotos/cadernos_notas.jpg"><img src="fotos/cadernos_notas.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
     <div class="modal_content_right-70">
   <h1><span class="modal_titulo">Cadernos de Notas Arqueológica</span></h1>
-<p>O PAV tem em acervo 144 dos Caderno de Notas Arqueológicas, quepodem ser consultados na Casa do Miradouro. Está em curso um projeto de digitalização e disponibilização online dos documentos.
-SABER + Os144 Cadernos de Notas Arqueológica [link para lista de cadernos por datas com indicação de procedimento para pedido de consulta? A substituir por link para projeto]</p>
+<p>O PAV tem em acervo 144 dos Caderno de Notas Arqueológicas, quepodem ser consultados na Casa do Miradouro. Está em curso um projeto de digitalização e disponibilização online dos documentos.</p>
+<hr>
+<h1>SABER +</h1>
+<p> Os 144 Cadernos de Notas Arqueológica [link para lista de cadernos por datas com indicação de procedimento para pedido de consulta? A substituir por link para projeto]</p>
 </div>
 </div>
 </div>
@@ -279,7 +349,9 @@ SABER + Os144 Cadernos de Notas Arqueológica [link para lista de cadernos por d
 <div id="as_escavacoes" class="modal">
 <div class="modal_content_main">
   <div class="modal_content_left-30">
-    <img src="fotos/as_escavacoes.jpg" class="responsive-image">
+  <div class="gallery">
+  <a href="fotos/as_escavacoes.jpg"><img src="fotos/as_escavacoes.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
     <div class="modal_content_right-70">
   <h1><span class="modal_titulo">As escavações arqueológicas</span></h1>
@@ -295,15 +367,18 @@ A atenção e o esmero com que registava o que ia encontrando, ficaram para semp
 <div id="pedralta" class="modal">
 <div class="modal_content_main">
   <div class="modal_content_left-30">
-    <img src="fotos/pedralta.jpg" class="responsive-image">
+  <div class="gallery">
+  <a href="fotos/pedralta.jpg"><img src="fotos/pedralta.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
     <div class="modal_content_right-70">
   <h1><span class="modal_titulo">Antas da Pedralta</span></h1>
 <p>Em 1924, o Doutor José Coelho publica um dos seus mais importantes trabalhos, a monografia “Policromia Megalítica”, onde descreve com exaustão os resultados das explorações que fez nos inícios de Agosto de 1912 em dois dólmens da freguesia de Côta, Concelho de Viseu, a Antela e a Anta Maior, no sítio da Pedralta.\
 Estes trabalhos arqueológicos possibilitaram a descoberta de pinturas a vermelho e preto em alguns dos esteios da Anta Maior, sendo o Doutor José Coelho o primeiro arqueólogo a divulgar um dos mais valiosos patrimónios da Beira Alta: a arte pintada megalítica.\
 Os esteios pintados mostram triângulos sobrepostos e ramiformes a vermelho, delineados a preto sobre um fundo branco. A gramática decorativa e a técnica apurada com que foram feitas fazem deste dólmen uma referência a nível mundial.\
-SABER +\
-A Antela e a Anta Maior, no sítio da Pedralta [link para localização?]\
+<hr>
+<h1>SABER +</h1>
+<p>A Antela e a Anta Maior, no sítio da Pedralta [link para localização?]\
 <a target="_blank" class="link_url" href="https://www.researchgate.net/publication/322665516_Gravuras_e_pinturas_em_dolmenes_O_Grupo_de_Viseu_de_E_Shee_1981_trinta_anos_depois">A Arte Megalítica da Beira Alta</a>
 </p>
 </div>
@@ -314,12 +389,14 @@ A Antela e a Anta Maior, no sítio da Pedralta [link para localização?]\
 
 <div id="caixa_ossos" class="modal">
 <div class="modal_content_main">
-  <div class="modal_content_left-70">
-    <img src="fotos/caixa_ossos.jpg" class="responsive-image">
+  <div class="modal_content_left-50">
+  <div class="gallery">
+  <a href="fotos/caixa_ossos.jpg"><img src="fotos/caixa_ossos.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
-    <div class="modal_content_right-30">
+    <div class="modal_content_right-50">
   <h1><span class="modal_titulo">Caixa com ossos</span></h1>
-<p>
+<p>texto
 </p>
 </div>
 </div>
@@ -328,19 +405,24 @@ A Antela e a Anta Maior, no sítio da Pedralta [link para localização?]\
 
 <div id="polemica" class="modal">
 <div class="modal_content_main">
-  <div class="modal_content_left-70">
-    <img src="fotos/polemica.jpg" class="responsive-image">
+  <div class="modal_content_left-50">
+  <div class="gallery">
+  <a href="fotos/polemica.jpg"><img src="fotos/polemica.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
-    <div class="modal_content_right-30">
+    <div class="modal_content_right-50">
   <h1><span class="modal_titulo">A polémica</span></h1>
 <p>
 imagem de levantamento das pinturas de JC + áudio com historieta JC vs MC?
-SABER +
-Quem foi <a target="_blank" class="link_url" href="https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Mendes_Correia">Mendes Correia</a>
+<hr>
+<h1>SABER +</h1>
+<p>Quem foi <a target="_blank" class="link_url" href="https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Mendes_Correia" title="Entrada na Wikipédia sobre Mendes Correia">Mendes Correia</a>
 ou
-<a target="_blank" class="link_url" href="https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=docentes%20e%20estudantes%20da%20primeira%20flup%20-%20ant%c3%b3nio%20mendes%20correia">outro</a>
+<a target="_blank" title="Nota biográfica da Universidade do Porto" class="link_url" href="https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=docentes%20e%20estudantes%20da%20primeira%20flup%20-%20ant%c3%b3nio%20mendes%20correia">outro</a>
 
-/
+title="Artigo na revista Nota biográfica da Universidade do Porto"
+
+ CARDOSO, João Luís (2012) – “A Defesa do Património Arqueológico em Confronto na Segunda Década do Século XX: o caso do dólmen de Pedralta (Côta, Viseu)”. Al-Madan. IIª Série. 17: 137-146.
 <a target="_blank" class="link_url" href="https://www.academia.edu/34578279/A_defesa_do_Patrim%C3%B3nio_Arqueol%C3%B3gico_em_confronto_na_segunda_d%C3%A9cada_do_s%C3%A9culo_XX_o_caso_do_d%C3%B3lmen_de_Pedralta_C%C3%B4ta_Viseu">
 A história da descoberta e da publicação do achado</a>
 
@@ -353,7 +435,9 @@ A história da descoberta e da publicação do achado</a>
 <div id="paranho" class="modal">
 <div class="modal_content_main">
   <div class="modal_content_left-30">
-    <img src="fotos/paranho.jpg" class="responsive-image">
+  <div class="gallery">
+  <a href="fotos/paranho.jpg"><img src="fotos/paranho.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
     <div class="modal_content_right-70">
   <h1><span class="modal_titulo">Necrópole de Paranho</span></h1>
@@ -368,16 +452,18 @@ Pese embora não se conheça o sítio exacto desta Necrópole, sabe-se que era u
 
 <div id="caixa_da_confeitaria" class="modal">
 <div class="modal_content_main">
-    <div class="modal_content_right-100">
-  <h1><span class="modal_titulo">Caixa com Amostras</span></h1>
+<div class="modal_content_left-70">
+<div class="gallery">
+<a href="fotos/caixa_da_confeitaria.jpg"><img src="fotos/caixa_da_confeitaria.jpg" class="responsive-image" alt="" title=""/></a>
+</div>
+  </div>
+  <div class="modal_content_right-30">
+<h1><span class="modal_titulo">Caixa com Amostras</span></h1>
 <p>
 [+ fotografia de tampa da caixa de amostras]
 Caixa da Confeitaria Santa Rita, em Viseu, reutilizada por José Coelho para guardar terras da escavação da Necrópole do Paranho.
 </p>
 </div>
-<div class="modal_content_left-100">
-  <img src="fotos/caixa_da_confeitaria.jpg" class="responsive-image">
-  </div>
 
 </div>
 </div>
@@ -385,12 +471,15 @@ Caixa da Confeitaria Santa Rita, em Viseu, reutilizada por José Coelho para gua
 
 <div id="bracelete" class="modal">
 <div class="modal_content_main">
-    <div class="modal_content_right-100">
-  <h1><span class="modal_titulo">Bracelete em Bronze</span></h1>
+<div class="modal_content_left-70">
+<div class="gallery">
+<a href="fotos/bracelete.jpg"><img src="fotos/bracelete.jpg" class="responsive-image" alt="" title=""/></a>
 </div>
-<div class="modal_content_left-100">
-  <img src="fotos/bracelete.jpg" class="responsive-image">
   </div>
+  <div class="modal_content_right-30">
+<h1><span class="modal_titulo">Bracelete em Bronze</span></h1>
+</div>
+
 
 </div>
 </div>
@@ -400,13 +489,15 @@ Caixa da Confeitaria Santa Rita, em Viseu, reutilizada por José Coelho para gua
 
 <div id="urna" class="modal">
 <div class="modal_content_main">
-    <div class="modal_content_right-100">
-  <h1><span class="modal_titulo">Urnas cerâmicas</span></h1>
-  <p>Vasos cerâmicos utilizados para conter os restos das cremações.</p>
-</div>
 <div class="modal_content_left-100">
-  <img src="fotos/urna.jpg" class="responsive-image">
+<div class="gallery">
+<a href="fotos/urna.jpg"><img src="fotos/urna.jpg" class="responsive-image" alt="" title=""/></a>
+</div>
   </div>
+  <div class="modal_content_right-30">
+<h1><span class="modal_titulo">Urnas cerâmicas</span></h1>
+<p>Vasos cerâmicos utilizados para conter os restos das cremações.</p>
+</div>
 
 </div>
 </div>
@@ -417,7 +508,9 @@ Caixa da Confeitaria Santa Rita, em Viseu, reutilizada por José Coelho para gua
 <div id="mamaltar" class="modal">
 <div class="modal_content_main">
   <div class="modal_content_left-50">
-    <img src="fotos/mamaltar.jpg" class="responsive-image">
+  <div class="gallery">
+  <a href="fotos/mamaltar.jpg"><img src="fotos/mamaltar.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
     <div class="modal_content_right-50">
   <h1><span class="modal_titulo">Mamaltar do Vale de Fachas</span></h1>
@@ -435,15 +528,17 @@ ATENÇÃO REF da IMAGEM
 
 <div id="contas_perfuradas" class="modal">
 <div class="modal_content_main">
-    <div class="modal_content_right-100">
+<div class="modal_content_left-70">
+<div class="gallery">
+<a href="fotos/contas_perfuradas.jpg"><img src="fotos/contas_perfuradas.jpg" class="responsive-image" alt="" title=""/></a>
+</div>
+  </div>
+
+    <div class="modal_content_right-30">
   <h1><span class="modal_titulo">Mamaltar do Vale de Fachas</span></h1>
   <p>Pequenos discos de xisto, com uma perfuração central. A sua forma sugere tratarem-se de contas de adorno.
   </p>
-
 </div>
-<div class="modal_content_left-100">
-  <img src="fotos/contas_perfuradas.jpg" class="responsive-image">
-  </div>
 
 </div>
 </div>
@@ -455,7 +550,9 @@ ATENÇÃO REF da IMAGEM
 <div id="pecas_arqueologicas" class="modal">
 <div class="modal_content_main">
   <div class="modal_content_left-30">
-    <img src="fotos/pecas_arqueologicas.jpg" class="responsive-image">
+  <div class="gallery">
+  <a href="fotos/pecas_arqueologicas.jpg"><img src="fotos/pecas_arqueologicas.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
     <div class="modal_content_right-70">
   <h1><span class="modal_titulo">As peças arqueológicas</span></h1>
@@ -474,7 +571,9 @@ Para o Doutor José Coelho as peças contavam histórias, ajudavam-no a ler o pa
 <div id="easteregg_sala3" class="modal">
 <div class="modal_content_main">
   <div class="modal_content_left-50">
-    <img src="fotos/easteregg_sala3.jpg" class="responsive-image">
+  <div class="gallery">
+  <a href="fotos/easteregg_sala3.jpg"><img src="fotos/easteregg_sala3.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
     <div class="modal_content_right-50">
   <h1><span class="modal_titulo">Uma equipa, muitos projetos</span></h1>
@@ -491,20 +590,22 @@ Para o Doutor José Coelho as peças contavam histórias, ajudavam-no a ler o pa
 
 <div id="punhal_orgens" class="modal">
 <div class="modal_content_main">
-    <div class="modal_content_right-100">
+<div class="modal_content_left-70">
+<div class="gallery">
+<a href="fotos/punhal_orgens.jpg"><img src="fotos/punhal_orgens.jpg" class="responsive-image" alt="" title=""/></a>
+</div>
+  </div>
+
+    <div class="modal_content_right-30">
   <h1><span class="modal_titulo">Punhal de Orgens</span></h1>
 <p>
 Arma curta, em bronze, com dois gumes cortantes laterais, e três orifícios para os rebites que
 fixavam a lâmina ao cabo.</p>
 <hr>
-<p>SABER +
-O punhal de São Martinho de Orgens (Viseu) no seu contexto local: o ser e o estar <a href='http://www.patrimoniocultural.gov.pt/static/data/publicacoes/rpa/rpa17/rpa_vol.17_6.pdf' class='link_url' target='_blank'>link</a>
-
+<h1>SABER +</h1>
+<p>O punhal de São Martinho de Orgens (Viseu) no seu contexto local: o ser e o estar <a href='http://www.patrimoniocultural.gov.pt/static/data/publicacoes/rpa/rpa17/rpa_vol.17_6.pdf' class='link_url' target='_blank'>link</a>
+</p>
 </div>
-<div class="modal_content_left-100">
-  <img src="fotos/punhal_orgens.jpg" class="responsive-image">
-  </div>
-
 </div>
 </div>
 
@@ -512,14 +613,15 @@ O punhal de São Martinho de Orgens (Viseu) no seu contexto local: o ser e o est
 
 <div id="contas_vidro" class="modal">
 <div class="modal_content_main">
-    <div class="modal_content_right-100">
+<div class="modal_content_left-50">
+<div class="gallery">
+<a href="fotos/contas_vidro.jpg"><img src="fotos/contas_vidro.jpg" class="responsive-image" alt="" title=""/></a>
+</div>
+  </div>
+    <div class="modal_content_right-50">
   <h1><span class="modal_titulo">Contas em vidro</span></h1>
 <p>Contas em pasta de vidro cor de laranja e azul translucido.</p>
 </div>
-<div class="modal_content_left-100">
-  <img src="fotos/contas_vidro.jpg" class="responsive-image">
-  </div>
-
 </div>
 </div>
 
@@ -528,10 +630,12 @@ O punhal de São Martinho de Orgens (Viseu) no seu contexto local: o ser e o est
 
 <div id="edicula_votiva" class="modal">
 <div class="modal_content_main">
-  <div class="modal_content_left-30">
-    <img src="fotos/cepoes.jpg" class="responsive-image">
+  <div class="modal_content_left-50">
+  <div class="gallery">
+  <a href="fotos/edicula_votiva.jpg"><img src="fotos/edicula_votiva.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
-    <div class="modal_content_right-70">
+    <div class="modal_content_right-50">
   <h1><span class="modal_titulo">Edícula Votiva</span></h1>
 <p>
 Edícula em granito do século II d.C. proveniente de Penaverde, Aguiar da Beira.
@@ -547,10 +651,12 @@ Podemos assim imaginar este monumento no átrio de uma villa, encastrado numa pa
 
 <div id="imbrex" class="modal">
 <div class="modal_content_main">
-  <div class="modal_content_left-30">
-    <img src="fotos/cepoes.jpg" class="responsive-image">
+  <div class="modal_content_left-50">
+  <div class="gallery">
+  <a href="fotos/imbrex.jpg"><img src="fotos/imbrex.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
-    <div class="modal_content_right-70">
+    <div class="modal_content_right-50">
   <h1><span class="modal_titulo">Imbrex e Tegula</span></h1>
 <p>
 Os telhados da época romana eram formados por tégulas e ímbrices. As tégulas, planas e com rebordos, eram cobertas nas suas uniões por ímbrices, como o que se encontra aqui exposto proveniente da Quinta de São Miguel, Viseu.
@@ -565,10 +671,12 @@ Estes elementos podiam igualmente ser utilizados na construção de sepulturas c
 
 <div id="arula" class="modal">
 <div class="modal_content_main">
-  <div class="modal_content_left-30">
-    <img src="fotos/cepoes.jpg" class="responsive-image">
-    </div>
-    <div class="modal_content_right-70">
+  <div class="modal_content_left-50">
+  <div class="gallery">
+  <a href="fotos/arula.jpg"><img src="fotos/arula.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
+        </div>
+    <div class="modal_content_right-50">
   <h1><span class="modal_titulo">Árula Funerária</span></h1>
 <p>
 Proveniente da Quintela de Azurara, Mangualde, neste pequeno altar funerário de época romana podemos ler:
@@ -582,10 +690,12 @@ A Márcia ou Marco, filha (0) de Augustino, de 8 anos de idade. Que a terra te s
 
 <div id="telhado_romano" class="modal">
 <div class="modal_content_main">
-  <div class="modal_content_left-30">
-    <img src="fotos/cepoes.jpg" class="responsive-image">
-    </div>
-    <div class="modal_content_right-70">
+  <div class="modal_content_left-50">
+  <div class="gallery">
+  <a href="fotos/telhado_romano.jpg"><img src="fotos/telhado_romano.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
+      </div>
+    <div class="modal_content_right-50">
   <h1><span class="modal_titulo">Árula Funerária</span></h1>
 <p>
 Proveniente da Quintela de Azurara, Mangualde, neste pequeno altar funerário de época romana podemos ler:
@@ -601,10 +711,12 @@ A Márcia ou Marco, filha (0) de Augustino, de 8 anos de idade. Que a terra te s
 
 <div id="sepultura_romano" class="modal">
 <div class="modal_content_main">
-  <div class="modal_content_left-30">
-    <img src="fotos/cepoes.jpg" class="responsive-image">
+  <div class="modal_content_left-50">
+  <div class="gallery">
+  <a href="fotos/sepultura_romano.jpg"><img src="fotos/sepultura_romano.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
     </div>
-    <div class="modal_content_right-70">
+    <div class="modal_content_right-50">
   <h1><span class="modal_titulo">Árula Funerária</span></h1>
 <p>
 Proveniente da Quintela de Azurara, Mangualde, neste pequeno altar funerário de época romana podemos ler:
@@ -619,8 +731,10 @@ A Márcia ou Marco, filha (0) de Augustino, de 8 anos de idade. Que a terra te s
 <div id="moinho_manual" class="modal">
 <div class="modal_content_main">
   <div class="modal_content_left-30">
-    <img src="fotos/cepoes.jpg" class="responsive-image">
-    </div>
+  <div class="gallery">
+  <a href="fotos/moinho_manual.jpg"><img src="fotos/moinho_manual.jpg" class="responsive-image" alt="" title=""/></a>
+  </div>
+      </div>
     <div class="modal_content_right-70">
   <h1><span class="modal_titulo">Moinho Manual Rotativo</span></h1>
 <p>
@@ -634,10 +748,12 @@ Estas mós eram usadas em contexto doméstico. Nas padarias das urbs eram usados
 
 <div id="pedra_lapide_cepoes" class="modal">
 <div class="modal_content_main">
-  <div class="modal_content_left">
-    <img src="imagens/cepoes.jpg" class="responsive-image">
+  <div class="modal_content_left-50">
+  <div class="gallery">
+  <a href="fotos/cepoes.jpg"><img src="fotos/cepoes.jpg" class="responsive-image" alt="" title="cepoes"/></a>
+</div>
     </div>
-    <div class="modal_content_right">
+    <div class="modal_content_right-50">
     <h1><span class="modal_titulo">Pedra com inscrição</span></h1>
     <p>Os moinhos manuais redondos ou rotativos foram muito comuns durante a Idade do Ferro e bastante utilizados na época romana. Constituídos por duas mós, a dormente, em baixo, e a girante, por cima, possuíam um ou dois manípulos cravados lateralmente para fazer rodar a mó girante e assim moer o cereal.
     Estas mós eram usadas em contexto doméstico. Nas padarias das urbs eram usados moinhos de maiores dimensões: as atafonas.</p>
@@ -691,10 +807,22 @@ Estas mós eram usadas em contexto doméstico. Nas padarias das urbs eram usados
 <script src="data.js"></script>
 <script src="vtindex.js"></script>
 
+<script src="lightbox/simple-lightbox.min.js"></script>
 <script src="modal/jquery.modal.min.js"></script>
 <script src="init.js"></script>
 
+<script src="mapa2/mapacode.js"></script>
+
 <script>
+
+(function() {
+		var $gallery = new SimpleLightbox('.gallery a', {
+      nav: false,
+      captions: false,
+      showCounter: false,
+      animationSpeed: 100
+      });
+    	})();
 
 function toggleFloor() {
   var x = document.getElementById("floorBar");

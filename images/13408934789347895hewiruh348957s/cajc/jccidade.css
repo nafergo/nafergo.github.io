@@ -41,6 +41,9 @@
 #mapid {
   height: 100%;
   weight: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+
   }
 
 .blocker {z-index: 999;}
@@ -225,3 +228,6 @@ body.fullscreen-enabled #fullscreenToggle {
 .modal {padding: 2em; overflow-y: auto; line-height: 1.6;}
 .modal h1 {text-transform: uppercase;}
 .modal p {font-size: 1em; margin-bottom: 1em;}
+
+
+.sl-overlay{opacity: 1;}
