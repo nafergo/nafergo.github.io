@@ -43,6 +43,18 @@ var APP_DATA = {
           "pitch": 0.14516900686320255,
           "title": "<a href='#adro_da_se' class='modali hide-small' rel='modal:open'>O adro da Sé</a><span class='hide-desktop'>O adro da Sé</span>",
           "text": "[+ imagem da noticia? nota: verificar com a JC se temos esta notícia]br/>“O chão do adro da Sé julgamo-lo um importante campo de investigações arqueológicas a realizar” (José Coelho, jornal Voz da Verdade, 12-3-1927)."
+        },
+        {
+          "yaw": 0.14158269270250656,
+          "pitch": -0.024194838163600352,
+          "title": "<a href='#registo_no_cna' class='modali hide-small' rel='modal:open'>Registo no CNA</a><span class='hide-desktop'>Registo no CNA</span>",
+          "text": "Nos Cadernos de Notas Arqueológicas José Coelho relata o achado de sepulturas junto à base da torre do relógio no Adro da Sé, quando trabalhadores camarários abriam uma vala no local.br/>[+ imagem do CNA º1, folha 35 e transcrição?]br/> “Viseu – Adro da Sé – junto à base da torre do relógio, esquina sul, junto [ao] altar de Santo António – levantado e recolhido na Sé um sarcófago monolítico vulgar.br/>Debaixo, tratando de escavar, descobri [uma] sepultura primitiva, polilítica, contendo dois esqueletos juntos! – Disposição: duas fiadas laterais de pedras – telhas junto à cabeceira, coberta com pequenas lajes. Não foi completado o estudo porque o grande… burro… capitão Moreira mandou arrasar.”"
+        },
+        {
+          "yaw": 0.4431464826648792,
+          "pitch": 0.11201419097545795,
+          "title": "<a href='#o_sarcofago' class='modali hide-small' rel='modal:open'>O sarcófago</a><span class='hide-desktop'>O sarcófago</span>",
+          "text": "[+imagem do sarcófago? - nota: não tem grande qualidade]br/>Um sarcófago – uma urna funerária escavada numa só pedra – terá sido removido do adro da Sé e levado para o claustro."
         }
       ],
       "infoHotspots": [
@@ -50,19 +62,7 @@ var APP_DATA = {
           "yaw": -1.4647963817739509,
           "pitch": -0.21687901815344368,
           "title": "Almeida Moreira",
-          "text": "Almeida Moreira, diretor do Museu Grão Vasco, mandou cobrir o achado de sepulturas no adro da Sé, o que não permitiu a conclusão das investigações de José Coelho.br/>SABER +br/>Quem foi Almeida Moreira [link https://visitviseu.pt/detalhe?pag=figuras-de-vissaium&item=8]"
-        },
-        {
-          "yaw": 0.14158269270250656,
-          "pitch": -0.024194838163600352,
-          "title": "O registo no CNA",
-          "text": "Nos Cadernos de Notas Arqueológicas José Coelho relata o achado de sepulturas junto à base da torre do relógio no Adro da Sé, quando trabalhadores camarários abriam uma vala no local.br/>[+ imagem do CNA º1, folha 35 e transcrição?]br/> “Viseu – Adro da Sé – junto à base da torre do relógio, esquina sul, junto [ao] altar de Santo António – levantado e recolhido na Sé um sarcófago monolítico vulgar.br/>Debaixo, tratando de escavar, descobri [uma] sepultura primitiva, polilítica, contendo dois esqueletos juntos! – Disposição: duas fiadas laterais de pedras – telhas junto à cabeceira, coberta com pequenas lajes. Não foi completado o estudo porque o grande… burro… capitão Moreira mandou arrasar.”"
-        },
-        {
-          "yaw": 0.4431464826648792,
-          "pitch": 0.11201419097545795,
-          "title": "O sarcófago",
-          "text": "[+imagem do sarcófago? - nota: não tem grande qualidade]br/>Um sarcófago – uma urna funerária escavada numa só pedra – terá sido removido do adro da Sé e levado para o claustro."
+          "text": "Almeida Moreira, diretor do Museu Grão Vasco, mandou cobrir o achado de sepulturas no adro da Sé, o que não permitiu a conclusão das investigações de José Coelho.<br/><br/>SABER +<br/><a class='link_url' href='https://visitviseu.pt/detalhe?pag=figuras-de-vissaium&item=8' rel='nofollow noreferrer' target='_blank'>Quem foi Almeida Moreira</a>"
         }
       ]
     },
@@ -121,7 +121,8 @@ var APP_DATA = {
           "yaw": 0.6625632392966576,
           "pitch": 0.18655178197261435,
           "title": "Russel Cortez",
-          "text": "As escavações de José Coelho na Avenida Emídio Navarro foram interrompidas por Russel Cortez. O diretor do Museu Grão Vasco queria garantir o depósito dos achados no Museu.SABER +br/>Quem foi Russel Cortez [http://www.patrimoniocultural.gov.pt/static/data/recursos/bibliotecas_e_arquivos/biografias/biografiafernandorusselcortez.pdf]br/>"
+          "text": "As escavações de José Coelho na Avenida Emídio Navarro foram interrompidas por Russel Cortez. O diretor do Museu Grão Vasco queria garantir o depósito dos achados no Museu.<br><br>SABER +<br>\
+          <a class='link_url' href='http://www.patrimoniocultural.gov.pt/static/data/recursos/bibliotecas_e_arquivos/biografias/biografiafernandorusselcortez.pdf' rel='nofollow noreferrer' target='_blank'>Quem foi Russel Cortez</a>"
         },
         {
           "yaw": 2.551098980365735,
@@ -133,7 +134,7 @@ var APP_DATA = {
     },
     {
       "id": "2-esttua-de-viriato",
-      "name": "Estátua de Viriato",
+      "name": "Monumento a Viriato",
       "levels": [
         {
           "tileSize": 256,
@@ -168,7 +169,20 @@ var APP_DATA = {
         }
       ],
       "linkviewHotspots": [],
-      "infoboardHotspots": [],
+      "infoboardHotspots": [
+        {
+          "yaw": -0.44477102796244417,
+          "pitch": -0.447267335894205,
+          "title": "<a href='#projeto' class='modali hide-small' rel='modal:open'>O projeto</a><span class='hide-desktop'>O projeto</span>",
+          "text": "[+ imagem do projeto de JC para a Cava]br/>O projeto de José Coelho para a Cava incluía a restituição da sua forma original, incluindo o fosso exterior com água. No interior seriam rasgadas 8 avenidas orientadas para uma estátua central de homenagem a Viriato."
+        },
+        {
+          "yaw": 0.7737956950826284,
+          "pitch": -0.10209722516855457,
+          "title": "<a href='#cava_viriato' class='modali hide-small' rel='modal:open'>A Cava de Viriato</a><span class='hide-desktop'>A Cava de Viriato</span>",
+          "text": "[+ imagem aérea da CAVA]br/>A Cava de Viriato é um recinto com 8 muralhas de terra, acompanhadas por um fosso exterior, que formam um octógono com cerca de 33 hectares. A sua origem e função estão por desvendar. No século XVII o seu carácter enigmático associou-a à personagem de Viriato."
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": -0.029450053308805124,
@@ -181,18 +195,6 @@ var APP_DATA = {
           "pitch": -0.41079235349964804,
           "title": "Viriato",
           "text": "Não há evidencias que coloquem Viriato, líder do Lusitanos na luta contra os Romanos, em Viseu. Os Lusitanos viviam mais a sul do interior da Península, não sendo possível assegurar que Viriato tenha nascido em território atualmente português."
-        },
-        {
-          "yaw": -0.44477102796244417,
-          "pitch": -0.447267335894205,
-          "title": "Projeto",
-          "text": "[+ imagem do projeto de JC para a Cava]br/>O projeto de José Coelho para a Cava incluía a restituição da sua forma original, incluindo o fosso exterior com água. No interior seriam rasgadas 8 avenidas orientadas para uma estátua central de homenagem a Viriato."
-        },
-        {
-          "yaw": 0.7737956950826284,
-          "pitch": -0.10209722516855457,
-          "title": "A Cava de Viriato",
-          "text": "[+ imagem aérea da CAVA]br/>A Cava de Viriato é um recinto com 8 muralhas de terra, acompanhadas por um fosso exterior, que formam um octógono com cerca de 33 hectares. A sua origem e função estão por desvendar. No século XVII o seu carácter enigmático associou-a à personagem de Viriato."
         },
         {
           "yaw": -1.4287084092868625,
@@ -245,7 +247,20 @@ var APP_DATA = {
         }
       ],
       "linkviewHotspots": [],
-      "infoboardHotspots": [],
+      "infoboardHotspots": [
+        {
+          "yaw": -0.053827660852391546,
+          "pitch": 0.07680289269089968,
+          "title": "<a href='#igreja_anterior' class='modali hide-small' rel='modal:open'>A Igreja anterior</a><span class='hide-desktop'>A Igreja anterior</span>",
+          "text": "[+ imagem da estruturas da igreja identificadas em 2013 – pedir CT]br/>Escavações arqueológicas realizadas em 2013 e 2014, revelaram vestígios dos alicerces de uma igreja mais antiga, que terá sido desmontada."
+        },
+        {
+          "yaw": 0.6573859531874326,
+          "pitch": 0.07582972676866362,
+          "title": "<a href='#sarcofago_anterior' class='modali hide-small' rel='modal:open'>Sarcófago de mármore</a><span class='hide-desktop'>Sarcófago de mármore</span>",
+          "text": "[+ imagem do sarcófago]br/>José Coelho localiza nesta zona uma das necrópoles da cidade romana, junto a uma das portas da muralha dessa época. Aqui terá sido encontrado uma peça rara para a região: sarcófago em mármore."
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": 0.17317908682319683,
@@ -258,18 +273,6 @@ var APP_DATA = {
           "pitch": -0.14405381819181073,
           "title": "Igreja de São Miguel do Fetal",
           "text": "A Igreja atual foi construída no século XVIII, altura em que outro templo mais antigo estaria já muito arruinado."
-        },
-        {
-          "yaw": -0.053827660852391546,
-          "pitch": 0.07680289269089968,
-          "title": "A Igreja anterior",
-          "text": "[+ imagem da estruturas da igreja identificadas em 2013 – pedir CT]br/>Escavações arqueológicas realizadas em 2013 e 2014, revelaram vestígios dos alicerces de uma igreja mais antiga, que terá sido desmontada."
-        },
-        {
-          "yaw": 0.6573859531874326,
-          "pitch": 0.07582972676866362,
-          "title": "Sarcófago de mármore",
-          "text": "[+ imagem do sarcófago]br/>José Coelho localiza nesta zona uma das necrópoles da cidade romana, junto a uma das portas da muralha dessa época. Aqui terá sido encontrado uma peça rara para a região: sarcófago em mármore."
         },
         {
           "yaw": 2.098760476430706,
@@ -322,37 +325,38 @@ var APP_DATA = {
         }
       ],
       "linkviewHotspots": [],
-      "infoboardHotspots": [],
-      "infoHotspots": [
+      "infoboardHotspots": [
         {
           "yaw": 0.011546323936428848,
           "pitch": 0.03329628156189557,
-          "title": "Escavações arqueológicas recentes",
+          "title": "<a href='#escavacoes_recentes' class='modali hide-small' rel='modal:open'>Escavações arqueológicas recentes</a><span class='hide-desktop'>Escavações arqueológicas recentes</span>",
           "text": "[+ imagem da escavação – pedir PS)br/>Trabalhos arqueológicos recentes, colocaram a descoberto vestígios na zona do jardim. Alguns destes relacionam-se com os vestígios registados por José Coelho em 1944."
-        },
-        {
-          "yaw": -1.1972143992950194,
-          "pitch": -0.113666131201221177,
-          "title": "Muralha Afonsina",
-          "text": "Durante as obras de remodelação do Largo, parte da muralha Afonsina, que passava atrás da Fonte das Três Bicas, foi desmontada."
         },
         {
           "yaw": -0.7915364877005331,
           "pitch": 0.17872531927113755,
-          "title": "Registo dos achados",
+          "title": "<a href='#registo_achados' class='modali hide-small' rel='modal:open'>Registo dos achados</a><span class='hide-desktop'>Registo dos achados</span>",
           "text": "[+ desenho com registo dos achados]br/>O registo detalhado dos vestígios arqueológicos, identificados em 1944, foi feito por José Coelho. O arqueólogo interpretou os achados como restos da muralha medieval de Viseu, anterior à muralha Afonsina.br/>"
         },
         {
           "yaw": -0.1481403564413295,
           "pitch": 0.30302996297463736,
-          "title": "Vestígios arqueológicos",
+          "title": "<a href='#vestigios_arqueologicos' class='modali hide-small' rel='modal:open'>Vestígios arqueológicos</a><span class='hide-desktop'>Vestígios arqueológicos</span>",
           "text": "[+imagem das pedras durante o desaterro - SIPA]br/>José Coelho foi alertado, por um morador, para a existência de umas pedras que estavam a aparecer durante o desaterro do Largo.br/>"
         },
         {
           "yaw": 1.5857969847389057,
           "pitch": 0.4157515973547472,
-          "title": "Demolições",
+          "title": "<a href='#demolicoes' class='modali hide-small' rel='modal:open'>Demolições</a><span class='hide-desktop'>Demolições</span>",
           "text": "+ imagem com casas que foram demolidas – pedir PS]br/>Em 1944 foram demolidas as casas que ocupavam o centro do atual Largo da Misericórdia, numa obra de embelezamento do entorno da Igreja."
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.1972143992950194,
+          "pitch": -0.113666131201221177,
+          "title": "Muralha Afonsina",
+          "text": "Durante as obras de remodelação do Largo, parte da muralha Afonsina, que passava atrás da Fonte das Três Bicas, foi desmontada."
         }
       ]
     },
@@ -399,31 +403,32 @@ var APP_DATA = {
         }
       ],
       "linkviewHotspots": [],
-      "infoboardHotspots": [],
+      "infoboardHotspots": [
+        {
+          "yaw": -0.05324352869704185,
+          "pitch": 0.050956767568633765,
+          "title": "<a href='#muralhas_afonsina' class='modali hide-small' rel='modal:open'>A Muralha Afonsina</a><span class='hide-desktop'>A Muralha Afonsina</span>",
+          "text": "[+ planta da muralha com localização das portas?]br/>A Muralha de Viseu foi construída no século XV. Tinha sete portas, das quais restam a Porta do Soar e a Porta dos Cavaleiros. A construção foi classificada como Monumento Nacional em 1915."
+        },
+        {
+          "yaw": 0.7576386164604365,
+          "pitch": -0.10128151539898766,
+          "title": "<a href='#defesa_muralha' class='modali hide-small' rel='modal:open'>Em defesa da Muralha</a><span class='hide-desktop'>Em defesa da Muralha</span>",
+          "text": "[+ artigo de jornal ? – ver com JC]br/>José Coelho foi sempre defensor de um projeto de reconstrução das Portas da cidade e publicou esta sua opinião em diversos artigos de jornal em defesa da Muralha de Viseu."
+        },
+        {
+          "yaw": -0.6319664435596888,
+          "pitch": -0.6270677146152295,
+          "title": "<a href='#edificio_ruina' class='modali hide-small' rel='modal:open'>Edifício em ruína</a><span class='hide-desktop'>Edifício em ruína</span>",
+          "text": "[+imagem de edifício em ruína? - SIPA)br/>Em 1950 foi proposta a demolição do edifício em ruína, construídos obre a muralha. A solução permitia alargar a rua, afetando também o que restava da Porta de Santa Cristina."
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": -0.06872950813858836,
           "pitch": -0.3307625640834342,
           "title": "Porta de Santa Cristina",
           "text": "Podemos ver o início do arco da Porta de Santa Cristina, uma das portas da Muralha de Viseu, sobre a qual foi construído um edifício."
-        },
-        {
-          "yaw": -0.05324352869704185,
-          "pitch": 0.050956767568633765,
-          "title": "A Muralha Afonsina",
-          "text": "[+ planta da muralha com localização das portas?]br/>A Muralha de Viseu foi construída no século XV. Tinha sete portas, das quais restam a Porta do Soar e a Porta dos Cavaleiros. A construção foi classificada como Monumento Nacional em 1915."
-        },
-        {
-          "yaw": 0.7576386164604365,
-          "pitch": -0.10128151539898766,
-          "title": "Em defesa da Muralha",
-          "text": "[+ artigo de jornal ? – ver com JC]br/>José Coelho foi sempre defensor de um projeto de reconstrução das Portas da cidade e publicou esta sua opinião em diversos artigos de jornal em defesa da Muralha de Viseu."
-        },
-        {
-          "yaw": -0.6319664435596888,
-          "pitch": -0.6270677146152295,
-          "title": "Edifício em ruína",
-          "text": "[+imagem de edifício em ruína? - SIPA)br/>Em 1950 foi proposta a demolição do edifício em ruína, construídos obre a muralha. A solução permitia alargar a rua, afetando também o que restava da Porta de Santa Cristina."
         }
       ]
     }

@@ -41,9 +41,6 @@
 #mapid {
   height: 100%;
   weight: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-
   }
 
 .blocker {z-index: 999;}
@@ -224,11 +221,13 @@ body.fullscreen-enabled #fullscreenToggle {
 
 .responsive-image{width: 100%; height: auto;}
 
-.link_url{padding-left: 0.4em;padding-right: 0.4em;background-color: rgb(145, 0, 0)}
-.link_url:hover{background-color: rgb(195, 0, 0)}
+.link_url{margin-top: 2em;padding-left: 0.4em;padding-right: 0.4em;background-color: rgb(195, 0, 0)}
+.link_url:hover{background-color: rgb(165, 0, 0)}
 
 
 .modal_titulo {text-transform: uppercase;font-size: 2em;margin-bottom: 2em;}
+.modal_subtitulo {text-transform: uppercase;font-size: 1.2em;margin-bottom:;}
+
 .modal_content_main {width: 90%; margin-left: 5%; margin-right: 5%;}
 .modal_content_main_small {width: 60%; margin-left: 5%; margin-right: 5%;}
 .modal_content_left-30 {width: 30%; text-align: left; float: left;padding-right: 1em;}
@@ -242,7 +241,7 @@ body.fullscreen-enabled #fullscreenToggle {
 
 .modal p {font-size: 1em; line-height: 1.6;}
 
-.fullmodal{text-align: center;padding: 150px;}
+.fullmodal{text-align: center;}
 
 #mapid {background-color: rgba(58,68,84,0.3);}
 #floorBar {background-color: rgba(58,68,84,0.1);}
@@ -256,3 +255,5 @@ body.fullscreen-enabled #fullscreenToggle {
 
 
 .sl-overlay{opacity: 1;}
+
+.gallery img:hover{opacity: 0.5}

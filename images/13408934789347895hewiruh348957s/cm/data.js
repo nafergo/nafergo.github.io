@@ -213,7 +213,7 @@ var APP_DATA = {
           "yaw": -0.20022762060847477,
           "pitch": -0.10133501009761048,
           "title": "Marcos miliários",
-          "text": "Marcos miliário romanos, pertencentes à Coleção Arqueológica José Coelho.<br><br>SABER +<br>O que são marcos miliários? <a class='link_url' href='https://pt.wikipedia.org/wiki/Estrada_romana#Marcos_mili%C3%A1rios' rel='nofollow noreferrer' target='_blank'>Wikipédia</a><br><br><a class='link_url' href=\"https://visitviseu.pt/museu.php?item=41\" rel=\"nofollow noreferrer\" target=\"_blank\">Coleção Arqueológica José Coelho</a>"
+          "text": "Marcos miliário romanos, pertencentes à Coleção Arqueológica José Coelho.<br><br>SABER +<br><a class='link_url' href='https://pt.wikipedia.org/wiki/Estrada_romana#Marcos_mili%C3%A1rios' rel='nofollow noreferrer' target='_blank'>O que são marcos miliários? (Wikipédia)</a><br><br><a class='link_url' href=\"https://visitviseu.pt/museu.php?item=41\" rel=\"nofollow noreferrer\" target=\"_blank\">Coleção Arqueológica José Coelho</a>"
         },
         {
           "yaw": -1.0503923615045707,
@@ -267,8 +267,8 @@ var APP_DATA = {
           "pitch": -0.5284899081117498,
           "title": "Loggia",
           "text": "A loggia, com vista sobre o vale do Rio Pavia, é o elemento principal da fachada\
-           posterior.<br><br>SABER+<br>O que é uma loggia?<br>\
-           <a class='link_url' href='https://pt.wikipedia.org/wiki/L%C3%B3gia' target='_blank'>Wikipédia</a>"
+           posterior.<br><br>SABER+<br>\
+           <a class='link_url' href='https://pt.wikipedia.org/wiki/L%C3%B3gia' target='_blank'>O que é uma loggia? (Wikipédia)</a>"
         },
         {
           "yaw": 0.8452978829735507,
