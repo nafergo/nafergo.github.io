@@ -53,7 +53,7 @@ var APP_DATA = {
       "linkviewHotspots": [],
       "infoHotspots": [
         {
-          "yaw": 0.18927922019818233,
+          "yaw": -0.18927922019818233,
           "pitch": -0.3621458479616244,
           "title": "Brasão dos Melos",
           "text": "O brasão dos Melos foi acrescentado no século XVIII, quando a Casa pertencia a esta família."
@@ -62,23 +62,25 @@ var APP_DATA = {
           "yaw": 0.015507465854877722,
           "pitch": 0.5029002792481059,
           "title": "Construção",
-          "text": "A Casa do Miradouro foi mandada construir no século XVI, por Fernão Ortiz de Vilhegas, chantre da Sé de Viseu."
+          "text": "A Casa do Miradouro foi mandada construir, no século XVI, por Fernão Ortiz de Vilhegas."
         },
         {
-          "yaw": -0.3276295367580673,
-          "pitch": -0.11030771451471466,
+          "yaw": 0.3076295367580673,
+          "pitch": -0.01030771451471466,
           "title": "Portal",
-          "text": "O portal principal, de desenho \nrenascentista, com pilastras semelhantes às colunas do Claustro da Sé de\n Viseu, tem sido atribuído ao arquiteto italiano Francesco de \nCremona.br/&gt;SABER +br/&gt;A obra do arquitecto italiano Francesco da \nCremona (c.1480-c.1550) em Portugal: novas pistas de investigação \n[https://www.cepese.pt/portal/pt/publicacoes/obras/a-encomenda.-o-artista.-a-obra/a-obra-do-arquitecto-italiano-francesco-da-cremona-c-1480-c-1550-em-portugal-novas-pistas-de-investigacao]"
+          "text": "O portal principal, de desenho renascentista, tem sido atribuído ao arquiteto italiano Francesco de Cremona.<br>\
+          <br>SABER +<br>\
+          <a class='link_url' href='https://www.cepese.pt/portal/pt/publicacoes/obras/a-encomenda.-o-artista.-a-obra/a-obra-do-arquitecto-italiano-francesco-da-cremona-c-1480-c-1550-em-portugal-novas-pistas-de-investigacao' target='_blank'>A obra do arquitecto italiano Francesco da Cremona em Portugal</a>"
         },
         {
-          "yaw": 0.5839518523748755,
-          "pitch": -0.14285537891269762,
+          "yaw": 0.3839518523748755,
+          "pitch": -0.26285537891269762,
           "title": "Azeredo Perdigão",
-          "text": "A Casa pertenceu À família Azeredo \nPerdigão, e aqui terá nascido José Azeredo Perdigão, primeiro presidente\n da Fundação Calouste Gulbenkian."
+          "text": "A Casa pertenceu À família Azeredo Perdigão, e aqui terá nascido José Azeredo Perdigão, primeiro presidente da Fundação Calouste Gulbenkian."
         },
         {
           "yaw": 0.8152837632018048,
-          "pitch": -0.19917804232273717,
+          "pitch": -0.39917804232273717,
           "title": "Janelas barrocas",
           "text": "As janelas de desenho barroco e os óculos integrados nas fachadas são alterações introduzidas nos séculos XVII/ XVIII."
         },
@@ -86,7 +88,7 @@ var APP_DATA = {
           "yaw": 0.15917722855658667,
           "pitch": -0.8083974472276481,
           "title": "Escudo dos Ortizes",
-          "text": "No topo do portal, da casa mandada construir por Fernão Ortiz de Vilhegas, podemos ver o escudo de armas dos Ortizes."
+          "text": "No topo do portal podemos ver o escudo de armas dos Ortizes."
         },
         {
           "yaw": -0.8786574665054729,
@@ -203,13 +205,15 @@ var APP_DATA = {
           "yaw": 1.4507734759084716,
           "pitch": -0.07386446115775769,
           "title": "Muralha Afonsina",
-          "text": "Troço da Muralha do século XV que limita o\n jardim da Casa do Miradouro, a norte e a oeste.br/&gt;SABER +br/&gt;A \nMuralha medieval de Viseu \n[http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=6186 \nouhttp://www.patrimoniocultural.gov.pt/pt/patrimonio/patrimonio-imovel/pesquisa-do-patrimonio/classificado-ou-em-vias-de-classificacao/geral/view/70675/br/&gt;…\n See More"
+          "text": "Troço da Muralha do século XV que limita o jardim da Casa do Miradouro, a norte e a oeste.<br><br>SABER +<br>\
+          <a class='link_url' href='http://www.patrimoniocultural.gov.pt/pt/patrimonio/patrimonio-imovel/pesquisa-do-patrimonio/classificado-ou-em-vias-de-classificacao/geral/view/70675/' rel='nofollow noreferrer' target='_blank'>Muralha medieval de Viseu</a><br><br>\
+          <a class='link_url' href='https://visitviseu.pt/detalhe?pag=top-10&item=4' rel='nofollow noreferrer' target='_blank'>Porta do Soar e Muralha Afonsina</a>"
         },
         {
           "yaw": -0.20022762060847477,
           "pitch": -0.10133501009761048,
-          "title": "<strong>Marcos miliários</strong>",
-          "text": "Marcos miliário romanos, pertencentes à Coleção Arqueológica José Coelho.<br>SABER +<br>O que são marcos miliários? [<a href=\"https://pt.wikipedia.org/wiki/Estrada_romana#Marcos_mili%C3%A1rios\" rel=\"nofollow noreferrer\" target=\"_blank\">https://pt.wikipedia.org/wiki/Estrada_romana#Marcos_mili%C3%A1rios</a>]<br>Coleção Arqueológica José Coelho [<a href=\"https://visitviseu.pt/museu.php?item=41\" rel=\"nofollow noreferrer\" target=\"_blank\">https://visitviseu.pt/museu.php?item=41</a>]"
+          "title": "Marcos miliários",
+          "text": "Marcos miliário romanos, pertencentes à Coleção Arqueológica José Coelho.<br><br>SABER +<br>O que são marcos miliários? <a class='link_url' href='https://pt.wikipedia.org/wiki/Estrada_romana#Marcos_mili%C3%A1rios' rel='nofollow noreferrer' target='_blank'>Wikipédia</a><br><br><a class='link_url' href=\"https://visitviseu.pt/museu.php?item=41\" rel=\"nofollow noreferrer\" target=\"_blank\">Coleção Arqueológica José Coelho</a>"
         },
         {
           "yaw": -1.0503923615045707,
@@ -262,19 +266,21 @@ var APP_DATA = {
           "yaw": -0.06347606360690072,
           "pitch": -0.5284899081117498,
           "title": "Loggia",
-          "text": "A loggia, com vista sobre o vale do Rio \nPavia, é o elemento principal da fachada posterior.br/&gt;SABER \n+br/&gt;O que é uma loggia? [https://pt.wikipedia.org/wiki/L%C3%B3gia]"
+          "text": "A loggia, com vista sobre o vale do Rio Pavia, é o elemento principal da fachada\
+           posterior.<br><br>SABER+<br>O que é uma loggia?<br>\
+           <a class='link_url' href='https://pt.wikipedia.org/wiki/L%C3%B3gia' target='_blank'>Wikipédia</a>"
         },
         {
           "yaw": 0.8452978829735507,
           "pitch": -0.09126516160783105,
           "title": "Porta manuelina",
-          "text": "No primeiro piso da Torre abre-se uma janela de recorte manuelino."
+          "text": "Os linteis da porta e da janela da Torre apresentam decoração manuelina."
         },
         {
           "yaw": 1.2112157709858646,
           "pitch": -0.48916049500750525,
           "title": "Torre",
-          "text": "A Torre que se destaca do corpo principal\n do edifício, corresponde a uma construção mais antiga, integrada na \nCasa no século XVI."
+          "text": "A Torre que se destaca do corpo principal do edifício, corresponde a uma construção mais antiga, integrada na Casa no século XVI."
         }
       ]
     },
@@ -353,7 +359,14 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
       "linkviewHotspots": [],
-      "infoboardHotspots": [],
+      "infoboardHotspots": [
+        {
+          "yaw": -3.082218705954679,
+          "pitch": 0.2797784100238019,
+          "title": "<a href='#oficinas' class='modali hide-small' rel='modal:open'>Oficinas</a><span class='hide-desktop'>Oficinas</span>",
+          "text": "Durante o ano, o Polo Arqueológico de Viseu dinamiza oficinas, para os mais pequenos e famílias, dedicadas a explorar a Arqueologia, incluindo experiências simuladas de escavações arqueológicas. Para mais informações: 232 425 388 ou casadomiradouro@cmviseu.pt"
+        }
+      ],
       "linkHotspots": [
         {
           "yaw": -0.5928828876532215,
@@ -374,14 +387,7 @@ var APP_DATA = {
           "target": "2-fachada-lateral"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -3.082218705954679,
-          "pitch": 0.2797784100238019,
-          "title": "Title",
-          "text": "Text"
-        }
-      ]
+      "infoHotspots": []
     },
     {
       "id": "6-jardim-4",

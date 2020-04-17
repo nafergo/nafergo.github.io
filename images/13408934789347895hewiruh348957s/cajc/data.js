@@ -177,7 +177,7 @@ var APP_DATA = {
         {
           "yaw": -0.19912212656989503,
           "pitch": 0.6887027769105476,
-          "title": "<a href='#caixa_amostras' class='modali hide-small' rel='modal:open'>Caixas de amostras</a><span class='hide-desktop'>Caixas de amostras</span>",
+          "title": "<a href='#caixa_amostras' class='modali hide-small' rel='modal:open'>Caixas com amostras</a><span class='hide-desktop'>Caixas com amostras</span>",
           "text": "Text"
         }
       ],
@@ -187,7 +187,7 @@ var APP_DATA = {
           "yaw": 0.4449274370037255,
           "pitch": -0.09364293316975747,
           "title": "Transcrição",
-          "text": "NB: todos estes objetos fazem parte da \nminha coleção inclusive amostras de terra contidas nas sistas ou todas \nas contidas nos vasos das sistas que as continham...” Caderno de Notas \nArqueológica nº 1 [falta numero de folha e data]"
+          "text": "'Todos estes objetos fazem parte da minha coleção inclusive amostras de terra contidas nas sistas ou todas nas contidas nos vasos das sistas que as continham...'"
         }
       ]
     },
@@ -237,7 +237,7 @@ var APP_DATA = {
         {
           "yaw": -0.30632429771907255,
           "pitch": 0.652190973691205,
-          "title": "<a href='#cadernos_notas' class='modali hide-small' rel='modal:open'>Cadernos de Notas Arqueológica</a><span class='hide-desktop'>Cadernos de Notas Arqueológica</span>",
+          "title": "<a href='#cadernos_notas' class='modali hide-small' rel='modal:open'>Cadernos de Notas Arqueológicas</a><span class='hide-desktop'>Cadernos de Notas Arqueológicas</span>",
           "text": "Text"
         }
       ],
@@ -249,7 +249,9 @@ var APP_DATA = {
           "yaw": 0.2567329428108085,
           "pitch": 0.26062605877691425,
           "title": "Transcrição",
-          "text": "Text"
+          "text": "18-05-1934\
+          'António Marques Viegas de Morais do Couto do Mosteiro proprietário.\
+          António Cravo de Lima, chefe da estação telegrafo-postal de Santa Comba Dão, que me acompanhou no Couto do Mosteiro, donde trouxe comigo manilha de louça romana ... (CNA 14, fl. 32)'"
         },
         {
           "yaw": 0.781490567592007,
@@ -340,31 +342,28 @@ var APP_DATA = {
           "yaw": 2.279784822992508,
           "pitch": 0.10932660666732197,
           "title": "Transcrição",
-          "text": "Text"
+          "text": "3-5-930<br>\
+          Vale de Fachas - Travassós de Cima - Visêu<br>\
+          'Mandei 2 homem (José dos Santos, cantoneiro, e filho Armando dos Santos) descobirir os esteios da câmara de Mamaltar. Feito o desterro verifiquei que de facto 2 esteios têm vestígios de pinturas a vermelho e preto no 1º esteio, da esquerda à entrada, e no 2º, à direita, da mesma entrada (os primeiros de que tirei decalque estão muito deteriorados.) Encontrou-se um caco e um seixo rolado.'"
         },
         {
           "yaw": 2.2736491992145034,
           "pitch": 0.8487691448110706,
-          "title": "chao",
-          "text": "Text"
-        },
-        {
-          "yaw": 1.0941266805975562,
-          "pitch": 0.052556106530708746,
-          "title": "Legenda",
-          "text": "Text"
+          "title": "Arqueologia",
+          "text": "José Coelho foi o Percursor da arqueologia regional tendo intervencionado em vários monumentos.<br>\
+           A Arqueologia é uma ciência apaixonante que procura nos vestígios materiais a história do Homem."
         },
         {
           "yaw": -1.0508105742196072,
           "pitch": -0.27874997146961533,
-          "title": "Anta",
-          "text": "Text"
+          "title": "Anta ou (dólmen)",
+          "text": "Construção,em lajes de pedra, composta por uma câmara, por vezes antecedida por um corredor, integralmente cobertos por terra (a mamoa). Estas estruturas eram locais de enterramento usados entre o V e o III milénio a.C."
         },
         {
           "yaw": 0.7487258796172487,
           "pitch": -0.30764372450903466,
           "title": "Necrópole",
-          "text": "Text"
+          "text": "Espaço destinado ao enterramento dos mortos, separado das áreas habitacionais. Inclui várias sepulturas,por vezes de diferentes tipologias e de várias épocas."
         }
       ]
     },
@@ -431,18 +430,18 @@ var APP_DATA = {
         },
         {
           "yaw": -0.03228318238621242,
-          "pitch": 0.4963828615008366,
-          "title": "<a href='#caixa_ossos' class='modali hide-small' rel='modal:open'>Caixa de ossos</a><span class='hide-desktop'>Caixa de ossos</span>",
+          "pitch": 0.2963828615008366,
+          "title": "<a href='#caixa_ossos' class='modali hide-small' rel='modal:open'>Caixa com ossos</a><span class='hide-desktop'>Caixa com ossos</span>",
           "text": "[+ fotografia da etiqueta??][falta texto]"
         }
       ],
       "linkHotspots": [],
       "infoHotspots": [
         {
-          "yaw": 0.5513469836706122,
+          "yaw": 0.4013469836706122,
           "pitch": 0.26283827894733136,
           "title": "Instrumentos em pedra",
-          "text": "Lâmina em silex, usada para cortar com \nprecisão; goiva em filádio, utilizada para entalharmadeirae machado em \n????. Estes três instrumentos de pedra teriam cabos de madeira."
+          "text": "Lâmina usada para cortar com precisão; goiva utilizada para entalhar madeira; e machador. Estes três instrumentos teriam cabos de madeira."
         },
         {
           "yaw": 0.4000730559054375,
@@ -454,13 +453,7 @@ var APP_DATA = {
           "yaw": -0.5382015301463543,
           "pitch": 0.4344156892218889,
           "title": "Vasos cerâmicos</div>",
-          "text": "[+ modelo de vaso cerâmico]O desenho de \npeças arqueológicas permite, a partir de poucosfragmentos,propor uma \nreconstituição da forma original do objeto.</div>"
-        },
-        {
-          "yaw": -2.219816913851819,
-          "pitch": 0.7554068866498973,
-          "title": "easter egg</div>",
-          "text": "Text"
+          "text": "Estes vasos cerâmicos foram encontrados em pedaços durante a escavação. A partir dos fragmentos colados, ou do desenho técnico, podemos reconstruir a forma original dos objetos."
         }
       ]
     },
@@ -522,7 +515,7 @@ var APP_DATA = {
         {
           "yaw": 0.335395416589936,
           "pitch": 0.5530199489388785,
-          "title": "<a href='#contas_perfuradas' class='modali hide-small' rel='modal:open'>Mamaltar do Vale de Fachas</a><span class='hide-desktop'>Mamaltar do Vale de Fachas</span>",
+          "title": "<a href='#contas_perfuradas' class='modali hide-small' rel='modal:open'>Contas em xisto</a><span class='hide-desktop'>Contas em xisto</span>",
           "text": "Pequenos discos de xisto, com uma perfuração central. A sua forma sugere tratarem-se de contas de adorno.</div>"
         },
       ],
@@ -537,8 +530,8 @@ var APP_DATA = {
         {
           "yaw": -0.5037284612818862,
           "pitch": 0.5017522630319888,
-          "title": "Instrumentos líticos</div>",
-          "text": "As lâmina são instrumentos mais longos \nque estreitos, com dois gumes cortantes opostos, produzidas a partir de \num nódulo de pedra (silex). Os micrólitos, produzidos a partir das \nlâminas, eram cravados num cabo de madeira formando um fio cortante \n“denteado”.</div>"
+          "title": "Instrumentos líticos",
+          "text": "As lâmina são instrumentos longos e estreitos, com dois gumes cortantes opostos. Os micrólitos são produzidos a partir das lâminas. Estas pequenas peças eram cravados em linha, num cabo de madeira, formando um fio cortante “denteado”."
         },
         {
           "yaw": -0.584270970055945,
@@ -758,14 +751,7 @@ var APP_DATA = {
           "target": "8-sala--3"
         }
       ],
-      "infoboardHotspots": [
-        {
-          "yaw": 1.6899226268993246,
-          "pitch": -0.24113362194139398,
-          "title": "<a href='#easteregg_sala3' class='modali hide-small' rel='modal:open'>A lareira, agora sem fumo, pode-se espreitar?</a><span class='hide-desktop'>A lareira, agora sem fumo, pode-se espreitar?</span>",
-          "text": "Text"
-        }
-      ],
+      "infoboardHotspots": [],
       "linkHotspots": [],
       "infoHotspots": [
         {
@@ -871,10 +857,10 @@ var APP_DATA = {
           "text": "Elemento dormente de uma pequena mó \nmanual encontrada, na Anta da Nave (Serra da Nave), pelo escritor \nAquilino Ribeiro, que a ofereceu a José Coelho.</div>"
         },
         {
-          "yaw": -0.8061485643586188,
-          "pitch": 0.5967784868665973,
+          "yaw": -0.7061485643586188,
+          "pitch": 0.4967784868665973,
           "title": "Escopro",
-          "text": "Text"
+          "text": "Ferramenta com uma aresta de corte numa das extremidades, que serve para esculpir ou cortar madeira, pedra ou metal, atingido, com um martelo a extremidade oposta."
         }
       ]
     },
@@ -952,30 +938,30 @@ var APP_DATA = {
           "yaw": -0.7838756787182977,
           "pitch": -0.043211578479532164,
           "title": "Transcrição",
-          "text": "Text"
+          "text": "'Uma foice larga, sacho pequeno com 2 bicos e pá, uma enxada grande, pá com bico, um compasso e um machado picarêto. Recolhidos na minha coleção'"
         },
         {
           "yaw": -0.7685542935840495,
           "pitch": 0.3484861435266158,
-          "title": "Utensílios em ferro</div>",
-          "text": "Instrumentos agrícolas e de carpinteiro.</div>"
+          "title": "Utensílios em ferro",
+          "text": "Instrumentos agrícolas e de carpinteiro."
         },
         {
           "yaw": -0.1854004220918135,
           "pitch": -0.0025218166553706567,
-          "title": "Pesos de tear</div>",
-          "text": "Estes objetos serviam para esticar os fios verticais (a teia) nos teares de época Romana.</div>"
+          "title": "Pesos de tear",
+          "text": "Estes objetos serviam para esticar os fios verticais (a teia) nos teares de época Romana."
         },
         {
           "yaw": 0.3449189400620316,
-          "pitch": 0.4283719752705011,
-          "title": "Vaso em Sigillata Hispânica</div>",
+          "pitch": 0.0283719752705011,
+          "title": "Vaso em Sigillata Hispânica",
           "text": "Taça de cerâmica utilizada no serviço de \nmesa de luxo. Estes recipiente tinham uma marca impressa no fundo, que \nidentificava o oleiro, a que se dava o nome de sigillum, de onde deriva o\n nome sigillata.</div>"
         },
         {
-          "yaw": 0.7650363899942256,
-          "pitch": 0.36459946081447825,
-          "title": "Cerâmicas</div>",
+          "yaw": 0.6650363899942256,
+          "pitch": 0.26459946081447825,
+          "title": "Cerâmicas",
           "text": "Fragmentos de recipientes cerâmicos de cor acinzentada, característicos da Idade do Ferro.</div>"
         }
       ]
@@ -1044,7 +1030,7 @@ var APP_DATA = {
         {
           "yaw": 0.36924141226454843,
           "pitch": -0.252873980618471,
-          "title": "<a href='#arula' class='modali hide-small' rel='modal:open'>Arula</a><span class='hide-desktop'>Arula</span>",
+          "title": "<a href='#arula' class='modali hide-small' rel='modal:open'>Árula funerária</a><span class='hide-desktop'>Árula funerária</span>",
           "text": "Text"
         },
         {
@@ -1201,10 +1187,16 @@ var APP_DATA = {
       "linkviewHotspots": [],
       "infoboardHotspots": [
         {
+          "yaw": 0.49605042233880425,
+          "pitch": -0.26625673378538295,
+          "title": "<a href='#estelas' class='modali hide-small' rel='modal:open'>Estelas</a><span class='hide-desktop'>Estelas</span>",
+          "text": "Text"
+        },
+        {
           "yaw": -0.30036190684354835,
           "pitch": 0.2085740957858988,
           "title": "<a href='#pedra_lapide_cepoes' class='modali hide-small' rel='modal:open'>Pedra com inscrição</a><span class='hide-desktop'>Pedra com inscrição</span>",
-          "text": "Pedra com inscrição, que estaria colocada\n na parede de um edifício, com identificação do mestre da obra.         \n           SABER +                    A história da lápide de Cepões \n[link para storymap ?]</div>"
+          "text": "Pedra com inscrição, que estaria colocada na parede de um edifício, com identificação do mestre da obra.         \n           SABER +                    A história da lápide de Cepões \n[link para storymap ?]</div>"
         }
       ],
       "linkHotspots": [
@@ -1223,15 +1215,9 @@ var APP_DATA = {
           "text": "Text"
         },
         {
-          "yaw": 0.49605042233880425,
-          "pitch": -0.26625673378538295,
-          "title": "dir",
-          "text": "Text"
-        },
-        {
           "yaw": -0.4773404291949088,
           "pitch": -0.2742696747481137,
-          "title": "Lápide de Cepões</div>",
+          "title": "Lápide de Cepões",
           "text": "Lápide emoldurada com inscrição do século\n XVI, Cepões, Viseu                    Era de 1558, foi feita esta obra \n[pelo] Mestre Pedro Anes.</div>"
         }
       ]

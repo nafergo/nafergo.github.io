@@ -219,7 +219,7 @@ body.fullscreen-enabled #fullscreenToggle {
 
 .modal p {font-size: 1em; line-height: 1.6;}
 
-#mapid {background-color: rgba(58,68,84,0.1);}
+#mapid {background-color: rgba(58,68,84,0.3);}
 #floorBar {background-color: rgba(58,68,84,0.1);}
 
 .minus{margin-left: 1em;}

@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="plugin/leaflet/dist/leaflet.css" />
 <script src="plugin/leaflet/dist/leaflet.js"></script>
 <link rel="stylesheet" href="modal/jquery.modal.min.css" />
+<link rel="stylesheet" href="lightbox/simple-lightbox.min.css" />
 
 <link rel="stylesheet" href="pav.css">
 <link rel="stylesheet" href="jccidade.css">
@@ -90,10 +91,37 @@
 
 
 
-<div id='historia_da_casa' class='modal'>
-  <iframe width='560' height='315' src='https://www.youtube.com/embed/_4ycjcntefE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-+ inserir áudio/ vídeo de apresentação da casa – pedir ML
+
+
+<div id="historia_da_casa" class="modal">
+<div class="modal_content_main">
+  <div class="fullmodal">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WcWalAiFEjQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
 </div>
+</div>
+
+
+
+<div id="oficinas" class="modal">
+<div class="modal_content_main">
+  <div class="modal_content_left-30">
+  <div class="gallery">
+  <a href="fotos/oficinas.jpg"><img src="fotos/oficinas.jpg" class="responsive-image" alt="" title=""/></a>
+</div>
+    </div>
+    <div class="modal_content_right-70">
+  <h1><span class="modal_titulo">O sentido da vida</span></h1>
+  <p>Durante o ano, o Polo Arqueológico de Viseu dinamiza oficinas, para os mais pequenos e famílias, dedicadas a explorar a Arqueologia, incluindo experiências simuladas de escavações arqueológicas.</p>
+  <p> Para mais informações: 232 425 388 ou casadomiradouro@cmviseu.pt</p>
+
+</div>
+</div>
+</div>
+
+
+
 
 
 
@@ -189,11 +217,21 @@ marker7.on('click', fmarker7 );
 
 <script src="data.js"></script>
 <script src="vtindex.js"></script>
+<script src="lightbox/simple-lightbox.min.js"></script>
 
 <script src="modal/jquery.modal.min.js"></script>
 <script src="init.js"></script>
 
 <script>
+
+(function() {
+		var $gallery = new SimpleLightbox('.gallery a', {
+      nav: false,
+      captions: false,
+      showCounter: false,
+      animationSpeed: 100
+      });
+    	})();
 
 function toggleFloor() {
   var x = document.getElementById("floorBar");

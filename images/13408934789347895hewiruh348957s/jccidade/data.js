@@ -112,14 +112,14 @@ var APP_DATA = {
       "infoboardHotspots": [],
       "infoHotspots": [
         {
-          "yaw": 0.6625632392966576,
-          "pitch": 0.18655178197261435,
+          "yaw": -0.1046404208020156545,
+          "pitch": 0.2160689189854601,
           "title": "Achados arqueológicos",
-          "text": "[+ CNA? - confirmar com a JC se existe este registo ]br/>Em 1949 José Coelho registou achados que aparecerem durante uma obra, que interpreta como vestígios de três tipos de sepulturas diferentes de época romana."
+          "text": "Em 1949 José Coelho registou achados que aparecerem durante uma obra, que interpreta como vestígios de três tipos de sepulturas diferentes de época romana."
         },
         {
-          "yaw": 0.0046404208020156545,
-          "pitch": 0.2160689189854601,
+          "yaw": 0.6625632392966576,
+          "pitch": 0.18655178197261435,
           "title": "Russel Cortez",
           "text": "As escavações de José Coelho na Avenida Emídio Navarro foram interrompidas por Russel Cortez. O diretor do Museu Grão Vasco queria garantir o depósito dos achados no Museu.SABER +br/>Quem foi Russel Cortez [http://www.patrimoniocultural.gov.pt/static/data/recursos/bibliotecas_e_arquivos/biografias/biografiafernandorusselcortez.pdf]br/>"
         },
@@ -189,7 +189,7 @@ var APP_DATA = {
           "text": "[+ imagem do projeto de JC para a Cava]br/>O projeto de José Coelho para a Cava incluía a restituição da sua forma original, incluindo o fosso exterior com água. No interior seriam rasgadas 8 avenidas orientadas para uma estátua central de homenagem a Viriato."
         },
         {
-          "yaw": 0.5737956950826284,
+          "yaw": 0.7737956950826284,
           "pitch": -0.10209722516855457,
           "title": "A Cava de Viriato",
           "text": "[+ imagem aérea da CAVA]br/>A Cava de Viriato é um recinto com 8 muralhas de terra, acompanhadas por um fosso exterior, que formam um octógono com cerca de 33 hectares. A sua origem e função estão por desvendar. No século XVII o seu carácter enigmático associou-a à personagem de Viriato."
@@ -275,7 +275,7 @@ var APP_DATA = {
           "yaw": 2.098760476430706,
           "pitch": 0.03495511950817054,
           "title": "Escavações",
-          "text": "+ imagens das escavações? - pedir FC]br/>Em 2009 foram encontrados vestígios de habitações e de construções relacionadas com a agricultura, de época romana. Mais tarde a zona terá sido utilizada como necrópole, funcionalidade que manteve até à época medieval."
+          "text": "Em 2006 foram encontrados vestígios de habitações e de construções relacionadas com a agricultura, de época romana. Mais tarde a zona terá sido utilizada como necrópole, funcionalidade que manteve até à época medieval."
         }
       ]
     },
@@ -331,8 +331,8 @@ var APP_DATA = {
           "text": "[+ imagem da escavação – pedir PS)br/>Trabalhos arqueológicos recentes, colocaram a descoberto vestígios na zona do jardim. Alguns destes relacionam-se com os vestígios registados por José Coelho em 1944."
         },
         {
-          "yaw": -1.0972143992950194,
-          "pitch": -0.013666131201221177,
+          "yaw": -1.1972143992950194,
+          "pitch": -0.113666131201221177,
           "title": "Muralha Afonsina",
           "text": "Durante as obras de remodelação do Largo, parte da muralha Afonsina, que passava atrás da Fonte das Três Bicas, foi desmontada."
         },
@@ -423,7 +423,7 @@ var APP_DATA = {
           "yaw": -0.6319664435596888,
           "pitch": -0.6270677146152295,
           "title": "Edifício em ruína",
-          "text": "[+imagem de edifício em ruína? - SIPA)br/>Em 1950 foi proposta a demolição do edifício em ruína, construídos obre a muralha. A solução permitia alargara rua, afetando também o que restava da Porta de Santa Cristina."
+          "text": "[+imagem de edifício em ruína? - SIPA)br/>Em 1950 foi proposta a demolição do edifício em ruína, construídos obre a muralha. A solução permitia alargar a rua, afetando também o que restava da Porta de Santa Cristina."
         }
       ]
     }
