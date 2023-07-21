@@ -1,0 +1,47 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+ body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+    
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.light{font-size: 1.2em;}
+
+.brand-logo{font-weight: lighter;
+  font-size: x-large;}
+.fixed {position: fixed; width: 100%;z-index: 999;}
+.top {padding-top: 5em;}
+
+
+.margin-top{margin-top: -1em;}
+.margin-bottom{margin-bottom: -0.5em;}
+
+ul.linkscontactos li {display: inline;}
+ul.linkscontactos li img{max-width: 3em; margin-right: 2%; margin-bottom: 1em; opacity: 0.7;-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);}
+ul.linkscontactos li img:hover {opacity: 1;-webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+ul.linkscontactos-dois li {display: inline;}
+  ul.linkscontactos-dois li img{max-width: 10%; margin-right: 2%; margin-bottom: 1em; opacity: 0.7;-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);}
+  ul.linkscontactos-dois li img:hover {opacity: 1;-webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.myfooter{color:black; opacity: 0.4; font-size: small;}
+.myfooter:hover{opacity: 0.8;}
