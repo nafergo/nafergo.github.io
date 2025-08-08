@@ -5,6 +5,7 @@
     $('.tooltipped').tooltip();
     $('.collapsible').collapsible();
     $('.tabs').tabs();
+	$('.slider').slider();
     $('.carousel.carousel-slider').carousel({
       fullWidth: true,
       indicators: true
