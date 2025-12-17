@@ -11,6 +11,7 @@
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  font-weight: 300;
 }
 
 main {
@@ -45,3 +46,16 @@ ul.linkscontactos-dois li {display: inline;}
 
 .myfooter{color:black; opacity: 0.4; font-size: small;}
 .myfooter:hover{opacity: 0.8;}
+
+.slides img {border-radius: 5px 5px 5px 5px; /* four values */}
+
+.sectiontitle {font-size: 14px; text-transform: uppercase;}
+
+a:hover {background-color: beige;}
+a {padding-left: 0.3em; padding-right: 0.3em;}
+
+.links{}
+
+.slider .indicators .indicator-item.active {
+  background-color: #ee6e73;
+}

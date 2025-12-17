@@ -5,13 +5,8 @@
     $('.tooltipped').tooltip();
     $('.collapsible').collapsible();
     $('.tabs').tabs();
-	$('.slider').slider();
-    $('.carousel.carousel-slider').carousel({
-      fullWidth: true,
-      indicators: true
-    });
-
+	  $('.slider').slider();
+  
   }); // end of document ready
 })(jQuery); // end of jQuery name space
-
 
