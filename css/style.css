@@ -51,7 +51,7 @@ ul.linkscontactos-dois li {display: inline;}
 
 .sectiontitle {font-size: 14px; text-transform: uppercase;}
 
-a:hover {background-color: beige;}
+
 a {padding-left: 0.3em; padding-right: 0.3em;}
 
 .links{}
@@ -59,3 +59,8 @@ a {padding-left: 0.3em; padding-right: 0.3em;}
 .slider .indicators .indicator-item.active {
   background-color: #ee6e73;
 }
+
+.tabs .tab a {color: #039be5 !important;}
+.tabs .tab a:focus, .tabs .tab a:focus.active {background-color: rgba(178, 208, 246, 0.2) !important;}
+a:hover {background-color: rgba(178, 208, 246, 0.2) !important;}
+.tabs .indicator {background-color: #039be5 !important;}
